@@ -303,6 +303,7 @@ Confirmed on 2026-08-21:
 - Human + agent reading model: readers should be advised near the beginning to share the book with their agent, ChatGPT, or other AI tool and move page by page or chapter by chapter so both the human and the agent absorb the project principles and execution model.
 - Running project name: **ATLAS** remains acceptable.
 - Running project domain: ATLAS should become an AI second-brain knowledgebase suitable for one person and for multiple people. The system should be "multiplayer-like": useful for a solo user, but designed so a team of roughly 10 people can also share knowledge, collaborate, preserve provenance, and work with agents over the same knowledge system.
+- ATLAS progression: the entire book/guide should teach how to achieve this outcome step by step, starting with a second brain that works for one person and ending with a shared AI knowledgebase that can scale to a small team of around 10 people.
 - Distribution access: free ebook.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when it is available in the environment. On 2026-08-21, `feynman` was checked and was not found on PATH in the current workspace.
 
@@ -316,7 +317,7 @@ Teaching-style material added on 2026-08-21:
 
 Still open in the manifesto interview:
 
-- Exact ATLAS product framing and feature sequence within the AI second-brain knowledgebase domain.
+- Exact ATLAS feature sequence within the solo-to-small-team AI second-brain knowledgebase progression.
 - Methodological model or teaching influences beyond the initial Dan Koe material and the additional transcript expected from the author.
 - Research division: public-source synthesis, `feynman`-assisted papers, hands-on experiments, interviews, fieldwork, or some mix.
 - Distribution details beyond free ebook: website download is likely, but lead-magnet mechanics, PDF/ePub/web variants, and publication location remain open.
