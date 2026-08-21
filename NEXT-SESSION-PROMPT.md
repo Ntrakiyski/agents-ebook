@@ -222,11 +222,19 @@ Confirmed:
 - Prerequisite level: basic ChatGPT use only.
 - Gap: existing AI material often jumps between prompting tips and advanced engineering detail. This book connects the middle by helping everyday AI users understand serious AI-system architecture and build upward from chat to agents and governed autonomy.
 - Delivery model: the book is a guided build of one project from start to finish, not straight information.
+- Chapter balance: each chapter should be roughly 70% content and visual explanation, 30% project work. The reader should get the mental model and big picture first, then build one ATLAS increment.
+- Chapter continuity: every chapter works on the same project. ATLAS should grow incrementally rather than appearing as unrelated exercises.
 - Human + agent reading model: readers should be advised to share the book with their AI assistant and move page by page or chapter by chapter so both the human and the agent absorb the system principles.
+- Agent reading system prompt: the book should include a short copy/paste system prompt or operating instruction for the reader's local agent, telling it how to use the uploaded PDF and help the human build ATLAS chapter by chapter.
+- Reader onboarding: the first practical step should move the reader from cloud ChatGPT/chat into a local agent environment on their own computer. The educational point is to show the difference between cloud chat and a local agent that can see files, work with a project folder, run tools, and participate in building software.
+- Proposed local-agent starting point: DeepSeek Harness Desktop, `https://github.com/anywhere-labs/deepseek-harness-desktop/tree/master`. Verified on 2026-08-21 from the GitHub README as an open-source Windows/macOS desktop client built around DeepSeek Harness, local UI/host services, and a plugin ecosystem. Treat as a current implementation example requiring re-verification before publication.
+- Proposed alternatives: Pi and Hermes for CLI use, and Codex app for ChatGPT users. These need exact links and current primary-source verification before becoming reader recommendations.
+- Reader workflow: after installing the local agent environment, the reader should upload/use the PDF in one chat for guidance and build ATLAS in another chat, or do both in one chat if the environment supports that workflow cleanly.
 - Running project domain: ATLAS becomes an AI second-brain knowledgebase that works for one person and can scale to a small team, roughly 10 people, in a multiplayer-like shared knowledge environment.
 - ATLAS progression: the book starts with a solo second brain for one person and ends with a shared AI knowledgebase for a small team of around 10 people.
 - Reader progression experience: preserve a light gamified feeling through ATLAS checkpoints and "what's next" moments. Each checkpoint should show the capability unlocked, what ATLAS can now do, what still breaks or remains missing, and what the next chapter/part will unlock.
 - Distribution access: free ebook.
+- Distribution format: PDF is confirmed as the first/main format. The PDF will live behind or alongside a dedicated page on the author's website containing the book explanation, setup instructions, links, and related resources. Page size is not decided yet.
 - ATLAS reference project: `https://github.com/Ntrakiyski/shared-living-memory` is the closest existing embodiment of ATLAS. It was analyzed on 2026-08-21 at commit `b9dffaf`; read `reference-projects/shared-living-memory-analysis.md`.
 - Reader-facing reference decision: the book may say ATLAS is inspired by Shared Living Memory, link to its GitHub repository, and use it as a navigation/reference point. Readers who build along should reach the same kind of product, or at least roughly 80% of its core capability.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when available. It was checked on 2026-08-21 and was not found on PATH in the current workspace.
@@ -240,7 +248,7 @@ Still open:
 - Exact ATLAS feature sequence inside the solo-to-small-team AI second-brain knowledgebase progression.
 - Additional teaching-style influences: the author expects to provide another transcript from another profile.
 - Research division.
-- Distribution details beyond free access: website, PDF/ePub/web variants, lead magnet, or other.
+- Distribution details beyond free PDF and dedicated website page: lead magnet mechanics, optional ePub/web-book variant, and publication location remain open.
 - Target length / first-edition size.
 - Voice interview items.
 

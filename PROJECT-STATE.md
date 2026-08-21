@@ -295,17 +295,26 @@ Confirmed on 2026-08-21:
 - Working subtitle: **A practical guide to building AI systems from prompts to autonomous agents**
 - Format: ebook.
 - Desired reading experience: easy to read, spacious, uncluttered pages, clear headings, bullets, short text, clear instructions, and distinct text elements that help readers grasp layers quickly.
+- Chapter balance: each chapter should be roughly **70% content and visual explanation** and **30% project work**. The reading/visual side should carry the mental model and big-picture understanding; the project side should turn that chapter's idea into a concrete ATLAS increment.
+- Chapter continuity: every chapter works on the same project. ATLAS should grow incrementally rather than appearing as unrelated exercises.
 - Primary audience: people who have seen advanced AI videos or explanations and know terms such as prompts, memory, agents, and tools, but have mostly consumed information rather than built systems.
 - Secondary audience: busy people inside companies, such as operators, managers, founders, team leads, and knowledge workers, who have heard about AI systems but do not have time to explore the landscape from scratch.
 - Prerequisite level: basic ChatGPT use only. Everything else should be explained from zero, first with a simple mental model and then mapped to the technical version.
 - Gap statement: existing AI material often teaches either prompting tips or advanced engineering details. This book connects the middle: it helps everyday AI users understand the full system architecture behind serious AI work, then guides them layer by layer from chat to agents and governed autonomous systems.
 - Delivery model: the book should not be straight information. It should be a guided build of one project from start to finish. Each chapter should give direction, vision, outcome, and deliverable without clutter.
 - Human + agent reading model: readers should be advised near the beginning to share the book with their agent, ChatGPT, or other AI tool and move page by page or chapter by chapter so both the human and the agent absorb the project principles and execution model.
+- Agent reading system prompt: the book should include a short copy/paste system prompt or operating instruction for the reader's local agent. Its purpose is to tell the agent how to use the uploaded PDF, how to follow the chapters, how to help the human build ATLAS, and how to distinguish reading guidance from build instructions.
+- Reader onboarding: the first practical step should move the reader from cloud ChatGPT/chat into a local agent environment on their own computer. The point is educational as much as practical: the reader should feel the difference between cloud chat and a local agent that can see files, work with a project folder, run tools, and participate in building software.
+- Proposed local-agent starting point: DeepSeek Harness Desktop: `https://github.com/anywhere-labs/deepseek-harness-desktop/tree/master`. Verified on 2026-08-21 from the GitHub README as an open-source Windows/macOS desktop client built around DeepSeek Harness, local UI/host services, and a plugin ecosystem. Treat this as a current implementation example requiring re-verification before publication.
+- Proposed alternatives: Pi and Hermes for CLI use, and Codex app for ChatGPT users. These names need exact project/product links and current primary-source verification before becoming reader recommendations.
+- Reader workflow: after installing the local agent environment, the reader should upload/use the PDF in one chat for guidance and build ATLAS in another chat, or do both in one chat if their chosen agent environment supports that workflow cleanly.
 - Running project name: **ATLAS** remains acceptable.
 - Running project domain: ATLAS should become an AI second-brain knowledgebase suitable for one person and for multiple people. The system should be "multiplayer-like": useful for a solo user, but designed so a team of roughly 10 people can also share knowledge, collaborate, preserve provenance, and work with agents over the same knowledge system.
 - ATLAS progression: the entire book/guide should teach how to achieve this outcome step by step, starting with a second brain that works for one person and ending with a shared AI knowledgebase that can scale to a small team of around 10 people.
 - Reader progression experience: the book should feel lightly gamified through clear ATLAS checkpoints and "what's next" moments. Checkpoints should show what capability was unlocked, what ATLAS can now do, what limitation remains, and what the next chapter/part will unlock. The goal is orientation and excitement, not gimmicks.
 - Distribution access: free ebook.
+- Distribution format: PDF is confirmed as the first/main format. The PDF will live behind or alongside a dedicated page on the author's website containing the book explanation, setup instructions, links, and related resources.
+- Page size: not decided yet.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when it is available in the environment. On 2026-08-21, `feynman` was checked and was not found on PATH in the current workspace.
 - ATLAS reference project: the author identified `https://github.com/Ntrakiyski/shared-living-memory` as the closest existing embodiment of ATLAS. It was cloned and analyzed on 2026-08-21 at commit `b9dffaf`. See `reference-projects/shared-living-memory-analysis.md`.
 - Reader-facing reference decision: the book may explicitly say ATLAS is inspired by Shared Living Memory, link to the GitHub repository, and use it as a navigation/reference point so readers can inspect or use the real project if they want.
@@ -343,7 +352,7 @@ Still open in the manifesto interview:
 - Exact ATLAS feature sequence within the solo-to-small-team AI second-brain knowledgebase progression.
 - Methodological model or teaching influences beyond the initial Dan Koe material and the additional transcript expected from the author.
 - Research division: public-source synthesis, `feynman`-assisted papers, hands-on experiments, interviews, fieldwork, or some mix.
-- Distribution details beyond free ebook: website download is likely, but lead-magnet mechanics, PDF/ePub/web variants, and publication location remain open.
+- Distribution details beyond free PDF and dedicated website page: lead-magnet mechanics, optional ePub/web-book variant, and publication location remain open.
 - Target length or first-edition size remains open.
 - Scope details should be stated plainly in the manifesto, using `BOOK-BLUEPRINT.md` as the authoritative broad scope. The author has clarified that the book should avoid deep model-training theory, heavy math, and deep infrastructure setup unless necessary to understand a system layer.
 
@@ -359,8 +368,8 @@ These should be settled through the Bookwright manifesto/voice interview rather 
 
 - final title and subtitle (`Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is current working language, not necessarily final)
 - target length
-- publication/distribution format (web, PDF, ePub, print, etc.)
-- free vs paid distribution
+- optional distribution variants beyond the main free PDF and dedicated website page
+- PDF page size
 - writing language variant
 - register / voice
 - style authority
