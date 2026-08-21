@@ -138,6 +138,8 @@ The book needs a short opening section before the first technical chapter.
 
 | Section | What It Contains |
 |---|---|
+| Opening quote | One strong quote that frames the move from passive AI use to active system building |
+| Transformation overview | One spacious page explaining how the reader will change and what they will become after the book |
 | Promise | What the reader will be able to understand and build by the end |
 | Reader contract | Basic ChatGPT knowledge is enough, but doing is required |
 | Cloud fallback | Upload the PDF to cloud ChatGPT if needed, but treat that as reading mode |
