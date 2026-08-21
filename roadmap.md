@@ -8,6 +8,12 @@ This is not the final table of contents. It is the approved first practical
 capability path for the book: the reader first creates **ATLAS**, the book-aware
 companion agent, then uses ATLAS to build the **shared memory system**.
 
+Important: checkpoints are **capability gates**, not chapter numbers. A single
+checkpoint may take part of a chapter, a full chapter, or several chapters once
+the formal TOC is created. The TOC should preserve this progression, but it may
+split, merge, or reorder chapter-level treatment when that makes the learning
+path clearer.
+
 The roadmap keeps the book honest:
 
 ```text

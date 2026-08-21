@@ -18,15 +18,16 @@ Read these files in this order:
 2. `PROJECT-STATE.md`
 3. `soul.md`
 4. `manifesto.md`
-5. `roadmap.md`
-6. `CORE-PRINCIPLES.md`
-7. `CONCEPTUAL-FRAMEWORKS.md`
-8. `BOOK-BLUEPRINT.md`
-9. `EDITORIAL-WORKFLOW.md`
-10. `research/SOURCE-STANDARDS.md`
-11. `skills/bookwright/SKILL.md`
-12. `skills/bookwright/bootstrap.md`
-13. `skills/bookwright/workflow.md`
+5. `reviews/hard-parts-review.md`
+6. `roadmap.md`
+7. `CORE-PRINCIPLES.md`
+8. `CONCEPTUAL-FRAMEWORKS.md`
+9. `BOOK-BLUEPRINT.md`
+10. `EDITORIAL-WORKFLOW.md`
+11. `research/SOURCE-STANDARDS.md`
+12. `skills/bookwright/SKILL.md`
+13. `skills/bookwright/bootstrap.md`
+14. `skills/bookwright/workflow.md`
 
 Treat the repo as authoritative. If something in this prompt conflicts with a newer committed decision in the repo, surface the conflict rather than silently choosing one.
 
@@ -205,7 +206,9 @@ Ask the manifesto questions in grouped blocks, summarize my answers, and wait fo
 
 Only after manifesto and voice are confirmed should we lock the formal TOC, research corpus, evidence-rich outline, and chapters.
 
-The upstream Bookwright templates have not all been vendored locally yet. `templates/manifesto.md` has been vendored. Before the scaffold-generation phase, copy the remaining required templates from `https://github.com/AdrianMastronardi/bookwright/tree/main/templates` into `skills/bookwright/templates/` while preserving the upstream license, or read them from upstream when generating the project artifacts.
+The upstream Bookwright templates have been vendored locally under
+`skills/bookwright/templates/`, with the upstream MIT license preserved at
+`skills/bookwright/LICENSE`.
 
 ## Known blueprint audit items
 
@@ -218,10 +221,11 @@ Do not randomly add chapters. Integrate these deliberately into the existing arc
 
 ## Important things that are still open
 
-Do not invent these. The Bookwright interview should settle them with me:
+Do not invent these. Final manifesto confirmation, the Bookwright voice
+interview, TOC conversion, or the Chapter 1 sample should settle them:
 
 - final title/subtitle
-- final scope and exclusions
+- final manifesto wording for scope and exclusions
 - final target length after the Chapter 1 sample
 - optional distribution variants beyond the main free PDF and dedicated website page
 - PDF page size
@@ -231,7 +235,7 @@ Do not invent these. The Bookwright interview should settle them with me:
 - citation system
 - code-example language/default stack
 - implementation-depth expectations
-- exact ATLAS-companion and shared-memory-system feature sequence inside the approved solo-to-team second-brain domain
+- chapter-level conversion of the approved roadmap checkpoints into the formal TOC
 
 `Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is the current working title/subtitle. `ATLAS` is now the accepted running name for the book-aware companion agent. The product should be called the shared memory system or shared second-brain knowledgebase for the first edition unless the author explicitly changes it later.
 
@@ -270,7 +274,7 @@ Confirmed:
 - Agent name: ATLAS is the book-aware companion agent that represents the ebook when uploaded into a chat or local agent.
 - Running project domain: the shared memory system becomes an AI second-brain knowledgebase that works for one person and can scale to a small team, roughly 10 people, in a multiplayer-like shared knowledge environment.
 - Shared-memory progression: the book starts with a solo second brain for one person and ends with a shared AI knowledgebase for a small team of around 10 people.
-- Approved checkpoint roadmap: `roadmap.md` defines a 12-step first-edition path from leaving cloud chat, becoming ATLAS, creating a workspace, capturing first knowledge, grounding answers, choosing context, structuring memory, adding lifecycle, evaluating recall, giving ATLAS tools, adding team boundaries, and governing the system. The author approved this roadmap on 2026-08-21 as manifesto input.
+- Approved checkpoint roadmap: `roadmap.md` defines a 12-step first-edition path from leaving cloud chat, becoming ATLAS, creating a workspace, capturing first knowledge, grounding answers, choosing context, structuring memory, adding lifecycle, evaluating recall, giving ATLAS tools, adding team boundaries, and governing the system. The author approved this roadmap on 2026-08-21 as manifesto input. These checkpoints are capability gates, not chapter numbers.
 - Reader progression experience: preserve a light gamified feeling through checkpoints and "what's next" moments. Each checkpoint should show the capability unlocked, what ATLAS now understands or can help with, what the shared memory system can now do, what still breaks or remains missing, and what the next chapter/part will unlock.
 - Distribution access: free ebook.
 - Distribution format: PDF is confirmed as the first/main format. The PDF will live behind or alongside a dedicated page on the author's website containing the book explanation, setup instructions, links, and related resources. Page size is not decided yet.
@@ -292,12 +296,12 @@ Confirmed:
 - Visual reference: six images were saved under `visual-references/blackboard-flow/`. The source images are dark, but the ebook will use a white background. Final visuals should adapt the style for white pages: charcoal/black handwritten text, rounded arrows, simple icons, generous empty space, and colored outline nodes.
 - Approved generated visual samples live under `visual-references/generated-samples/`. Use them as the current accepted direction: vertical, spacious, hand-drawn marker diagrams on a white/warm-white page; charcoal/black structure lines; short labels only; simple icons; rounded arrows; colored outline accents for meaning.
 - README now includes the current project landing page, pre-Chapter-1 setup plan, Chapter 1 candidate topics, and next editorial steps. The primary README visual was built with `beautify-github-readme` as `assets/readme/hero.svg`. An Archify project map remains as a supporting artifact under `docs/diagrams/beyond-chat-project-map.html` with source JSON and visual-check artifacts.
+- The hard-parts review lives at `reviews/hard-parts-review.md`. It records fixes for roadmap-vs-TOC ambiguity, ATLAS knowledge boundaries, Bookwright template readiness, and stale next-step numbering.
 
 Still open:
 
 - Final author confirmation or correction of `manifesto.md`.
 - Voice-level teaching choices beyond the already recorded Dan/Matt teacher references and direct/simple baseline.
-- Research division details beyond the settled research-backed guide posture.
 - Distribution details beyond free PDF and dedicated website page: lead magnet mechanics, optional ePub/web-book variant, and publication location remain open.
 - Final target length/page density after the Chapter 1 sample.
 - Voice interview items.

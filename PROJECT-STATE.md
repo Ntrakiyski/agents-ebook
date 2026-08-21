@@ -312,21 +312,24 @@ skills/bookwright/
 └── LICENSE
 ```
 
-Important: only the upstream Bookwright `templates/manifesto.md` file has been
-vendored locally so far. Before running the scaffold-generation phase verbatim,
-copy the remaining upstream templates into `skills/bookwright/templates/` or
-read them directly from the upstream repository.
+The upstream Bookwright templates were vendored under
+`skills/bookwright/templates/` on 2026-08-21. Preserve the upstream MIT license
+at `skills/bookwright/LICENSE`.
 
 `manifesto.md` was generated on 2026-08-21 from approved interview answers,
 then self-reviewed and tightened for scope coverage. It is pending final author
 confirmation. Do not move to `voice.md` until the author confirms or corrects
 the generated manifesto.
 
+The final hard-parts review lives in `reviews/hard-parts-review.md`. Read it
+before confirming the manifesto or converting the roadmap into the formal TOC.
+
 Do not fabricate `voice.md` from assumptions. Bookwright explicitly requires an
 interview and confirmation gate.
 
 The approved ATLAS/shared-memory checkpoint path now lives in `roadmap.md`. It
-is a manifesto input, not the final TOC.
+is a manifesto input, not the final TOC. Treat roadmap checkpoints as capability
+gates, not chapter numbers.
 
 ---
 
@@ -384,7 +387,7 @@ Confirmed on 2026-08-21:
 - Shared-memory reference project: the author identified `https://github.com/Ntrakiyski/shared-living-memory` as the closest existing embodiment of the shared memory system. It was cloned and analyzed on 2026-08-21 at commit `b9dffaf`. See `reference-projects/shared-living-memory-analysis.md`.
 - Reader-facing reference decision: the book may explicitly say the shared memory system is inspired by Shared Living Memory, link to the GitHub repository, and use it as a navigation/reference point so readers can inspect or use the real project if they want.
 - Final build target: by the end of the book, a reader who builds along should have achieved the same kind of product as Shared Living Memory, or at least roughly 80% of its core capability in the teaching implementation.
-- Approved checkpoint roadmap: `roadmap.md` defines a 12-step first-edition path from leaving cloud chat, becoming ATLAS, creating a workspace, capturing first knowledge, grounding answers, choosing context, structuring memory, adding lifecycle, evaluating recall, giving ATLAS tools, adding team boundaries, and governing the system. The author approved this roadmap on 2026-08-21 as manifesto input.
+- Approved checkpoint roadmap: `roadmap.md` defines a 12-step first-edition path from leaving cloud chat, becoming ATLAS, creating a workspace, capturing first knowledge, grounding answers, choosing context, structuring memory, adding lifecycle, evaluating recall, giving ATLAS tools, adding team boundaries, and governing the system. The author approved this roadmap on 2026-08-21 as manifesto input. These checkpoints are capability gates, not chapter numbers.
 
 Creator/reference material consolidated on 2026-08-21:
 
@@ -426,6 +429,7 @@ README/project-map material added on 2026-08-21:
 - Archify validation passed with 9/9 showcase checks, 0 errors, and 0 warnings. Visual containment passed at 1440x900, 1600x1000, 1920x1080, and 2048x1320. Human visual inspection of the light screenshot was acceptable for the README.
 - The Archify map now remains a supporting project artifact linked from README proof, not the primary visual identity.
 - `beautify-github-readme` audit passed for `README.md`; Chrome preview of `assets/readme/hero.svg` passed at desktop width and width-scaled narrow preview.
+- The hard-parts review was added at `reviews/hard-parts-review.md`, covering ATLAS/product naming, roadmap-vs-TOC ambiguity, template readiness, current-tooling caveats, browser/computer use, multimodal placement, and first-edition buildability.
 
 Still open before the voice interview:
 
@@ -438,7 +442,8 @@ voice interview.
 
 # Important Things Intentionally Not Decided Yet
 
-These should be settled through the Bookwright manifesto/voice interview rather than guessed:
+These should be settled through final manifesto confirmation, the Bookwright
+voice interview, TOC conversion, or the Chapter 1 sample rather than guessed:
 
 - final title and subtitle (`Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is current working language, not necessarily final)
 - target length finalization after the Chapter 1 sample, with 80-120 pages as the current provisional first-edition target
@@ -452,9 +457,8 @@ These should be settled through the Bookwright manifesto/voice interview rather 
 - code-example language and default stack
 - how much implementation code vs architecture explanation each chapter should contain
 - whether all chapters are mandatory in the first edition or some become advanced/optional tracks
-- exact ATLAS-companion and shared-memory-system feature sequence/milestones inside the approved second-brain project domain
+- chapter-level conversion of the approved roadmap checkpoints into the formal TOC
 - voice-level teaching choices beyond the approved Dan/Matt teacher references
-- research division
 
 Do not silently lock these decisions before the author answers the bootstrap questions.
 
@@ -520,17 +524,16 @@ The next session should not immediately draft Chapter 1.
 
 Recommended order:
 
-1. Read `README.md`, `PROJECT-STATE.md`, `soul.md`, `roadmap.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
+1. Read `README.md`, `PROJECT-STATE.md`, `soul.md`, `manifesto.md`, `reviews/hard-parts-review.md`, `roadmap.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
 2. Read `skills/bookwright/SKILL.md`, `bootstrap.md`, and `workflow.md`.
 3. Ask the author to confirm or correct the generated `manifesto.md`.
 4. After manifesto confirmation, run the Bookwright **voice interview**.
 5. After confirmation, create `voice.md`.
-7. Vendor or fetch the required Bookwright templates before generating its remaining artifacts.
-8. Review the blueprint gaps above (browser/computer use and multimodal agents) before locking the formal TOC.
-9. Convert `BOOK-BLUEPRINT.md` into `toc.md` with one-sentence functions and build outcomes.
-10. Begin the minimum viable research corpus for Part I using current primary sources and durable references.
-11. Create evidence-rich chapter cards in `outline.md`.
-12. Draft a chapter only after its evidence/project/evaluation plan reaches `DRAFT-READY`.
+6. Review the blueprint gaps above (browser/computer use and multimodal agents) before locking the formal TOC.
+7. Convert `BOOK-BLUEPRINT.md` into `toc.md` with one-sentence functions and build outcomes.
+8. Begin the minimum viable research corpus for Part I using current primary sources and durable references.
+9. Create evidence-rich chapter cards in `outline.md`.
+10. Draft a chapter only after its evidence/project/evaluation plan reaches `DRAFT-READY`.
 
 ---
 

@@ -2,6 +2,7 @@
 
 Status: self-reviewed draft pending author confirmation.
 Generated: 2026-08-21
+Hard-parts review applied: 2026-08-21
 
 Beyond Chat: A practical guide to building AI systems from prompts to autonomous agents
 
@@ -75,11 +76,13 @@ context, tools, agents, harnesses, workflows, evals, autonomy, multi-agent
 systems, self-improving systems, and the organizational conditions around
 AI-native work.
 
-The concrete first-edition build path is approved in `roadmap.md`. The reader
-leaves cloud chat, creates ATLAS, creates a workspace, captures first
-knowledge, grounds answers in evidence, chooses context, structures memory,
-adds memory lifecycle rules, evaluates recall, gives ATLAS scoped tools, adds
-team boundaries, and introduces governance.
+The concrete first-edition capability path is approved in `roadmap.md`. Its
+checkpoints are not chapter numbers; they are gates the formal TOC must preserve
+while allowing chapters to split, merge, or combine work as needed. The reader
+leaves cloud chat, creates ATLAS, creates a workspace, captures first knowledge,
+grounds answers in evidence, chooses context, structures memory, adds memory
+lifecycle rules, evaluates recall, gives ATLAS scoped tools, adds team
+boundaries, and introduces governance.
 
 The formal TOC must explicitly place two capability areas that are easy to
 underrepresent. First, browser and computer use should be taught through the

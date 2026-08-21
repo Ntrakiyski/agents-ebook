@@ -60,6 +60,7 @@ recover the book without chat history:
 
 - The source-of-truth handoff: [`PROJECT-STATE.md`](PROJECT-STATE.md)
 - The generated manifesto draft: [`manifesto.md`](manifesto.md)
+- The hard-parts review: [`reviews/hard-parts-review.md`](reviews/hard-parts-review.md)
 - The editorial method: [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md)
 - The broad curriculum map: [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md)
 - The approved checkpoint path: [`roadmap.md`](roadmap.md)
@@ -80,18 +81,20 @@ Read these files in order when recovering the project:
 2. [`soul.md`](soul.md) - ATLAS, the book-aware companion agent persona.
 3. [`manifesto.md`](manifesto.md) - generated and self-reviewed manifesto draft
    pending author confirmation.
-4. [`roadmap.md`](roadmap.md) - approved ATLAS/shared-memory checkpoint path.
-5. [`CORE-PRINCIPLES.md`](CORE-PRINCIPLES.md) - the 10 principles through which
+4. [`reviews/hard-parts-review.md`](reviews/hard-parts-review.md) - hard
+   concepts, risks, and fixes from the final manifesto review.
+5. [`roadmap.md`](roadmap.md) - approved ATLAS/shared-memory checkpoint path.
+6. [`CORE-PRINCIPLES.md`](CORE-PRINCIPLES.md) - the 10 principles through which
    the entire book should be read.
-6. [`CONCEPTUAL-FRAMEWORKS.md`](CONCEPTUAL-FRAMEWORKS.md) - capability ladder,
+7. [`CONCEPTUAL-FRAMEWORKS.md`](CONCEPTUAL-FRAMEWORKS.md) - capability ladder,
    seven planes, AI-system iceberg, autonomy ladder, and recurring models.
-7. [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md) - broad pre-manifesto curriculum
+8. [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md) - broad pre-manifesto curriculum
    architecture, not the final TOC.
-8. [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md) - research, outline, build,
+9. [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md) - research, outline, build,
    writing, evaluation, and editing workflow.
-9. [`research/SOURCE-STANDARDS.md`](research/SOURCE-STANDARDS.md) - evidence and
+10. [`research/SOURCE-STANDARDS.md`](research/SOURCE-STANDARDS.md) - evidence and
    resource requirements.
-10. [`NEXT-SESSION-PROMPT.md`](NEXT-SESSION-PROMPT.md) - copy/paste handoff for a
+11. [`NEXT-SESSION-PROMPT.md`](NEXT-SESSION-PROMPT.md) - copy/paste handoff for a
    fresh AI session.
 
 ## What The Book Teaches
@@ -265,16 +268,17 @@ Local Bookwright material:
 - [`skills/bookwright/workflow.md`](skills/bookwright/workflow.md)
 - [`skills/bookwright/LICENSE`](skills/bookwright/LICENSE)
 
-Only `templates/manifesto.md` has been vendored so far. Fetch or copy the
-remaining upstream templates before running Bookwright's scaffold-generation
-phase verbatim.
+The upstream Bookwright templates have been vendored under
+[`skills/bookwright/templates/`](skills/bookwright/templates/) with the local
+MIT license preserved in [`skills/bookwright/LICENSE`](skills/bookwright/LICENSE).
 
 ## Next Editorial Steps
 
 1. Confirm or correct `manifesto.md`.
 2. Run the voice interview.
 3. Create `voice.md` and get author confirmation.
-4. Lock the first-edition scope and ATLAS/shared-memory feature sequence.
+4. Lock the first-edition scope and convert the approved checkpoint path into a
+   formal TOC.
 5. Convert `BOOK-BLUEPRINT.md` into `toc.md`.
 6. Build the initial research corpus and `references.bib`.
 7. Create `outline.md` chapter cards.
