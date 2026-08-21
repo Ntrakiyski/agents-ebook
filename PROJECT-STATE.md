@@ -117,7 +117,13 @@ The reader should learn by building, breaking, inspecting, and evaluating the co
 
 Working project name: **ATLAS**.
 
-Early ATLAS is a raw model call. Final ATLAS is a production-grade, multi-agent, observable, governed, eval-driven, progressively self-improving AI engineering system.
+Earlier architecture described ATLAS generically as a production-grade,
+multi-agent, observable, governed, eval-driven, progressively self-improving AI
+engineering system. The current author-approved project domain is more specific:
+ATLAS is an AI second-brain knowledgebase that starts useful for one person and
+scales toward a shared, multiplayer-like knowledge system for a small team of
+around 10 people. It should still teach the complete system layers from model to
+governance, but the builds should serve that knowledgebase product.
 
 The reader should be able to look back at the final system and recognize that they built every important layer themselves.
 
@@ -357,14 +363,14 @@ Visual reference material added on 2026-08-21:
 Still open in the manifesto interview:
 
 - Exact ATLAS feature sequence within the solo-to-small-team AI second-brain knowledgebase progression.
-- Methodological model or teaching influences beyond the initial Dan Koe material and the additional transcript expected from the author.
+- Voice-level teaching choices beyond the already recorded teacher/reference split.
 - Research division: public-source synthesis, `feynman`-assisted papers, hands-on experiments, interviews, fieldwork, or some mix.
 - Distribution details beyond free PDF and dedicated website page: lead-magnet mechanics, optional ePub/web-book variant, and publication location remain open.
 - Target length or first-edition size remains open.
 - Scope details should be stated plainly in the manifesto, using `BOOK-BLUEPRINT.md` as the authoritative broad scope. The author has clarified that the book should avoid deep model-training theory, heavy math, and deep infrastructure setup unless necessary to understand a system layer.
 
 The next session should resume the manifesto interview at the exact ATLAS
-product framing, remaining teaching-style influences, research-division, and
+feature sequence, voice-level teaching choices, research-division, and
 distribution-details block.
 
 ---
@@ -385,8 +391,8 @@ These should be settled through the Bookwright manifesto/voice interview rather 
 - code-example language and default stack
 - how much implementation code vs architecture explanation each chapter should contain
 - whether all chapters are mandatory in the first edition or some become advanced/optional tracks
-- exact ATLAS project/domain, beyond the project name
-- methodological model or teaching influences
+- exact ATLAS feature sequence and milestones inside the approved second-brain project domain
+- voice-level teaching choices beyond the approved Dan/Matt teacher references
 - research division
 
 Do not silently lock these decisions before the author answers the bootstrap questions.
@@ -455,7 +461,7 @@ Recommended order:
 
 1. Read `README.md`, `PROJECT-STATE.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
 2. Read `skills/bookwright/SKILL.md`, `bootstrap.md`, and `workflow.md`.
-3. Resume the Bookwright **manifesto interview** with the author from the running-project, methodological-model, research-division, and distribution block.
+3. Resume the Bookwright **manifesto interview** with the author from the ATLAS feature-sequence, voice-level teaching choices, research-division, and distribution block.
 4. After confirmation, create `manifesto.md`.
 5. Run the Bookwright **voice interview**.
 6. After confirmation, create `voice.md`.

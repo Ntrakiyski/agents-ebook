@@ -3,7 +3,19 @@
 
 **Core promise:** By the end, the reader understands not only how to use models, but how to design, build, evaluate, secure, operate, evolve, and economically justify complete AI systems.
 
-The reader builds one evolving system throughout the book — working name **ATLAS**. Early ATLAS is one model call. Final ATLAS is a production-grade, multi-agent, self-improving engineering system.
+The reader builds one evolving system throughout the book — working name **ATLAS**.
+
+Status note, updated 2026-08-21: this file is the broad pre-manifesto
+curriculum architecture, not the final TOC. Later author decisions narrowed the
+running project: ATLAS should become an AI second-brain knowledgebase that works
+for one person and can scale to a small team of around 10 people. It is inspired
+by `https://github.com/Ntrakiyski/shared-living-memory`. When this blueprint is
+converted into `toc.md`, adapt chapter builds so they incrementally produce that
+solo-to-team shared knowledge system rather than a generic AI engineering demo.
+
+The first practical chapter sequence should also account for the settled
+onboarding decision: move the reader from cloud chat into a local/free agent
+workflow, then build ATLAS with the agent and the PDF side by side.
 
 ---
 

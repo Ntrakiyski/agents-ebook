@@ -37,7 +37,11 @@ The goal is **not** to teach a temporary collection of products. Teach durable p
 
 ## Core architecture of the book
 
-The reader builds one evolving system throughout the book, currently called **ATLAS**.
+The reader builds one evolving system throughout the book, currently called
+**ATLAS**. ATLAS is an AI second-brain knowledgebase that starts useful for one
+person and grows toward a shared, multiplayer-like knowledge system for a small
+team of around 10 people. It is inspired by
+`https://github.com/Ntrakiyski/shared-living-memory`.
 
 ```text
 Model
@@ -195,17 +199,17 @@ Do not randomly add chapters. Integrate these deliberately into the existing arc
 Do not invent these. The Bookwright interview should settle them with me:
 
 - final title/subtitle
-- primary and secondary audience
-- prerequisite level
 - final scope and exclusions
 - target length
-- distribution format and access
+- optional distribution variants beyond the main free PDF and dedicated website page
+- PDF page size
 - language variant
 - register and voice
 - style authority
 - citation system
 - code-example language/default stack
 - implementation-depth expectations
+- exact ATLAS feature sequence inside the approved solo-to-team second-brain domain
 
 `Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is the current working title/subtitle. `ATLAS` remains the accepted running project name. Neither is immutable branding.
 
@@ -252,7 +256,7 @@ Confirmed:
 Still open:
 
 - Exact ATLAS feature sequence inside the solo-to-small-team AI second-brain knowledgebase progression.
-- Additional teaching-style influences: the author expects to provide another transcript from another profile.
+- Voice-level teaching choices beyond the already recorded Dan/Matt teacher references.
 - Research division.
 - Distribution details beyond free PDF and dedicated website page: lead magnet mechanics, optional ePub/web-book variant, and publication location remain open.
 - Target length / first-edition size.

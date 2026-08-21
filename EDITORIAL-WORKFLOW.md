@@ -12,6 +12,19 @@ For this book we keep that model and add three project-specific layers:
 2. **Evidence Layer** — important claims are supported by primary sources, research, practitioners, books, repositories, talks, experiments, and evaluations.
 3. **Build Layer** — every technical chapter is organized around a real project that upgrades the evolving ATLAS system.
 
+Current chapter balance target:
+
+```text
+70% content and visual explanation
+30% project work
+```
+
+The project work is still mandatory. The 70% portion gives the reader the
+mental model, system map, visual explanation, production lens, and evidence. The
+30% portion turns that chapter's idea into a concrete ATLAS increment. The
+project is not optional homework; it is how the reader stops passively consuming
+AI content and starts building.
+
 ---
 
 # Project Law
