@@ -311,7 +311,7 @@ Confirmed on 2026-08-21:
 - Reader-facing reference decision: the book may explicitly say ATLAS is inspired by Shared Living Memory, link to the GitHub repository, and use it as a navigation/reference point so readers can inspect or use the real project if they want.
 - Final build target: by the end of the book, a reader who builds along should have achieved the same kind of product as Shared Living Memory, or at least roughly 80% of its core capability in the teaching implementation.
 
-Creator and teaching-style material consolidated on 2026-08-21:
+Creator/reference material consolidated on 2026-08-21:
 
 - Creator/reference material now lives under `creator-profiles/`.
 - Read `creator-profiles/README.md` before using the source folders.
@@ -321,14 +321,16 @@ Creator and teaching-style material consolidated on 2026-08-21:
   - `creator-profiles/nate-herk/`
   - `creator-profiles/ai-engineer/`
   - `creator-profiles/stanford-cs329a/`
-- Treat this material as inspiration for structure, reader energy, teaching flow, and research leads, not prose to copy.
+- Treat this material as reference input, not prose to copy.
+- Author clarification: Dan Koe and Matt Pocock are the **teachers**. They should influence teaching style, pacing, structure, reader energy, chapter flow, and build workflow.
+- Author clarification: Nate Herk, AI Engineer, and Stanford CS329A are **content, knowledge, and principle references**. They should inform what the book explains, what claims need evidence, and which technical ideas deserve coverage.
 - Initial synthesis:
   - Dan Koe contributes momentum, promise-first openings, short sections, named protocols, identity/agency framing, and simple-to-technical mapping.
   - Matt Pocock contributes a disciplined AI build workflow: idea, research, prototype, specification, tickets, implementation, review, and QA loops.
-  - Nate Herk contributes audience empathy for readers who have watched AI videos but have not yet built systems, especially around automation and second-brain framing.
+  - Nate Herk contributes content direction around readers who have watched AI videos but have not yet built systems, especially around automation and second-brain framing.
   - AI Engineer contributes current production examples and research leads around memory, context engineering, evals, computer use, security, and AI-native systems. Verify any important current claim against primary sources before using it.
   - Stanford CS329A contributes research-backed framing for self-improving agents, verification, feedback, planning, tool use, and evaluation.
-- Book-level synthesis: combine Dan Koe's momentum, Matt Pocock's disciplined workflow, Nate Herk's audience bridge, AI Engineer's production reality, and Stanford CS329A's rigor while preserving an original **Beyond Chat** voice.
+- Book-level synthesis: teach with Dan Koe's momentum and Matt Pocock's disciplined workflow; inform the content with Nate Herk's AI-curious bridge, AI Engineer's production reality, and Stanford CS329A's rigor while preserving an original **Beyond Chat** voice.
 
 Visual reference material added on 2026-08-21:
 

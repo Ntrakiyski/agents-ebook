@@ -1,12 +1,18 @@
 # Creator Profiles
 
-This folder contains creator transcripts, essays, and course-style material that
-can shape the teaching style, examples, pacing, and research agenda for
+This folder contains creator transcripts, essays, and course-style material for
 **Beyond Chat**.
 
+These files have two different roles:
+
+- **Teachers:** Dan Koe and Matt Pocock shape teaching style, pacing, structure,
+  reader energy, and chapter flow.
+- **Knowledge references:** Nate Herk, AI Engineer, and Stanford CS329A shape
+  content direction, principles, technical examples, and research questions.
+
 These files are reference material, not manuscript source. Use them to learn
-patterns, audience language, and useful teaching moves. Do not copy prose,
-transcript wording, titles, or diagrams into the book.
+patterns, audience language, useful teaching moves, and technical directions.
+Do not copy prose, transcript wording, titles, or diagrams into the book.
 
 ## Folder Layout
 
@@ -16,7 +22,7 @@ transcript wording, titles, or diagrams into the book.
 - `ai-engineer/` - AI Engineer talks and production-facing transcripts.
 - `stanford-cs329a/` - Stanford CS329A self-improving AI agents transcripts.
 
-## What To Learn From Each Source
+## Teachers
 
 ### Dan Koe
 
@@ -52,9 +58,12 @@ Observed patterns:
 Use this influence for ATLAS build loops, chapter deliverables, project
 checkpoints, and the recurring "break it, inspect it, improve it" structure.
 
+## Knowledge References
+
 ### Nate Herk
 
-Useful for audience empathy and AI-curious positioning.
+Useful for content direction around the AI-curious reader, AI automation, and
+second-brain positioning.
 
 Observed patterns:
 
@@ -66,8 +75,8 @@ Observed patterns:
   technical detail.
 - Treats tools as a way to make people more capable, not as trivia to memorize.
 
-Use this influence for the primary reader: someone who knows the vocabulary
-from videos but needs a guided path into real building.
+Use this reference to keep the content grounded in the primary reader: someone
+who knows the vocabulary from videos but needs a guided path into real building.
 
 ### AI Engineer
 
@@ -105,10 +114,13 @@ defensible mental models.
 
 ## Book-Level Style Synthesis
 
-The book should combine:
+The book should teach with:
 
 - Dan Koe's momentum and identity-level framing.
 - Matt Pocock's disciplined AI build workflow.
+
+The book's content and principles should be informed by:
+
 - Nate Herk's bridge from AI video consumer to practical builder.
 - AI Engineer's production reality and current system examples.
 - Stanford CS329A's research-backed rigor.
