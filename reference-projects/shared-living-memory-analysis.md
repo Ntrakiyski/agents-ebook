@@ -4,19 +4,26 @@ Analyzed: 2026-08-21
 Source repository: `https://github.com/Ntrakiyski/shared-living-memory`  
 Source commit inspected: `b9dffaf` (`docs: add interactive architecture map`)
 
+Naming update, 2026-08-21: this analysis was written before the author decided
+that **ATLAS is the book-aware companion agent**, not the final memory product.
+When this file says "ATLAS" as a product destination, interpret it as **the
+shared memory system that ATLAS helps the reader build**.
+
 This file records what the ebook project should learn from Shared Living Memory.
 It is a reference analysis, not a decision to make the book vendor-specific.
 
 ## Role in the Ebook
 
-Shared Living Memory is the clearest concrete ancestor for ATLAS.
+Shared Living Memory is the clearest concrete ancestor for the shared memory
+system.
 
-Reader-facing decision: the book may explicitly say that ATLAS is inspired by
-Shared Living Memory, link to `https://github.com/Ntrakiyski/shared-living-memory`,
-and use it as a reference point that readers can inspect or use directly.
+Reader-facing decision: the book may explicitly say that the shared memory
+system is inspired by Shared Living Memory, link to
+`https://github.com/Ntrakiyski/shared-living-memory`, and use it as a reference
+point that readers can inspect or use directly.
 
-ATLAS should be taught as a fresh build from first principles, but its end state
-should rhyme with Shared Living Memory:
+The shared memory system should be taught as a fresh build from first
+principles, but its end state should rhyme with Shared Living Memory:
 
 ```text
 Solo second brain
@@ -52,7 +59,7 @@ lets one person's, team's, or agent's context become useful to another person,
 team, or agent without pretending everyone shares the same vocabulary, purpose,
 or risk boundary.
 
-For the ebook, this gives ATLAS a deeper promise:
+For the ebook, this gives the shared memory system a deeper promise:
 
 - The human gains a higher-level map of the system.
 - The agent gains durable operating knowledge.
@@ -82,9 +89,9 @@ The durable store must preserve truth, history, ownership, and provenance.
 The vector index may accelerate recall, but it must be rebuildable.
 ```
 
-## Capability Arc for ATLAS
+## Capability Arc for the Shared Memory System
 
-This is the likely ATLAS feature arc to adapt during TOC/outline work.
+This is the likely shared-memory feature arc to adapt during TOC/outline work.
 
 1. **Capture** — save useful knowledge from chat, notes, docs, links, files, and
    work sessions.
@@ -122,7 +129,7 @@ This is the likely ATLAS feature arc to adapt during TOC/outline work.
 
 ## Product Principles to Preserve
 
-These principles are useful candidates for ATLAS checkpoints and chapter
+These principles are useful candidates for shared-memory checkpoints and chapter
 callbacks:
 
 - Memory is not a dump; it is a governed knowledge layer.
@@ -162,8 +169,8 @@ adding one system layer:
 
 ## Fit With the Existing Book Architecture
 
-Shared Living Memory should become the concrete ATLAS destination while the
-existing 15-dimension blueprint remains the systems map.
+Shared Living Memory should become the concrete shared-memory destination while
+the existing 15-dimension blueprint remains the systems map.
 
 Do not collapse the book into a memory-app tutorial. The memory product is the
 through-line that lets the book teach:
@@ -178,28 +185,26 @@ through-line that lets the book teach:
 - human oversight and collaboration;
 - operations, economics, versioning, and portability.
 
-The book's final reader should be able to look at ATLAS and recognize the same
-kind of product logic as Shared Living Memory, while understanding each layer
-well enough to adapt it to another domain.
+The book's final reader should be able to look at the shared memory system and
+recognize the same kind of product logic as Shared Living Memory, while
+understanding each layer well enough to adapt it to another domain.
 
 ## Settled Reader-Facing Position
 
-- The book can mention Shared Living Memory as the inspiration for ATLAS.
+- The book can mention Shared Living Memory as the inspiration for the shared
+  memory system.
 - The book can link to the Shared Living Memory GitHub repository.
 - The book can use Shared Living Memory as a destination/reference point.
-- ATLAS should still be taught from first principles so the book remains useful
-  even if the reference implementation changes.
+- The shared memory system should still be taught from first principles so the
+  book remains useful even if the reference implementation changes.
 - The target for readers building along is not a superficial demo; it is a
   substantial solo-to-team knowledgebase that reaches roughly 80% of the
   reference project's core capability.
 
 ## Open Questions for the Author
 
-- Should ATLAS be named as a second-brain product in the reader-facing book, or
-  should ATLAS start more generically and reveal the second-brain purpose over
-  the first few chapters?
-- Should the final ATLAS implementation use the same broad stack as Shared
-  Living Memory, or should the ebook use a simpler local-first/reference stack
-  for approachability?
+- Should the final shared-memory implementation use the same broad stack as
+  Shared Living Memory, or should the ebook use a simpler local-first/reference
+  stack for approachability?
 - Which features are required for the first edition, and which belong in
   advanced/optional chapters?

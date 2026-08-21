@@ -60,6 +60,7 @@ recover the book without chat history:
 - The source-of-truth handoff: [`PROJECT-STATE.md`](PROJECT-STATE.md)
 - The editorial method: [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md)
 - The broad curriculum map: [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md)
+- The proposed checkpoint path: [`roadmap.md`](roadmap.md)
 - The ATLAS reference analysis:
   [`reference-projects/shared-living-memory-analysis.md`](reference-projects/shared-living-memory-analysis.md)
 - The ATLAS agent persona: [`soul.md`](soul.md)
@@ -75,17 +76,18 @@ Read these files in order when recovering the project:
 1. [`PROJECT-STATE.md`](PROJECT-STATE.md) - durable handoff, settled decisions,
    open questions, audit findings, and next sequence.
 2. [`soul.md`](soul.md) - ATLAS, the book-aware companion agent persona.
-3. [`CORE-PRINCIPLES.md`](CORE-PRINCIPLES.md) - the 10 principles through which
+3. [`roadmap.md`](roadmap.md) - proposed ATLAS/shared-memory checkpoint path.
+4. [`CORE-PRINCIPLES.md`](CORE-PRINCIPLES.md) - the 10 principles through which
    the entire book should be read.
-4. [`CONCEPTUAL-FRAMEWORKS.md`](CONCEPTUAL-FRAMEWORKS.md) - capability ladder,
+5. [`CONCEPTUAL-FRAMEWORKS.md`](CONCEPTUAL-FRAMEWORKS.md) - capability ladder,
    seven planes, AI-system iceberg, autonomy ladder, and recurring models.
-5. [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md) - broad pre-manifesto curriculum
+6. [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md) - broad pre-manifesto curriculum
    architecture, not the final TOC.
-6. [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md) - research, outline, build,
+7. [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md) - research, outline, build,
    writing, evaluation, and editing workflow.
-7. [`research/SOURCE-STANDARDS.md`](research/SOURCE-STANDARDS.md) - evidence and
+8. [`research/SOURCE-STANDARDS.md`](research/SOURCE-STANDARDS.md) - evidence and
    resource requirements.
-8. [`NEXT-SESSION-PROMPT.md`](NEXT-SESSION-PROMPT.md) - copy/paste handoff for a
+9. [`NEXT-SESSION-PROMPT.md`](NEXT-SESSION-PROMPT.md) - copy/paste handoff for a
    fresh AI session.
 
 ## What The Book Teaches
@@ -143,6 +145,9 @@ The book now has two connected build layers:
 This avoids forcing readers to build an agent loop from zero before they
 understand what agents are for. They first learn by using and extending a real
 agent, then use ATLAS to build the memory system.
+
+The proposed 12-checkpoint path lives in [`roadmap.md`](roadmap.md). It is a
+manifesto input, not the final TOC.
 
 The teaching implementation does not need to copy that repository, but a reader
 who builds along should reach the same kind of product, or roughly 80% of its

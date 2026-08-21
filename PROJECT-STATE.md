@@ -129,8 +129,8 @@ Earlier architecture described ATLAS generically as a production-grade,
 multi-agent, observable, governed, eval-driven, progressively self-improving AI
 engineering system, and later as the AI second-brain product itself. That naming
 is now superseded. The product should be referred to as the **shared memory
-system** or **shared second-brain knowledgebase** until the author chooses a
-separate product name.
+system** or **shared second-brain knowledgebase** for the first edition unless
+the author explicitly changes it later.
 
 The current author-approved project domain remains: build a shared AI
 second-brain knowledgebase that starts useful for one person and scales toward a
@@ -316,6 +316,9 @@ Important: the upstream Bookwright `templates/` directory is **not yet vendored 
 
 Do not fabricate `manifesto.md` or `voice.md` from assumptions. Bookwright explicitly requires an interview and confirmation gates.
 
+The proposed ATLAS/shared-memory checkpoint path now lives in `roadmap.md`. It
+is a manifesto input, not the final TOC.
+
 ---
 
 # Bookwright Manifesto Interview Progress
@@ -370,6 +373,7 @@ Confirmed on 2026-08-21:
 - Shared-memory reference project: the author identified `https://github.com/Ntrakiyski/shared-living-memory` as the closest existing embodiment of the shared memory system. It was cloned and analyzed on 2026-08-21 at commit `b9dffaf`. See `reference-projects/shared-living-memory-analysis.md`.
 - Reader-facing reference decision: the book may explicitly say the shared memory system is inspired by Shared Living Memory, link to the GitHub repository, and use it as a navigation/reference point so readers can inspect or use the real project if they want.
 - Final build target: by the end of the book, a reader who builds along should have achieved the same kind of product as Shared Living Memory, or at least roughly 80% of its core capability in the teaching implementation.
+- Proposed checkpoint roadmap: `roadmap.md` defines a 12-step first-edition path from leaving cloud chat, becoming ATLAS, creating a workspace, capturing first knowledge, grounding answers, choosing context, structuring memory, adding lifecycle, evaluating recall, giving ATLAS tools, adding team boundaries, and governing the system. This needs author approval before it becomes manifesto law.
 
 Creator/reference material consolidated on 2026-08-21:
 
@@ -414,7 +418,7 @@ README/project-map material added on 2026-08-21:
 
 Still open in the manifesto interview:
 
-- Exact feature sequence across ATLAS as the local book-aware companion and the shared memory system within the solo-to-small-team AI second-brain knowledgebase progression.
+- Author approval or correction of the proposed feature sequence in `roadmap.md`.
 - Voice-level teaching choices beyond the already recorded teacher/reference split and the direct/simple baseline.
 - Research division details: public-source synthesis, `feynman`-assisted papers when available, hands-on experiments, interviews, fieldwork, or some mix. The broad research posture is now settled as a research-backed technical guide.
 - Distribution details beyond free PDF and dedicated website page: lead-magnet mechanics, optional ePub/web-book variant, and publication location remain open.
@@ -510,9 +514,9 @@ The next session should not immediately draft Chapter 1.
 
 Recommended order:
 
-1. Read `README.md`, `PROJECT-STATE.md`, `soul.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
+1. Read `README.md`, `PROJECT-STATE.md`, `soul.md`, `roadmap.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
 2. Read `skills/bookwright/SKILL.md`, `bootstrap.md`, and `workflow.md`.
-3. Resume the Bookwright **manifesto interview** with the author from the ATLAS/shared-memory feature sequence, voice-level teaching choices, research-division, and distribution block.
+3. Ask the author to approve or correct `roadmap.md`, then resume the Bookwright **manifesto interview** with the author from the remaining voice-level teaching choices, research-division, and distribution block.
 4. After confirmation, create `manifesto.md`.
 5. Run the Bookwright **voice interview**.
 6. After confirmation, create `voice.md`.

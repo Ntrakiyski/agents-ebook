@@ -17,14 +17,15 @@ Read these files in this order:
 1. `README.md`
 2. `PROJECT-STATE.md`
 3. `soul.md`
-4. `CORE-PRINCIPLES.md`
-5. `CONCEPTUAL-FRAMEWORKS.md`
-6. `BOOK-BLUEPRINT.md`
-7. `EDITORIAL-WORKFLOW.md`
-8. `research/SOURCE-STANDARDS.md`
-9. `skills/bookwright/SKILL.md`
-10. `skills/bookwright/bootstrap.md`
-11. `skills/bookwright/workflow.md`
+4. `roadmap.md`
+5. `CORE-PRINCIPLES.md`
+6. `CONCEPTUAL-FRAMEWORKS.md`
+7. `BOOK-BLUEPRINT.md`
+8. `EDITORIAL-WORKFLOW.md`
+9. `research/SOURCE-STANDARDS.md`
+10. `skills/bookwright/SKILL.md`
+11. `skills/bookwright/bootstrap.md`
+12. `skills/bookwright/workflow.md`
 
 Treat the repo as authoritative. If something in this prompt conflicts with a newer committed decision in the repo, surface the conflict rather than silently choosing one.
 
@@ -231,7 +232,7 @@ Do not invent these. The Bookwright interview should settle them with me:
 - implementation-depth expectations
 - exact ATLAS-companion and shared-memory-system feature sequence inside the approved solo-to-team second-brain domain
 
-`Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is the current working title/subtitle. `ATLAS` is now the accepted running name for the book-aware companion agent. The shared memory product still needs either a separate name or a deliberate generic label.
+`Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is the current working title/subtitle. `ATLAS` is now the accepted running name for the book-aware companion agent. The product should be called the shared memory system or shared second-brain knowledgebase for the first edition unless the author explicitly changes it later.
 
 ## Current Bookwright manifesto progress
 
@@ -265,6 +266,7 @@ Confirmed:
 - Agent name: ATLAS is the book-aware companion agent that represents the ebook when uploaded into a chat or local agent.
 - Running project domain: the shared memory system becomes an AI second-brain knowledgebase that works for one person and can scale to a small team, roughly 10 people, in a multiplayer-like shared knowledge environment.
 - Shared-memory progression: the book starts with a solo second brain for one person and ends with a shared AI knowledgebase for a small team of around 10 people.
+- Proposed checkpoint roadmap: `roadmap.md` defines a 12-step first-edition path from leaving cloud chat, becoming ATLAS, creating a workspace, capturing first knowledge, grounding answers, choosing context, structuring memory, adding lifecycle, evaluating recall, giving ATLAS tools, adding team boundaries, and governing the system. This needs author approval before it becomes manifesto law.
 - Reader progression experience: preserve a light gamified feeling through checkpoints and "what's next" moments. Each checkpoint should show the capability unlocked, what ATLAS now understands or can help with, what the shared memory system can now do, what still breaks or remains missing, and what the next chapter/part will unlock.
 - Distribution access: free ebook.
 - Distribution format: PDF is confirmed as the first/main format. The PDF will live behind or alongside a dedicated page on the author's website containing the book explanation, setup instructions, links, and related resources. Page size is not decided yet.
@@ -289,7 +291,7 @@ Confirmed:
 
 Still open:
 
-- Exact feature sequence across ATLAS as the local book-aware companion and the shared memory system inside the solo-to-small-team AI second-brain knowledgebase progression.
+- Author approval or correction of the proposed feature sequence in `roadmap.md`.
 - Voice-level teaching choices beyond the already recorded Dan/Matt teacher references and direct/simple baseline.
 - Research division details beyond the settled research-backed guide posture.
 - Distribution details beyond free PDF and dedicated website page: lead magnet mechanics, optional ePub/web-book variant, and publication location remain open.
@@ -318,4 +320,4 @@ First, read the repository files listed above and give me a **short recovery rep
 - what remains open
 - the correct next step
 
-Then immediately resume the **Bookwright manifesto interview** at the exact ATLAS/shared-memory-system feature sequence, remaining teaching-style influences, research-division, and distribution-details block. Do not redesign the book or start Chapter 1 before completing the Bookwright gates.
+Then ask the author to approve or correct `roadmap.md`, and resume the **Bookwright manifesto interview** at the remaining teaching-style influences, research-division, and distribution-details block. Do not redesign the book or start Chapter 1 before completing the Bookwright gates.
