@@ -311,20 +311,30 @@ Confirmed on 2026-08-21:
 - Reader-facing reference decision: the book may explicitly say ATLAS is inspired by Shared Living Memory, link to the GitHub repository, and use it as a navigation/reference point so readers can inspect or use the real project if they want.
 - Final build target: by the end of the book, a reader who builds along should have achieved the same kind of product as Shared Living Memory, or at least roughly 80% of its core capability in the teaching implementation.
 
-Teaching-style material added on 2026-08-21:
+Creator and teaching-style material consolidated on 2026-08-21:
 
-- The author added `dan-koe-content/` as teaching-style reference material.
-- Treat this material as inspiration for structure and reader energy, not prose to copy.
-- Initial style observations: strong promise-first openings, conversational urgency, short sections, named protocols, identity/agency framing, simple-to-technical mapping, "build a project" as the filter for learning, direct imperatives, and recurring emphasis that AI should help the reader learn and build rather than outsource thinking.
-- Particularly relevant structural patterns for this ebook: start from a felt limitation, name the new capability, give a practical protocol, make the reader apply it immediately, and end with a changed identity or operating level.
-- Additional transcript from another profile is expected later and should be reviewed before finalizing `voice.md`.
+- Creator/reference material now lives under `creator-profiles/`.
+- Read `creator-profiles/README.md` before using the source folders.
+- Current folders:
+  - `creator-profiles/dan-koe/`
+  - `creator-profiles/matt-pocock/`
+  - `creator-profiles/nate-herk/`
+  - `creator-profiles/ai-engineer/`
+  - `creator-profiles/stanford-cs329a/`
+- Treat this material as inspiration for structure, reader energy, teaching flow, and research leads, not prose to copy.
+- Initial synthesis:
+  - Dan Koe contributes momentum, promise-first openings, short sections, named protocols, identity/agency framing, and simple-to-technical mapping.
+  - Matt Pocock contributes a disciplined AI build workflow: idea, research, prototype, specification, tickets, implementation, review, and QA loops.
+  - Nate Herk contributes audience empathy for readers who have watched AI videos but have not yet built systems, especially around automation and second-brain framing.
+  - AI Engineer contributes current production examples and research leads around memory, context engineering, evals, computer use, security, and AI-native systems. Verify any important current claim against primary sources before using it.
+  - Stanford CS329A contributes research-backed framing for self-improving agents, verification, feedback, planning, tool use, and evaluation.
+- Book-level synthesis: combine Dan Koe's momentum, Matt Pocock's disciplined workflow, Nate Herk's audience bridge, AI Engineer's production reality, and Stanford CS329A's rigor while preserving an original **Beyond Chat** voice.
 
 Visual reference material added on 2026-08-21:
 
 - Six reference images were saved under `visual-references/blackboard-flow/`.
 - The source images are dark, but the ebook will use a white background. Final generated visuals should adapt the same hand-drawn explainer language for white pages: charcoal/black handwritten text, rounded arrows, simple icons, generous empty space, and colored outline nodes for categories or roles.
 - Use these images later as inspiration for explanatory visuals, not as instructions or final page assets.
-- The author has a Matt Pocock transcript folder at `/Users/nikolaytrakiyski/Desktop/playground/mattpocock-transcripts` to add as another teaching-style reference. On 2026-08-21, that Mac path was not mounted in the Codex workspace, so the folder could not be copied yet.
 
 Still open in the manifesto interview:
 
