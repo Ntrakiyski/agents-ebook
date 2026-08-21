@@ -18,16 +18,15 @@ Read these files in this order:
 2. `PROJECT-STATE.md`
 3. `soul.md`
 4. `manifesto.md`
-5. `reviews/hard-parts-review.md`
-6. `roadmap.md`
-7. `CORE-PRINCIPLES.md`
-8. `CONCEPTUAL-FRAMEWORKS.md`
-9. `BOOK-BLUEPRINT.md`
-10. `EDITORIAL-WORKFLOW.md`
-11. `research/SOURCE-STANDARDS.md`
-12. `skills/bookwright/SKILL.md`
-13. `skills/bookwright/bootstrap.md`
-14. `skills/bookwright/workflow.md`
+5. `roadmap.md`
+6. `CORE-PRINCIPLES.md`
+7. `CONCEPTUAL-FRAMEWORKS.md`
+8. `BOOK-BLUEPRINT.md`
+9. `EDITORIAL-WORKFLOW.md`
+10. `research/SOURCE-STANDARDS.md`
+11. `skills/bookwright/SKILL.md`
+12. `skills/bookwright/bootstrap.md`
+13. `skills/bookwright/workflow.md`
 
 Treat the repo as authoritative. If something in this prompt conflicts with a newer committed decision in the repo, surface the conflict rather than silently choosing one.
 
@@ -296,7 +295,7 @@ Confirmed:
 - Visual reference: six images were saved under `visual-references/blackboard-flow/`. The source images are dark, but the ebook will use a white background. Final visuals should adapt the style for white pages: charcoal/black handwritten text, rounded arrows, simple icons, generous empty space, and colored outline nodes.
 - Approved generated visual samples live under `visual-references/generated-samples/`. Use them as the current accepted direction: vertical, spacious, hand-drawn marker diagrams on a white/warm-white page; charcoal/black structure lines; short labels only; simple icons; rounded arrows; colored outline accents for meaning.
 - README now includes the current project landing page, pre-Chapter-1 setup plan, Chapter 1 candidate topics, and next editorial steps. The primary README visual was built with `beautify-github-readme` as `assets/readme/hero.svg`. An Archify project map remains as a supporting artifact under `docs/diagrams/beyond-chat-project-map.html` with source JSON and visual-check artifacts.
-- The hard-parts review lives at `reviews/hard-parts-review.md`. It records fixes for roadmap-vs-TOC ambiguity, ATLAS knowledge boundaries, Bookwright template readiness, and stale next-step numbering.
+- Final review fixes were applied directly to the project files: roadmap checkpoints are capability gates rather than chapter numbers, ATLAS has a knowledge boundary in `soul.md`, Bookwright templates are vendored, and stale next-step numbering was corrected.
 
 Still open:
 

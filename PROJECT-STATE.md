@@ -321,9 +321,6 @@ then self-reviewed and tightened for scope coverage. It is pending final author
 confirmation. Do not move to `voice.md` until the author confirms or corrects
 the generated manifesto.
 
-The final hard-parts review lives in `reviews/hard-parts-review.md`. Read it
-before confirming the manifesto or converting the roadmap into the formal TOC.
-
 Do not fabricate `voice.md` from assumptions. Bookwright explicitly requires an
 interview and confirmation gate.
 
@@ -429,7 +426,7 @@ README/project-map material added on 2026-08-21:
 - Archify validation passed with 9/9 showcase checks, 0 errors, and 0 warnings. Visual containment passed at 1440x900, 1600x1000, 1920x1080, and 2048x1320. Human visual inspection of the light screenshot was acceptable for the README.
 - The Archify map now remains a supporting project artifact linked from README proof, not the primary visual identity.
 - `beautify-github-readme` audit passed for `README.md`; Chrome preview of `assets/readme/hero.svg` passed at desktop width and width-scaled narrow preview.
-- The hard-parts review was added at `reviews/hard-parts-review.md`, covering ATLAS/product naming, roadmap-vs-TOC ambiguity, template readiness, current-tooling caveats, browser/computer use, multimodal placement, and first-edition buildability.
+- Final review fixes were applied directly to the project files: roadmap checkpoints are explicitly capability gates rather than chapter numbers; ATLAS now has a knowledge boundary in `soul.md`; Bookwright templates are vendored; stale next-step numbering was corrected; current-tooling caveats, browser/computer use, multimodal placement, and first-edition buildability are preserved in project law.
 
 Still open before the voice interview:
 
@@ -524,7 +521,7 @@ The next session should not immediately draft Chapter 1.
 
 Recommended order:
 
-1. Read `README.md`, `PROJECT-STATE.md`, `soul.md`, `manifesto.md`, `reviews/hard-parts-review.md`, `roadmap.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
+1. Read `README.md`, `PROJECT-STATE.md`, `soul.md`, `manifesto.md`, `roadmap.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
 2. Read `skills/bookwright/SKILL.md`, `bootstrap.md`, and `workflow.md`.
 3. Ask the author to confirm or correct the generated `manifesto.md`.
 4. After manifesto confirmation, run the Bookwright **voice interview**.

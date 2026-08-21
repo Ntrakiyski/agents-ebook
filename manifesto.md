@@ -2,7 +2,7 @@
 
 Status: self-reviewed draft pending author confirmation.
 Generated: 2026-08-21
-Hard-parts review applied: 2026-08-21
+Final review applied: 2026-08-21
 
 Beyond Chat: A practical guide to building AI systems from prompts to autonomous agents
 
