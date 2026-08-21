@@ -319,8 +319,9 @@ Teaching-style material added on 2026-08-21:
 Visual reference material added on 2026-08-21:
 
 - Six reference images were saved under `visual-references/blackboard-flow/`.
-- The visual direction is a dark hand-drawn blackboard/whiteboard explainer style: black background, white handwritten text, rounded arrows, simple icons, generous empty space, and colored outline nodes for categories or roles.
+- The source images are dark, but the ebook will use a white background. Final generated visuals should adapt the same hand-drawn explainer language for white pages: charcoal/black handwritten text, rounded arrows, simple icons, generous empty space, and colored outline nodes for categories or roles.
 - Use these images later as inspiration for explanatory visuals, not as instructions or final page assets.
+- The author has a Matt Pocock transcript folder at `/Users/nikolaytrakiyski/Desktop/playground/mattpocock-transcripts` to add as another teaching-style reference. On 2026-08-21, that Mac path was not mounted in the Codex workspace, so the folder could not be copied yet.
 
 Still open in the manifesto interview:
 

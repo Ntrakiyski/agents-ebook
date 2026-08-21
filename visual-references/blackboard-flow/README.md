@@ -1,8 +1,12 @@
-# Blackboard Flow Visual Reference
+# Hand-Drawn Flow Visual Reference
 
 These images are style references for future explanatory visuals in the ebook.
 They are not manuscript instructions and should not be copied directly into final
 pages without review.
+
+Important: the reference images use a dark background, but the ebook will use a
+white background. Final generated visuals should adapt the same hand-drawn
+explainer language for white pages rather than reproducing the dark-board look.
 
 ## Reference Images
 
@@ -15,10 +19,11 @@ pages without review.
 
 ## Style Summary
 
-The style is a dark, hand-drawn blackboard/whiteboard explainer aesthetic:
+The source references are dark, hand-drawn explainer sketches. For the book, use
+the inverted white-page version:
 
-- matte black or near-black background
-- white hand-drawn text and arrows
+- white, off-white, or very light page background
+- black or charcoal hand-drawn text and arrows
 - thick rounded strokes
 - simple icons instead of detailed illustrations
 - large negative space
@@ -29,17 +34,20 @@ The style is a dark, hand-drawn blackboard/whiteboard explainer aesthetic:
 
 ## Palette
 
-Use mostly white and soft gray on black, with a small set of bright accent
+Use mostly black and soft gray on white, with a small set of bright accent
 colors:
 
-- white for primary text, arrows, and icons
-- gray for supporting text
+- charcoal/black for primary text, arrows, and icons
+- medium gray for supporting text
 - green for starting/available/confirmed states
 - yellow for planning/specification states
 - red for risk, human intervention, or hot/active work
 - purple for search/retrieval/alternate paths
 - blue for AI, system, review, or checkpoint states
 - orange for tools/build work
+
+Accent colors should remain saturated enough to read on white, but not so bright
+that they overpower the simple sketch.
 
 ## Composition Rules
 
@@ -53,6 +61,8 @@ colors:
 - Avoid photorealistic detail for core system diagrams.
 - Avoid UI artifacts from the references, such as mouse cursors, editor
   selection boxes, cropped side panels, or screenshot borders.
+- Do not use a black background for final ebook diagrams unless a specific page
+  intentionally calls for a dark contrast panel.
 
 ## Fit For This Book
 

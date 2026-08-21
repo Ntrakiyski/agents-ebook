@@ -229,7 +229,8 @@ Confirmed:
 - Distribution access: free ebook.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when available. It was checked on 2026-08-21 and was not found on PATH in the current workspace.
 - Teaching-style reference: `dan-koe-content/` has been added. Use it as inspiration for structure and reader energy, not prose to copy. Initial observations: promise-first openings, short sections, named protocols, identity/agency framing, simple-to-technical mapping, project-based learning, direct imperatives, and emphasis on using AI to learn and build rather than outsource thinking.
-- Visual reference: six images were saved under `visual-references/blackboard-flow/`. The desired direction is a dark hand-drawn blackboard/whiteboard explainer style with white handwritten text, rounded arrows, simple icons, generous empty space, and colored outline nodes.
+- Visual reference: six images were saved under `visual-references/blackboard-flow/`. The source images are dark, but the ebook will use a white background. Final visuals should adapt the style for white pages: charcoal/black handwritten text, rounded arrows, simple icons, generous empty space, and colored outline nodes.
+- Pending teaching-style material: the author wants to add a Matt Pocock transcript folder from `/Users/nikolaytrakiyski/Desktop/playground/mattpocock-transcripts`. That path was not mounted in the Codex workspace on 2026-08-21, so the folder still needs to be uploaded or placed under `/home`.
 
 Still open:
 
