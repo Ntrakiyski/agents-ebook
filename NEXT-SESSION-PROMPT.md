@@ -220,6 +220,8 @@ Confirmed:
 - Primary audience: people who have seen advanced AI videos/explanations and know terms like prompts, memory, agents, and tools, but have mostly consumed information rather than built systems.
 - Secondary audience: busy people inside companies who have heard about AI systems but do not have time to explore the landscape from scratch.
 - Prerequisite level: basic ChatGPT use only.
+- Practical prerequisite stance: recommend strongly and honestly that readers set up a local/free agent workflow and build along. If they refuse to set anything up, they can still upload the PDF to cloud ChatGPT and read it, but the book should be direct that this keeps them mostly in the same place: reading about AI systems rather than learning to build them.
+- Reader contract: doing is learning, not reading. The book should push readers toward action because the audience already has enough passive AI content.
 - Gap: existing AI material often jumps between prompting tips and advanced engineering detail. This book connects the middle by helping everyday AI users understand serious AI-system architecture and build upward from chat to agents and governed autonomy.
 - Delivery model: the book is a guided build of one project from start to finish, not straight information.
 - Chapter balance: each chapter should be roughly 70% content and visual explanation, 30% project work. The reader should get the mental model and big picture first, then build one ATLAS increment.
@@ -227,6 +229,8 @@ Confirmed:
 - Human + agent reading model: readers should be advised to share the book with their AI assistant and move page by page or chapter by chapter so both the human and the agent absorb the system principles.
 - Agent reading system prompt: the book should include a short copy/paste system prompt or operating instruction for the reader's local agent, telling it how to use the uploaded PDF and help the human build ATLAS chapter by chapter.
 - Reader onboarding: the first practical step should move the reader from cloud ChatGPT/chat into a local agent environment on their own computer. The educational point is to show the difference between cloud chat and a local agent that can see files, work with a project folder, run tools, and participate in building software.
+- Cloud-only fallback: readers who cannot or will not install a local agent can upload the PDF to cloud ChatGPT and use it as a reading companion, but this is the lowest-friction fallback, not the recommended path.
+- Free-first tooling: recommended tools should prioritize free or open-source ways to start doing. Paid or hosted tools may appear as alternatives, but they should not be required for the core learning path unless a chapter explicitly explains the tradeoff.
 - Proposed local-agent starting point: DeepSeek Harness Desktop, `https://github.com/anywhere-labs/deepseek-harness-desktop/tree/master`. Verified on 2026-08-21 from the GitHub README as an open-source Windows/macOS desktop client built around DeepSeek Harness, local UI/host services, and a plugin ecosystem. Treat as a current implementation example requiring re-verification before publication.
 - Proposed alternatives: Pi and Hermes for CLI use, and Codex app for ChatGPT users. These need exact links and current primary-source verification before becoming reader recommendations.
 - Reader workflow: after installing the local agent environment, the reader should upload/use the PDF in one chat for guidance and build ATLAS in another chat, or do both in one chat if the environment supports that workflow cleanly.
