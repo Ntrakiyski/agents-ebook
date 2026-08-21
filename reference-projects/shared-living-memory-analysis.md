@@ -11,6 +11,10 @@ It is a reference analysis, not a decision to make the book vendor-specific.
 
 Shared Living Memory is the clearest concrete ancestor for ATLAS.
 
+Reader-facing decision: the book may explicitly say that ATLAS is inspired by
+Shared Living Memory, link to `https://github.com/Ntrakiyski/shared-living-memory`,
+and use it as a reference point that readers can inspect or use directly.
+
 ATLAS should be taught as a fresh build from first principles, but its end state
 should rhyme with Shared Living Memory:
 
@@ -27,10 +31,15 @@ Solo second brain
   -> small-team shared intelligence
 ```
 
-The book should not become "how to clone Shared Living Memory." Instead, Shared
-Living Memory gives the project a real destination: a solo-to-team AI
-knowledgebase where humans and agents can share, retrieve, correct, govern, and
-act on knowledge without losing ownership, privacy, evidence, or history.
+The book should not become a line-by-line clone of Shared Living Memory.
+Instead, Shared Living Memory gives the project a real destination: a
+solo-to-team AI knowledgebase where humans and agents can share, retrieve,
+correct, govern, and act on knowledge without losing ownership, privacy,
+evidence, or history.
+
+Final build target: a reader who builds along through the whole book should end
+with the same kind of product as Shared Living Memory, or at least roughly 80% of
+its core capability in the teaching implementation.
 
 ## Core Product Insight
 
@@ -173,10 +182,19 @@ The book's final reader should be able to look at ATLAS and recognize the same
 kind of product logic as Shared Living Memory, while understanding each layer
 well enough to adapt it to another domain.
 
+## Settled Reader-Facing Position
+
+- The book can mention Shared Living Memory as the inspiration for ATLAS.
+- The book can link to the Shared Living Memory GitHub repository.
+- The book can use Shared Living Memory as a destination/reference point.
+- ATLAS should still be taught from first principles so the book remains useful
+  even if the reference implementation changes.
+- The target for readers building along is not a superficial demo; it is a
+  substantial solo-to-team knowledgebase that reaches roughly 80% of the
+  reference project's core capability.
+
 ## Open Questions for the Author
 
-- Should the book explicitly mention Shared Living Memory as the inspiration, or
-  should it remain internal reference material?
 - Should ATLAS be named as a second-brain product in the reader-facing book, or
   should ATLAS start more generically and reveal the second-brain purpose over
   the first few chapters?

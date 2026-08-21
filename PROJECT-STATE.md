@@ -308,6 +308,8 @@ Confirmed on 2026-08-21:
 - Distribution access: free ebook.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when it is available in the environment. On 2026-08-21, `feynman` was checked and was not found on PATH in the current workspace.
 - ATLAS reference project: the author identified `https://github.com/Ntrakiyski/shared-living-memory` as the closest existing embodiment of ATLAS. It was cloned and analyzed on 2026-08-21 at commit `b9dffaf`. See `reference-projects/shared-living-memory-analysis.md`.
+- Reader-facing reference decision: the book may explicitly say ATLAS is inspired by Shared Living Memory, link to the GitHub repository, and use it as a navigation/reference point so readers can inspect or use the real project if they want.
+- Final build target: by the end of the book, a reader who builds along should have achieved the same kind of product as Shared Living Memory, or at least roughly 80% of its core capability in the teaching implementation.
 
 Teaching-style material added on 2026-08-21:
 
