@@ -26,9 +26,8 @@ of around 10 people.
 
 The project is still in the **Bookwright bootstrap** phase.
 
-Do **not** start drafting chapters yet. `manifesto.md` has been generated,
-self-reviewed, and is pending author confirmation. The next editorial gate is
-to confirm or correct `manifesto.md`, run the voice interview, and create
+Do **not** start drafting chapters yet. `manifesto.md` is confirmed project
+law. The next editorial gate is to run the voice interview and create
 `voice.md`. Only after those are confirmed should the formal TOC, research
 corpus, evidence-rich outline, and chapters be locked.
 
@@ -59,7 +58,7 @@ This repository already contains the decisions and source material needed to
 recover the book without chat history:
 
 - The source-of-truth handoff: [`PROJECT-STATE.md`](PROJECT-STATE.md)
-- The generated manifesto draft: [`manifesto.md`](manifesto.md)
+- The confirmed project manifesto: [`manifesto.md`](manifesto.md)
 - The editorial method: [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md)
 - The broad curriculum map: [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md)
 - The approved checkpoint path: [`roadmap.md`](roadmap.md)
@@ -78,8 +77,8 @@ Read these files in order when recovering the project:
 1. [`PROJECT-STATE.md`](PROJECT-STATE.md) - durable handoff, settled decisions,
    open questions, audit findings, and next sequence.
 2. [`soul.md`](soul.md) - ATLAS, the book-aware companion agent persona.
-3. [`manifesto.md`](manifesto.md) - generated and self-reviewed manifesto draft
-   pending author confirmation.
+3. [`manifesto.md`](manifesto.md) - confirmed Bookwright manifesto and project
+   law.
 4. [`roadmap.md`](roadmap.md) - approved ATLAS/shared-memory checkpoint path.
 5. [`CORE-PRINCIPLES.md`](CORE-PRINCIPLES.md) - the 10 principles through which
    the entire book should be read.
@@ -271,13 +270,12 @@ MIT license preserved in [`skills/bookwright/LICENSE`](skills/bookwright/LICENSE
 
 ## Next Editorial Steps
 
-1. Confirm or correct `manifesto.md`.
-2. Run the voice interview.
-3. Create `voice.md` and get author confirmation.
-4. Lock the first-edition scope and convert the approved checkpoint path into a
+1. Run the voice interview.
+2. Create `voice.md` and get author confirmation.
+3. Lock the first-edition scope and convert the approved checkpoint path into a
    formal TOC.
-5. Convert `BOOK-BLUEPRINT.md` into `toc.md`.
-6. Build the initial research corpus and `references.bib`.
-7. Create `outline.md` chapter cards.
-8. Mark Chapter 1 `DRAFT-READY`.
-9. Only then draft Chapter 1.
+4. Convert `BOOK-BLUEPRINT.md` into `toc.md`.
+5. Build the initial research corpus and `references.bib`.
+6. Create `outline.md` chapter cards.
+7. Mark Chapter 1 `DRAFT-READY`.
+8. Only then draft Chapter 1.

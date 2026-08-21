@@ -220,11 +220,10 @@ Do not randomly add chapters. Integrate these deliberately into the existing arc
 
 ## Important things that are still open
 
-Do not invent these. Final manifesto confirmation, the Bookwright voice
-interview, TOC conversion, or the Chapter 1 sample should settle them:
+Do not invent these. The Bookwright voice interview, TOC conversion, or the
+Chapter 1 sample should settle them:
 
 - final title/subtitle
-- final manifesto wording for scope and exclusions
 - final target length after the Chapter 1 sample
 - optional distribution variants beyond the main free PDF and dedicated website page
 - PDF page size
@@ -241,9 +240,8 @@ interview, TOC conversion, or the Chapter 1 sample should settle them:
 ## Current Bookwright manifesto progress
 
 The manifesto interview produced `manifesto.md`, generated on 2026-08-21 and
-self-reviewed for scope coverage. It is pending final author confirmation. Do
-not start the voice interview until the author approves or corrects
-`manifesto.md`.
+self-reviewed for scope coverage. The author confirmed it on 2026-08-21. It is
+now project law. The next Bookwright gate is the voice interview.
 
 Confirmed:
 
@@ -299,7 +297,8 @@ Confirmed:
 
 Still open:
 
-- Final author confirmation or correction of `manifesto.md`.
+- Bookwright voice interview.
+- `voice.md` creation and author confirmation.
 - Voice-level teaching choices beyond the already recorded Dan/Matt teacher references and direct/simple baseline.
 - Distribution details beyond free PDF and dedicated website page: lead magnet mechanics, optional ePub/web-book variant, and publication location remain open.
 - Final target length/page density after the Chapter 1 sample.
@@ -327,4 +326,4 @@ First, read the repository files listed above and give me a **short recovery rep
 - what remains open
 - the correct next step
 
-Then ask the author to confirm or correct `manifesto.md`. Do not redesign the book or start Chapter 1 before completing the Bookwright gates.
+Then begin the Bookwright voice interview. Do not redesign the book or start Chapter 1 before completing the Bookwright gates.

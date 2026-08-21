@@ -317,9 +317,9 @@ The upstream Bookwright templates were vendored under
 at `skills/bookwright/LICENSE`.
 
 `manifesto.md` was generated on 2026-08-21 from approved interview answers,
-then self-reviewed and tightened for scope coverage. It is pending final author
-confirmation. Do not move to `voice.md` until the author confirms or corrects
-the generated manifesto.
+then self-reviewed, tightened for scope coverage, and confirmed by the author
+on 2026-08-21. It is now project law. Do not move beyond the Bookwright voice
+gate until `voice.md` is interviewed, created, and confirmed.
 
 Do not fabricate `voice.md` from assumptions. Bookwright explicitly requires an
 interview and confirmation gate.
@@ -333,9 +333,8 @@ gates, not chapter numbers.
 # Bookwright Manifesto Interview Progress
 
 The Bookwright manifesto interview has produced `manifesto.md`, and the file has
-been self-reviewed for consistency with project law. It is still pending final
-author confirmation. Do not start the voice interview until the author approves
-or corrects `manifesto.md`.
+been self-reviewed for consistency with project law. The author confirmed it on
+2026-08-21. The next Bookwright gate is the voice interview.
 
 Confirmed on 2026-08-21:
 
@@ -428,19 +427,17 @@ README/project-map material added on 2026-08-21:
 - `beautify-github-readme` audit passed for `README.md`; Chrome preview of `assets/readme/hero.svg` passed at desktop width and width-scaled narrow preview.
 - Final review fixes were applied directly to the project files: roadmap checkpoints are explicitly capability gates rather than chapter numbers; ATLAS now has a knowledge boundary in `soul.md`; Bookwright templates are vendored; stale next-step numbering was corrected; current-tooling caveats, browser/computer use, multimodal placement, and first-edition buildability are preserved in project law.
 
-Still open before the voice interview:
+Still open before scaffold/TOC work:
 
-- Final author confirmation or correction of `manifesto.md`.
-
-After manifesto confirmation, the next session should begin the Bookwright
-voice interview.
+- Bookwright voice interview.
+- `voice.md` creation and author confirmation.
 
 ---
 
 # Important Things Intentionally Not Decided Yet
 
-These should be settled through final manifesto confirmation, the Bookwright
-voice interview, TOC conversion, or the Chapter 1 sample rather than guessed:
+These should be settled through the Bookwright voice interview, TOC conversion,
+or the Chapter 1 sample rather than guessed:
 
 - final title and subtitle (`Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is current working language, not necessarily final)
 - target length finalization after the Chapter 1 sample, with 80-120 pages as the current provisional first-edition target
@@ -523,14 +520,13 @@ Recommended order:
 
 1. Read `README.md`, `PROJECT-STATE.md`, `soul.md`, `manifesto.md`, `roadmap.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
 2. Read `skills/bookwright/SKILL.md`, `bootstrap.md`, and `workflow.md`.
-3. Ask the author to confirm or correct the generated `manifesto.md`.
-4. After manifesto confirmation, run the Bookwright **voice interview**.
-5. After confirmation, create `voice.md`.
-6. Review the blueprint gaps above (browser/computer use and multimodal agents) before locking the formal TOC.
-7. Convert `BOOK-BLUEPRINT.md` into `toc.md` with one-sentence functions and build outcomes.
-8. Begin the minimum viable research corpus for Part I using current primary sources and durable references.
-9. Create evidence-rich chapter cards in `outline.md`.
-10. Draft a chapter only after its evidence/project/evaluation plan reaches `DRAFT-READY`.
+3. Run the Bookwright **voice interview**.
+4. After confirmation, create `voice.md`.
+5. Review the blueprint gaps above (browser/computer use and multimodal agents) before locking the formal TOC.
+6. Convert `BOOK-BLUEPRINT.md` into `toc.md` with one-sentence functions and build outcomes.
+7. Begin the minimum viable research corpus for Part I using current primary sources and durable references.
+8. Create evidence-rich chapter cards in `outline.md`.
+9. Draft a chapter only after its evidence/project/evaluation plan reaches `DRAFT-READY`.
 
 ---
 

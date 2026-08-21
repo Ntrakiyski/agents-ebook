@@ -1,8 +1,9 @@
 # Manifesto
 
-Status: self-reviewed draft pending author confirmation.
+Status: confirmed project law.
 Generated: 2026-08-21
 Final review applied: 2026-08-21
+Author confirmed: 2026-08-21
 
 Beyond Chat: A practical guide to building AI systems from prompts to autonomous agents
 
