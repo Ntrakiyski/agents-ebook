@@ -71,6 +71,20 @@ AI-Native Organization
 
 One chapter should generally produce one real capability and permanently upgrade ATLAS.
 
+The book now has two connected build layers:
+
+1. **Project 1: local AI agent companion.** The reader installs an existing
+   local agent environment, learns its capabilities, and expands it with
+   instructions, folders, skills, MCP, tools, permissions, project memory, and
+   operating rules.
+2. **Project 2: ATLAS.** The reader uses that companion to build the
+   solo-to-team second-brain knowledgebase.
+
+This refines the "one evolving system" rule rather than replacing it. Project 1
+is the reader's operating environment and harness. Project 2 is the product.
+Do not require readers to build an agent loop from zero before they understand
+what agents are for.
+
 The teaching rule is:
 
 > **One chapter → one capability → one real build → break it → inspect it → evaluate it → add it to the larger system.**
@@ -232,7 +246,7 @@ Confirmed:
 - Value-promise page before Chapter 1: the book should start with one quote and one spacious high-level overview page explaining how the reader will change and what they will become after going through the book. The promised transformation is from someone who consumes AI content or uses cloud chat into someone who can direct, build, evaluate, and govern an AI system with an agent.
 - Chapter 1 approved candidate: working title **The New Computing Model**. Core topics: cloud chat vs local agent, model vs assistant vs agent vs workflow, the model call, probabilistic software, AI-system iceberg, first ATLAS baseline, break-it scenario, under-the-hood inspection, evaluation, and the first ATLAS upgrade.
 - Chapter balance: each chapter should be roughly 70% content and visual explanation, 30% project work. The reader should get the mental model and big picture first, then build one ATLAS increment.
-- Chapter continuity: every chapter works on the same project. ATLAS should grow incrementally rather than appearing as unrelated exercises.
+- Chapter continuity: every chapter should upgrade either the local agent companion or ATLAS, with both serving the same solo-to-team second-brain journey. ATLAS should still grow incrementally rather than appearing as unrelated exercises.
 - Human + agent reading model: readers should be advised to share the book with their AI assistant and move page by page or chapter by chapter so both the human and the agent absorb the system principles.
 - Agent reading system prompt: the book should include a short copy/paste system prompt or operating instruction for the reader's local agent, telling it how to use the uploaded PDF and help the human build ATLAS chapter by chapter.
 - Reader onboarding: the first practical step should move the reader from cloud ChatGPT/chat into a local agent environment on their own computer. The educational point is to show the difference between cloud chat and a local agent that can see files, work with a project folder, run tools, and participate in building software.
@@ -252,6 +266,10 @@ Confirmed:
 - Resource style: include curated references and articles so readers can continue learning. Explain why each source matters; do not create giant link dumps.
 - First-edition build target: the reader should finish with a working local ATLAS system. The book may explain production/team-scale implications, but the core deliverable should be something the reader can run, inspect, and extend locally.
 - Voice baseline: direct and simple. Explanations should stay clear and low-noise. Quotes and openings should feel energetic and exciting, while the technical voice remains grounded.
+- Build philosophy update: start with an existing agent environment instead of making readers build an agent from scratch at the beginning. They should first learn and extend an agent through readable artifacts: instructions, folders, skills, MCP configuration, tools, permissions, project memory, and operating rules. Lower-level agent code should appear when it becomes educationally necessary.
+- Default agent-framework candidate for code artifacts: eve (`https://eve.dev/`). Verified on 2026-08-21 from official Vercel/eve pages as an open-source, filesystem-first TypeScript framework where agents are directories containing files such as `instructions.md`, `agent.ts`, `tools/`, `skills/`, `subagents/`, `channels/`, and `schedules/`. Treat this as a current implementation example and re-verify before publication.
+- Default source/deploy path candidate: GitHub for source code and Vercel for deployment where free-tier usage is sufficient for learning. Verified on 2026-08-21 from Vercel pricing that Hobby is listed at $0/month and includes repo import/deploy, automatic CI/CD, CDN, compute allowances, and sandbox/workflow allowances. Re-verify before publication.
+- Docker stance: use Docker only if it removes setup friction or isolates dependencies required by a chapter.
 - ATLAS reference project: `https://github.com/Ntrakiyski/shared-living-memory` is the closest existing embodiment of ATLAS. It was analyzed on 2026-08-21 at commit `b9dffaf`; read `reference-projects/shared-living-memory-analysis.md`.
 - Reader-facing reference decision: the book may say ATLAS is inspired by Shared Living Memory, link to its GitHub repository, and use it as a navigation/reference point. Readers who build along should reach the same kind of product, or at least roughly 80% of its core capability.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when available. It was checked on 2026-08-21 and was not found on PATH in the current workspace.
@@ -264,7 +282,7 @@ Confirmed:
 
 Still open:
 
-- Exact ATLAS feature sequence inside the solo-to-small-team AI second-brain knowledgebase progression.
+- Exact feature sequence across the local agent companion and ATLAS inside the solo-to-small-team AI second-brain knowledgebase progression.
 - Voice-level teaching choices beyond the already recorded Dan/Matt teacher references and direct/simple baseline.
 - Research division details beyond the settled research-backed guide posture.
 - Distribution details beyond free PDF and dedicated website page: lead magnet mechanics, optional ePub/web-book variant, and publication location remain open.

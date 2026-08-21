@@ -40,11 +40,12 @@ Settled direction:
 | Reader level | Basic ChatGPT use only |
 | Research posture | Research-backed technical guide with curated sources |
 | Teaching split | Roughly 70% content/visual explanation, 30% project work |
-| Project | ATLAS, a solo-to-team AI second brain |
+| Project | Local agent companion first, then ATLAS |
 | Build target | A working local ATLAS system |
 | Default action path | Move from cloud chat into a local/free agent workflow |
 | Free model path | DeepSeek Harness Desktop + OpenRouter free models, with caveats |
 | Alternatives | Pi and Hermes for CLI use; Codex app for ChatGPT users |
+| Code artifact candidate | eve, GitHub, Vercel free-tier path where suitable |
 
 Current facts about tools, providers, free models, rate limits, and product
 features must be re-verified before publication.
@@ -124,6 +125,17 @@ value.
 ATLAS is inspired by
 [`shared-living-memory`](https://github.com/Ntrakiyski/shared-living-memory).
 
+The book now has two connected build layers:
+
+| Layer | Purpose |
+|---|---|
+| Project 1: local agent companion | Install an existing agent environment, learn its capabilities, and expand it with instructions, folders, skills, MCP, tools, permissions, and operating rules |
+| Project 2: ATLAS | Use that companion to build the solo-to-team AI second-brain knowledgebase |
+
+This avoids forcing readers to build an agent loop from zero before they
+understand what agents are for. They first learn by using and extending a real
+agent, then use that agent to build the memory system.
+
 The teaching implementation does not need to copy that repository, but a reader
 who builds along should reach the same kind of product, or roughly 80% of its
 core capability:
@@ -134,6 +146,13 @@ core capability:
 - memory that can serve one person and a small team
 - provenance, permissions, review, and governance
 - agents that can work with the knowledgebase under constraints
+
+When code artifacts are needed, **eve** is the current candidate because its
+filesystem-first agent structure keeps instructions, tools, skills, subagents,
+channels, and schedules visible as folders and files. GitHub is the source-code
+home, Vercel is the first deployment path where the free tier is sufficient for
+learning, and Docker is used only when it removes friction or isolates a real
+dependency.
 
 ## Before Chapter 1
 

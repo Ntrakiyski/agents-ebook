@@ -125,6 +125,21 @@ scales toward a shared, multiplayer-like knowledge system for a small team of
 around 10 people. It should still teach the complete system layers from model to
 governance, but the builds should serve that knowledgebase product.
 
+Refinement added on 2026-08-21: the book has two connected build layers:
+
+1. **Project 1: the local AI agent companion** — the reader installs and learns
+   an existing local agent environment, then expands it with instructions,
+   project files, skills, tools, MCP servers, and operating rules. This teaches
+   what an agent can do beyond cloud chat without forcing the reader to code an
+   agent loop from scratch on page one.
+2. **Project 2: ATLAS** — the reader uses that companion to build the shared
+   second-brain knowledgebase. ATLAS remains the main product running through the
+   book.
+
+This is not a move to disconnected projects. Project 1 is the reader's working
+environment and agent harness. Project 2 is the product the reader builds with
+that environment.
+
 The reader should be able to look back at the final system and recognize that they built every important layer themselves.
 
 ## 4. The book begins with principles
@@ -302,7 +317,7 @@ Confirmed on 2026-08-21:
 - Format: ebook.
 - Desired reading experience: easy to read, spacious, uncluttered pages, clear headings, bullets, short text, clear instructions, and distinct text elements that help readers grasp layers quickly.
 - Chapter balance: each chapter should be roughly **70% content and visual explanation** and **30% project work**. The reading/visual side should carry the mental model and big-picture understanding; the project side should turn that chapter's idea into a concrete ATLAS increment.
-- Chapter continuity: every chapter works on the same project. ATLAS should grow incrementally rather than appearing as unrelated exercises.
+- Chapter continuity: every chapter should upgrade either the local agent companion or ATLAS, with both serving the same solo-to-team second-brain journey. ATLAS should still grow incrementally rather than appearing as unrelated exercises.
 - Primary audience: people who have seen advanced AI videos or explanations and know terms such as prompts, memory, agents, and tools, but have mostly consumed information rather than built systems.
 - Secondary audience: busy people inside companies, such as operators, managers, founders, team leads, and knowledge workers, who have heard about AI systems but do not have time to explore the landscape from scratch.
 - Prerequisite level: basic ChatGPT use only. Everything else should be explained from zero, first with a simple mental model and then mapped to the technical version.
@@ -335,6 +350,10 @@ Confirmed on 2026-08-21:
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when it is available in the environment. On 2026-08-21, `feynman` was checked and was not found on PATH in the current workspace.
 - First-edition build target: the reader should finish with a **working local ATLAS system**. The book can explain production and team-scale implications, but the core deliverable should be something the reader can actually run, inspect, and extend locally.
 - Voice direction: direct and simple. Explanations should stay clear and low-noise. Quotes and opening lines should feel energetic and exciting, but the main technical voice should remain practical and grounded.
+- Build philosophy update: do not require readers to build an agent from zero at the beginning. Start with an existing agent environment so they can immediately feel the difference between cloud chat and a local tool-using agent. They should learn and extend the agent through readable artifacts first: instructions, folders, skills, MCP configuration, tools, permissions, project memory, and operating rules. Lower-level agent code should appear when it becomes educationally necessary.
+- Default deploy/source path candidate: use GitHub as the source-code home and Vercel as the first deployment path where free-tier usage is sufficient for learning. Verified on 2026-08-21 from Vercel pricing that Hobby is listed at $0/month and includes repo import/deploy, automatic CI/CD, CDN, compute allowances, and sandbox/workflow allowances. This is a current implementation example and must be re-verified before publication.
+- Default agent-framework candidate for code artifacts: use **eve** (`https://eve.dev/`) where the book needs a readable, deployable agent-code structure. Verified on 2026-08-21 from Vercel/eve official pages: eve is presented as an open-source, filesystem-first TypeScript framework where an agent is a directory containing files such as `instructions.md`, `agent.ts`, `tools/`, `skills/`, `subagents/`, `channels/`, and `schedules/`; Vercel states it can be deployed with `vercel deploy`. Treat eve as a current implementation example, not a permanent architectural law.
+- Docker stance: Docker may be used when it removes setup friction or isolates dependencies, but it should not become a required complexity unless a chapter actually needs it.
 - ATLAS reference project: the author identified `https://github.com/Ntrakiyski/shared-living-memory` as the closest existing embodiment of ATLAS. It was cloned and analyzed on 2026-08-21 at commit `b9dffaf`. See `reference-projects/shared-living-memory-analysis.md`.
 - Reader-facing reference decision: the book may explicitly say ATLAS is inspired by Shared Living Memory, link to the GitHub repository, and use it as a navigation/reference point so readers can inspect or use the real project if they want.
 - Final build target: by the end of the book, a reader who builds along should have achieved the same kind of product as Shared Living Memory, or at least roughly 80% of its core capability in the teaching implementation.
@@ -382,7 +401,7 @@ README/project-map material added on 2026-08-21:
 
 Still open in the manifesto interview:
 
-- Exact ATLAS feature sequence within the solo-to-small-team AI second-brain knowledgebase progression.
+- Exact feature sequence across the local agent companion and ATLAS within the solo-to-small-team AI second-brain knowledgebase progression.
 - Voice-level teaching choices beyond the already recorded teacher/reference split and the direct/simple baseline.
 - Research division details: public-source synthesis, `feynman`-assisted papers when available, hands-on experiments, interviews, fieldwork, or some mix. The broad research posture is now settled as a research-backed technical guide.
 - Distribution details beyond free PDF and dedicated website page: lead-magnet mechanics, optional ePub/web-book variant, and publication location remain open.
@@ -410,7 +429,7 @@ These should be settled through the Bookwright manifesto/voice interview rather 
 - code-example language and default stack
 - how much implementation code vs architecture explanation each chapter should contain
 - whether all chapters are mandatory in the first edition or some become advanced/optional tracks
-- exact ATLAS feature sequence and milestones inside the approved second-brain project domain
+- exact local-agent-companion and ATLAS feature sequence/milestones inside the approved second-brain project domain
 - voice-level teaching choices beyond the approved Dan/Matt teacher references
 - research division
 
