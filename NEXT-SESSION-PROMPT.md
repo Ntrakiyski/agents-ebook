@@ -61,6 +61,8 @@ Autonomy
 Multi-Agent System
   ↓
 Self-Improving AI System
+  ↓
+AI-Native Organization
 ```
 
 One chapter should generally produce one real capability and permanently upgrade ATLAS.
@@ -205,7 +207,31 @@ Do not invent these. The Bookwright interview should settle them with me:
 - code-example language/default stack
 - implementation-depth expectations
 
-`Building With AI — From Prompts to Autonomous Systems` and `ATLAS` are working names, not immutable branding decisions.
+`Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is the current working title/subtitle. `ATLAS` remains the accepted running project name. Neither is immutable branding.
+
+## Current Bookwright manifesto progress
+
+The manifesto interview has started but is incomplete. Do not create `manifesto.md` yet.
+
+Confirmed:
+
+- Format: ebook.
+- Reading experience: spacious, uncluttered, easy to read, with clear headings, bullets, short text, clear instructions, and distinct text elements.
+- Primary audience: people who have seen advanced AI videos/explanations and know terms like prompts, memory, agents, and tools, but have mostly consumed information rather than built systems.
+- Secondary audience: busy people inside companies who have heard about AI systems but do not have time to explore the landscape from scratch.
+- Prerequisite level: basic ChatGPT use only.
+- Gap: existing AI material often jumps between prompting tips and advanced engineering detail. This book connects the middle by helping everyday AI users understand serious AI-system architecture and build upward from chat to agents and governed autonomy.
+- Delivery model: the book is a guided build of one project from start to finish, not straight information.
+- Human + agent reading model: readers should be advised to share the book with their AI assistant and move page by page or chapter by chapter so both the human and the agent absorb the system principles.
+
+Still open:
+
+- What ATLAS specifically builds or does across the book.
+- Methodological model or teaching influences.
+- Research division.
+- Distribution access: free, paid, lead magnet, or other.
+- Target length / first-edition size.
+- Voice interview items.
 
 ## Working behavior
 
@@ -229,4 +255,4 @@ First, read the repository files listed above and give me a **short recovery rep
 - what remains open
 - the correct next step
 
-Then immediately begin the **Bookwright manifesto interview** with the first grouped block of questions. Do not redesign the entire book before running the interview.
+Then immediately resume the **Bookwright manifesto interview** at the running-project, methodological-model, research-division, and distribution block. Do not redesign the book or start Chapter 1 before completing the Bookwright gates.

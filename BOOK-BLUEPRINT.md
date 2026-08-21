@@ -33,18 +33,21 @@ Part XVI is the final integration.
 
 ---
 
-# Every Chapter Follows the Same Contract
+# Every Technical Chapter Follows the Same Contract
 
-Every chapter should contain:
+Unless there is a strong editorial reason to deviate, every technical chapter
+should follow the full contract defined in `EDITORIAL-WORKFLOW.md`:
 
-1. **Problem** — why this concept exists.
-2. **Mental model** — the simplest correct explanation.
-3. **Build** — implement the capability.
-4. **Break It** — deliberately expose its limitations.
-5. **Under the Hood** — inspect prompts, context, tools, state, tokens, cost, etc.
-6. **Production Lens** — security, reliability, data, human oversight, economics.
-7. **Evaluate** — prove whether the change improved the system.
-8. **ATLAS Upgrade** — permanently add the capability to the growing system.
+1. **The Problem** — show the practical limitation that creates the need for the concept.
+2. **What We Are Building** — show the concrete project and expected result before theory.
+3. **Mental Model** — give the simplest correct explanation.
+4. **Build** — implement the capability progressively.
+5. **Break It** — deliberately expose the naive implementation's limitations.
+6. **Under the Hood** — inspect prompts, context, tools, state, tokens, cost, routing, traces, etc.
+7. **Production Lens** — security, reliability, data, human oversight, governance, economics, and integration implications.
+8. **Evaluate** — prove whether the change improved the system.
+9. **ATLAS Upgrade** — permanently add the capability to the growing system.
+10. **Evidence & Resources** — provide the source trail and continuation path.
 
 The reader never reads 25 pages about RAG and then gets an exercise. **The RAG system itself is the chapter.**
 

@@ -1,6 +1,8 @@
-# Building With AI — Agents Ebook
+# Beyond Chat — Agents Ebook
 
-A project-driven book about moving from prompts and model calls to complete production AI systems: context, agents, harnesses, runtime, evals, security, observability, orchestration, governance, economics, and AI-native organizations.
+Working subtitle: **A practical guide to building AI systems from prompts to autonomous agents**.
+
+A project-driven book about moving from ChatGPT-style AI use to complete production AI systems: context, agents, harnesses, runtime, evals, security, observability, orchestration, governance, economics, and AI-native organizations.
 
 ## Start Here
 
@@ -57,6 +59,8 @@ Autonomy
 Multi-Agent System
   ↓
 Self-Improving AI System
+  ↓
+AI-Native Organization
 ```
 
 The goal is not to teach a temporary collection of AI products. The goal is to teach the durable primitives, mental models, engineering practices, and operating principles needed to build complete AI systems.

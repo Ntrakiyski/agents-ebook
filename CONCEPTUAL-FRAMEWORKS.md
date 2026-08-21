@@ -30,6 +30,8 @@ Autonomy
 Multi-Agent System
   ↓
 Self-Improving AI System
+  ↓
+AI-Native Organization
 ```
 
 The important teaching idea is that each layer solves a limitation exposed by the layer before it.

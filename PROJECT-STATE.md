@@ -284,14 +284,44 @@ Do not fabricate `manifesto.md` or `voice.md` from assumptions. Bookwright expli
 
 ---
 
+# Bookwright Manifesto Interview Progress
+
+The Bookwright manifesto interview has started but is not complete. Do not create
+`manifesto.md` yet.
+
+Confirmed on 2026-08-21:
+
+- Working title: **Beyond Chat**
+- Working subtitle: **A practical guide to building AI systems from prompts to autonomous agents**
+- Format: ebook.
+- Desired reading experience: easy to read, spacious, uncluttered pages, clear headings, bullets, short text, clear instructions, and distinct text elements that help readers grasp layers quickly.
+- Primary audience: people who have seen advanced AI videos or explanations and know terms such as prompts, memory, agents, and tools, but have mostly consumed information rather than built systems.
+- Secondary audience: busy people inside companies, such as operators, managers, founders, team leads, and knowledge workers, who have heard about AI systems but do not have time to explore the landscape from scratch.
+- Prerequisite level: basic ChatGPT use only. Everything else should be explained from zero, first with a simple mental model and then mapped to the technical version.
+- Gap statement: existing AI material often teaches either prompting tips or advanced engineering details. This book connects the middle: it helps everyday AI users understand the full system architecture behind serious AI work, then guides them layer by layer from chat to agents and governed autonomous systems.
+- Delivery model: the book should not be straight information. It should be a guided build of one project from start to finish. Each chapter should give direction, vision, outcome, and deliverable without clutter.
+- Human + agent reading model: readers should be advised near the beginning to share the book with their agent, ChatGPT, or other AI tool and move page by page or chapter by chapter so both the human and the agent absorb the project principles and execution model.
+- Running project name: **ATLAS** remains acceptable.
+
+Still open in the manifesto interview:
+
+- What ATLAS specifically builds or does across the book.
+- Methodological model or teaching influences.
+- Research division: public-source synthesis, hands-on experiments, interviews, fieldwork, or some mix.
+- Distribution details: website download confirmed as a likely channel, but free/paid/lead-magnet access remains open.
+- Target length or first-edition size remains open.
+- Scope details should be stated plainly in the manifesto, using `BOOK-BLUEPRINT.md` as the authoritative broad scope. The author has clarified that the book should avoid deep model-training theory, heavy math, and deep infrastructure setup unless necessary to understand a system layer.
+
+The next session should resume the manifesto interview at the running-project,
+methodological-model, research-division, and distribution block.
+
+---
+
 # Important Things Intentionally Not Decided Yet
 
 These should be settled through the Bookwright manifesto/voice interview rather than guessed:
 
-- final title and subtitle (`Building With AI — From Prompts to Autonomous Systems` is working language, not necessarily final)
-- exact primary audience
-- exact secondary audience
-- expected prerequisite level
+- final title and subtitle (`Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is current working language, not necessarily final)
 - target length
 - publication/distribution format (web, PDF, ePub, print, etc.)
 - free vs paid distribution
@@ -303,6 +333,9 @@ These should be settled through the Bookwright manifesto/voice interview rather 
 - code-example language and default stack
 - how much implementation code vs architecture explanation each chapter should contain
 - whether all chapters are mandatory in the first edition or some become advanced/optional tracks
+- exact ATLAS project/domain, beyond the project name
+- methodological model or teaching influences
+- research division
 
 Do not silently lock these decisions before the author answers the bootstrap questions.
 
@@ -370,7 +403,7 @@ Recommended order:
 
 1. Read `README.md`, `PROJECT-STATE.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
 2. Read `skills/bookwright/SKILL.md`, `bootstrap.md`, and `workflow.md`.
-3. Run the Bookwright **manifesto interview** with the author.
+3. Resume the Bookwright **manifesto interview** with the author from the running-project, methodological-model, research-division, and distribution block.
 4. After confirmation, create `manifesto.md`.
 5. Run the Bookwright **voice interview**.
 6. After confirmation, create `voice.md`.
