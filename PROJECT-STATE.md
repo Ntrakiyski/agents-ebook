@@ -302,18 +302,30 @@ Confirmed on 2026-08-21:
 - Delivery model: the book should not be straight information. It should be a guided build of one project from start to finish. Each chapter should give direction, vision, outcome, and deliverable without clutter.
 - Human + agent reading model: readers should be advised near the beginning to share the book with their agent, ChatGPT, or other AI tool and move page by page or chapter by chapter so both the human and the agent absorb the project principles and execution model.
 - Running project name: **ATLAS** remains acceptable.
+- Running project domain: ATLAS should become an AI second-brain knowledgebase suitable for one person and for multiple people. The system should be "multiplayer-like": useful for a solo user, but designed so a team of roughly 10 people can also share knowledge, collaborate, preserve provenance, and work with agents over the same knowledge system.
+- Distribution access: free ebook.
+- Research workflow preference: use the `feynman` CLI for research papers and research-question answering when it is available in the environment. On 2026-08-21, `feynman` was checked and was not found on PATH in the current workspace.
+
+Teaching-style material added on 2026-08-21:
+
+- The author added `dan-koe-content/` as teaching-style reference material.
+- Treat this material as inspiration for structure and reader energy, not prose to copy.
+- Initial style observations: strong promise-first openings, conversational urgency, short sections, named protocols, identity/agency framing, simple-to-technical mapping, "build a project" as the filter for learning, direct imperatives, and recurring emphasis that AI should help the reader learn and build rather than outsource thinking.
+- Particularly relevant structural patterns for this ebook: start from a felt limitation, name the new capability, give a practical protocol, make the reader apply it immediately, and end with a changed identity or operating level.
+- Additional transcript from another profile is expected later and should be reviewed before finalizing `voice.md`.
 
 Still open in the manifesto interview:
 
-- What ATLAS specifically builds or does across the book.
-- Methodological model or teaching influences.
-- Research division: public-source synthesis, hands-on experiments, interviews, fieldwork, or some mix.
-- Distribution details: website download confirmed as a likely channel, but free/paid/lead-magnet access remains open.
+- Exact ATLAS product framing and feature sequence within the AI second-brain knowledgebase domain.
+- Methodological model or teaching influences beyond the initial Dan Koe material and the additional transcript expected from the author.
+- Research division: public-source synthesis, `feynman`-assisted papers, hands-on experiments, interviews, fieldwork, or some mix.
+- Distribution details beyond free ebook: website download is likely, but lead-magnet mechanics, PDF/ePub/web variants, and publication location remain open.
 - Target length or first-edition size remains open.
 - Scope details should be stated plainly in the manifesto, using `BOOK-BLUEPRINT.md` as the authoritative broad scope. The author has clarified that the book should avoid deep model-training theory, heavy math, and deep infrastructure setup unless necessary to understand a system layer.
 
-The next session should resume the manifesto interview at the running-project,
-methodological-model, research-division, and distribution block.
+The next session should resume the manifesto interview at the exact ATLAS
+product framing, remaining teaching-style influences, research-division, and
+distribution-details block.
 
 ---
 

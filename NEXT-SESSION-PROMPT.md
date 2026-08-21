@@ -223,13 +223,17 @@ Confirmed:
 - Gap: existing AI material often jumps between prompting tips and advanced engineering detail. This book connects the middle by helping everyday AI users understand serious AI-system architecture and build upward from chat to agents and governed autonomy.
 - Delivery model: the book is a guided build of one project from start to finish, not straight information.
 - Human + agent reading model: readers should be advised to share the book with their AI assistant and move page by page or chapter by chapter so both the human and the agent absorb the system principles.
+- Running project domain: ATLAS becomes an AI second-brain knowledgebase that works for one person and can scale to a small team, roughly 10 people, in a multiplayer-like shared knowledge environment.
+- Distribution access: free ebook.
+- Research workflow preference: use the `feynman` CLI for research papers and research-question answering when available. It was checked on 2026-08-21 and was not found on PATH in the current workspace.
+- Teaching-style reference: `dan-koe-content/` has been added. Use it as inspiration for structure and reader energy, not prose to copy. Initial observations: promise-first openings, short sections, named protocols, identity/agency framing, simple-to-technical mapping, project-based learning, direct imperatives, and emphasis on using AI to learn and build rather than outsource thinking.
 
 Still open:
 
-- What ATLAS specifically builds or does across the book.
-- Methodological model or teaching influences.
+- Exact ATLAS product framing and feature sequence inside the AI second-brain knowledgebase domain.
+- Additional teaching-style influences: the author expects to provide another transcript from another profile.
 - Research division.
-- Distribution access: free, paid, lead magnet, or other.
+- Distribution details beyond free access: website, PDF/ePub/web variants, lead magnet, or other.
 - Target length / first-edition size.
 - Voice interview items.
 
@@ -255,4 +259,4 @@ First, read the repository files listed above and give me a **short recovery rep
 - what remains open
 - the correct next step
 
-Then immediately resume the **Bookwright manifesto interview** at the running-project, methodological-model, research-division, and distribution block. Do not redesign the book or start Chapter 1 before completing the Bookwright gates.
+Then immediately resume the **Bookwright manifesto interview** at the exact ATLAS product framing, remaining teaching-style influences, research-division, and distribution-details block. Do not redesign the book or start Chapter 1 before completing the Bookwright gates.
