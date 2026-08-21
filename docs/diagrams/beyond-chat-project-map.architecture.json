@@ -1,0 +1,272 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Beyond Chat Project Map",
+    "output": "beyond-chat-project-map.html",
+    "quality_profile": "showcase",
+    "views": [
+      {
+        "id": "reader-path",
+        "label": "Reader path",
+        "focus": ["reader", "website", "pdf", "local-agent", "atlas"],
+        "note": "The reader moves from passive chat into local building with the PDF and agent."
+      },
+      {
+        "id": "editorial-system",
+        "label": "Editorial system",
+        "focus": ["repo", "project-state", "bookwright", "chapter-method", "manifesto-voice"],
+        "note": "The repository keeps the writing process recoverable across sessions."
+      },
+      {
+        "id": "evidence-style",
+        "label": "Evidence and style",
+        "focus": ["creator-profiles", "research", "visuals", "chapter-method"],
+        "note": "Teacher references shape delivery; evidence sources shape technical claims."
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "reader",
+      "type": "external",
+      "label": "Reader",
+      "sublabel": "ChatGPT user",
+      "pos": [40, 310],
+      "size": [130, 64]
+    },
+    {
+      "id": "website",
+      "type": "frontend",
+      "label": "Website Page",
+      "sublabel": "PDF, setup, links",
+      "pos": [240, 310],
+      "size": [150, 64]
+    },
+    {
+      "id": "pdf",
+      "type": "cloud",
+      "label": "Free PDF",
+      "sublabel": "Read + upload",
+      "pos": [460, 310],
+      "size": [130, 64]
+    },
+    {
+      "id": "local-agent",
+      "type": "backend",
+      "label": "Local Agent",
+      "sublabel": "DSH / Pi / Hermes",
+      "pos": [670, 310],
+      "size": [150, 64],
+      "tag": "OpenRouter free"
+    },
+    {
+      "id": "atlas",
+      "type": "database",
+      "label": "ATLAS",
+      "sublabel": "Shared second brain",
+      "pos": [910, 310],
+      "size": [150, 64]
+    },
+    {
+      "id": "repo",
+      "type": "database",
+      "label": "GitHub Repo",
+      "sublabel": "Source of truth",
+      "pos": [460, 95],
+      "size": [150, 64]
+    },
+    {
+      "id": "project-state",
+      "type": "backend",
+      "label": "Project State",
+      "sublabel": "Decisions + gaps",
+      "pos": [250, 95],
+      "size": [150, 64]
+    },
+    {
+      "id": "bookwright",
+      "type": "backend",
+      "label": "Bookwright",
+      "sublabel": "Manifesto + voice",
+      "pos": [670, 95],
+      "size": [150, 64]
+    },
+    {
+      "id": "manifesto-voice",
+      "type": "security",
+      "label": "Gates",
+      "sublabel": "Before chapters",
+      "pos": [890, 95],
+      "size": [130, 64]
+    },
+    {
+      "id": "chapter-method",
+      "type": "messagebus",
+      "label": "Chapter Method",
+      "sublabel": "Build, break, inspect",
+      "pos": [670, 510],
+      "size": [170, 64]
+    },
+    {
+      "id": "creator-profiles",
+      "type": "external",
+      "label": "Creator Profiles",
+      "sublabel": "Teachers + references",
+      "pos": [250, 510],
+      "size": [170, 64]
+    },
+    {
+      "id": "research",
+      "type": "external",
+      "label": "Research",
+      "sublabel": "Proof + continuation",
+      "pos": [460, 510],
+      "size": [150, 64]
+    },
+    {
+      "id": "visuals",
+      "type": "frontend",
+      "label": "Visual System",
+      "sublabel": "White-page diagrams",
+      "pos": [890, 510],
+      "size": [160, 64]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "region",
+      "label": "Reader Learning Loop",
+      "wraps": ["reader", "website", "pdf", "local-agent", "atlas"],
+      "pad": 30
+    },
+    {
+      "kind": "region",
+      "label": "Editorial Control Plane",
+      "wraps": ["project-state", "repo", "bookwright", "manifesto-voice"],
+      "pad": 26
+    }
+  ],
+  "connections": [
+    {
+      "id": "reader-to-website",
+      "from": "reader",
+      "to": "website",
+      "label": "downloads",
+      "variant": "emphasis"
+    },
+    {
+      "id": "website-to-pdf",
+      "from": "website",
+      "to": "pdf",
+      "label": "provides"
+    },
+    {
+      "id": "pdf-to-agent",
+      "from": "pdf",
+      "to": "local-agent",
+      "label": "guides"
+    },
+    {
+      "id": "agent-to-atlas",
+      "from": "local-agent",
+      "to": "atlas",
+      "label": "builds"
+    },
+    {
+      "id": "state-to-repo",
+      "from": "project-state",
+      "to": "repo",
+      "label": "records",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "repo-to-bookwright",
+      "from": "repo",
+      "to": "bookwright",
+      "label": "feeds",
+      "fromSide": "right",
+      "toSide": "left"
+    },
+    {
+      "id": "bookwright-to-gates",
+      "from": "bookwright",
+      "to": "manifesto-voice",
+      "label": "locks",
+      "variant": "security"
+    },
+    {
+      "id": "bookwright-to-method",
+      "from": "bookwright",
+      "to": "chapter-method",
+      "label": "structures",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "via": [[745, 220], [1095, 220], [1095, 455], [755, 455]],
+      "labelAt": [1080, 388]
+    },
+    {
+      "id": "creators-to-method",
+      "from": "creator-profiles",
+      "to": "chapter-method",
+      "label": "shape",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "top",
+      "via": [[335, 455], [755, 455]],
+      "labelAt": [500, 440]
+    },
+    {
+      "id": "research-to-method",
+      "from": "research",
+      "to": "chapter-method",
+      "label": "supports",
+      "variant": "dashed",
+      "fromSide": "right",
+      "toSide": "left",
+      "labelAt": [632, 588]
+    },
+    {
+      "id": "visuals-to-method",
+      "from": "visuals",
+      "to": "chapter-method",
+      "label": "explains",
+      "variant": "dashed"
+    },
+    {
+      "id": "method-to-atlas",
+      "from": "chapter-method",
+      "to": "atlas",
+      "label": "upgrades",
+      "fromSide": "top",
+      "toSide": "bottom"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "cyan",
+      "title": "Reader outcome",
+      "items": [
+        "Move from cloud chat into local building",
+        "Build ATLAS from solo memory to small-team knowledgebase"
+      ]
+    },
+    {
+      "dot": "emerald",
+      "title": "Chapter rhythm",
+      "items": [
+        "70% content and visual explanation",
+        "30% concrete ATLAS project work"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "Current gate",
+      "items": [
+        "Finish manifesto interview",
+        "Then create voice, TOC, research corpus, and outline"
+      ]
+    }
+  ]
+}

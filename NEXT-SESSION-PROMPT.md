@@ -252,6 +252,7 @@ Confirmed:
 - Author clarification: Nate Herk, AI Engineer, and Stanford CS329A are content, knowledge, and principle references. Use them for content direction, production examples, research leads, and technical rigor. Do not copy prose from any source.
 - Visual reference: six images were saved under `visual-references/blackboard-flow/`. The source images are dark, but the ebook will use a white background. Final visuals should adapt the style for white pages: charcoal/black handwritten text, rounded arrows, simple icons, generous empty space, and colored outline nodes.
 - Approved generated visual samples live under `visual-references/generated-samples/`. Use them as the current accepted direction: vertical, spacious, hand-drawn marker diagrams on a white/warm-white page; charcoal/black structure lines; short labels only; simple icons; rounded arrows; colored outline accents for meaning.
+- README now includes the current project landing page, pre-Chapter-1 setup plan, Chapter 1 candidate topics, and next editorial steps. An Archify project map lives under `docs/diagrams/beyond-chat-project-map.html` with source JSON and visual-check artifacts.
 
 Still open:
 

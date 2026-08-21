@@ -360,6 +360,15 @@ Visual reference material added on 2026-08-21:
 - Two generated white-background samples were approved by the author and saved under `visual-references/generated-samples/`.
 - Approved generated visual direction: vertical, spacious, hand-drawn marker diagrams on a white/warm-white page; charcoal/black structure lines; short labels only; simple icons; rounded arrows; colored outline accents for meaning. Avoid dark backgrounds, gradients, clutter, stock-art feel, 3D rendering, and decorative blobs.
 
+README/project-map material added on 2026-08-21:
+
+- The README was reworked into a project landing page with current status, ATLAS framing, pre-Chapter-1 setup plan, Chapter 1 candidate topics, chapter contract, reference material, Bookwright status, and next editorial steps.
+- An Archify project map was created under `docs/diagrams/`:
+  - `docs/diagrams/beyond-chat-project-map.architecture.json`
+  - `docs/diagrams/beyond-chat-project-map.html`
+  - `docs/diagrams/beyond-chat-project-map.visual-check.*`
+- Archify validation passed with 9/9 showcase checks, 0 errors, and 0 warnings. Visual containment passed at 1440x900, 1600x1000, 1920x1080, and 2048x1320. Human visual inspection of the light screenshot was acceptable for the README.
+
 Still open in the manifesto interview:
 
 - Exact ATLAS feature sequence within the solo-to-small-team AI second-brain knowledgebase progression.
