@@ -406,6 +406,17 @@ Creator/reference material consolidated on 2026-08-21:
   - Stanford CS329A contributes research-backed framing for self-improving agents, verification, feedback, planning, tool use, and evaluation.
 - Book-level synthesis: teach with Dan Koe's momentum and Matt Pocock's disciplined workflow; inform the content with Nate Herk's AI-curious bridge, AI Engineer's production reality, and Stanford CS329A's rigor while preserving an original **Beyond Chat** voice.
 
+Review persona draft added on 2026-08-21:
+
+- `reviews/writing-review-persona.md` defines **The Signal Builder**, a draft
+  chapter-review persona inspired by Dan Koe and Matt Pocock.
+- It is designed to review reader transformation, signal, simple-to-technical
+  mapping, build discipline, reviewability, feedback loops, shared language,
+  human-plus-agent usefulness, production gravity, and PDF page air.
+- It is **not** a voice replacement and must not imitate either creator's prose.
+  It remains pending author approval before becoming an official review asset
+  or being folded into Bookwright role files.
+
 Visual reference material added on 2026-08-21:
 
 - Six reference images were saved under `visual-references/blackboard-flow/`.
