@@ -307,6 +307,7 @@ Confirmed on 2026-08-21:
 - Reader progression experience: the book should feel lightly gamified through clear ATLAS checkpoints and "what's next" moments. Checkpoints should show what capability was unlocked, what ATLAS can now do, what limitation remains, and what the next chapter/part will unlock. The goal is orientation and excitement, not gimmicks.
 - Distribution access: free ebook.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when it is available in the environment. On 2026-08-21, `feynman` was checked and was not found on PATH in the current workspace.
+- ATLAS reference project: the author identified `https://github.com/Ntrakiyski/shared-living-memory` as the closest existing embodiment of ATLAS. It was cloned and analyzed on 2026-08-21 at commit `b9dffaf`. See `reference-projects/shared-living-memory-analysis.md`.
 
 Teaching-style material added on 2026-08-21:
 
