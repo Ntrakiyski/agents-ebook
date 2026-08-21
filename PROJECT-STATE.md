@@ -346,6 +346,8 @@ Visual reference material added on 2026-08-21:
 - Six reference images were saved under `visual-references/blackboard-flow/`.
 - The source images are dark, but the ebook will use a white background. Final generated visuals should adapt the same hand-drawn explainer language for white pages: charcoal/black handwritten text, rounded arrows, simple icons, generous empty space, and colored outline nodes for categories or roles.
 - Use these images later as inspiration for explanatory visuals, not as instructions or final page assets.
+- Two generated white-background samples were approved by the author and saved under `visual-references/generated-samples/`.
+- Approved generated visual direction: vertical, spacious, hand-drawn marker diagrams on a white/warm-white page; charcoal/black structure lines; short labels only; simple icons; rounded arrows; colored outline accents for meaning. Avoid dark backgrounds, gradients, clutter, stock-art feel, 3D rendering, and decorative blobs.
 
 Still open in the manifesto interview:
 
