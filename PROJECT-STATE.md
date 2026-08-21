@@ -363,11 +363,14 @@ Visual reference material added on 2026-08-21:
 README/project-map material added on 2026-08-21:
 
 - The README was reworked into a project landing page with current status, ATLAS framing, pre-Chapter-1 setup plan, Chapter 1 candidate topics, chapter contract, reference material, Bookwright status, and next editorial steps.
+- The README visual layer was corrected with `https://github.com/oil-oil/beautify-github-readme` after an initial accidental use of Archify as the primary README presentation. Current README presentation uses a GitHub-safe pure SVG hero at `assets/readme/hero.svg`.
 - An Archify project map was created under `docs/diagrams/`:
   - `docs/diagrams/beyond-chat-project-map.architecture.json`
   - `docs/diagrams/beyond-chat-project-map.html`
   - `docs/diagrams/beyond-chat-project-map.visual-check.*`
 - Archify validation passed with 9/9 showcase checks, 0 errors, and 0 warnings. Visual containment passed at 1440x900, 1600x1000, 1920x1080, and 2048x1320. Human visual inspection of the light screenshot was acceptable for the README.
+- The Archify map now remains a supporting project artifact linked from README proof, not the primary visual identity.
+- `beautify-github-readme` audit passed for `README.md`; Chrome preview of `assets/readme/hero.svg` passed at desktop width and width-scaled narrow preview.
 
 Still open in the manifesto interview:
 

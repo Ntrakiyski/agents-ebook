@@ -1,5 +1,9 @@
 # Beyond Chat
 
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Beyond Chat: a project-driven ebook that moves readers from cloud chat to a local agent workflow and the ATLAS shared second-brain project">
+</p>
+
 **Working subtitle:** A practical guide to building AI systems from prompts to
 autonomous agents.
 
@@ -16,16 +20,6 @@ shared, multiplayer-like knowledge system for a small team of around 10 people.
 > A reader can upload the PDF to cloud ChatGPT and read along, but the
 > recommended path moves them into a local/free agent workflow so they can build
 > ATLAS chapter by chapter.
-
-## Project Map
-
-[Open the interactive Archify map](docs/diagrams/beyond-chat-project-map.html)
-
-![Beyond Chat project map](docs/diagrams/beyond-chat-project-map.visual-check.1440x900.light.png)
-
-This map was generated with
-[Archify](https://github.com/tt-a1i/archify) and validated with its showcase
-checks.
 
 ## Current Status
 
@@ -51,6 +45,21 @@ Settled direction:
 
 Current facts about tools, providers, free models, rate limits, and product
 features must be re-verified before publication.
+
+## Project Proof
+
+This repository already contains the decisions and source material needed to
+recover the book without chat history:
+
+- The source-of-truth handoff: [`PROJECT-STATE.md`](PROJECT-STATE.md)
+- The editorial method: [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md)
+- The broad curriculum map: [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md)
+- The ATLAS reference analysis:
+  [`reference-projects/shared-living-memory-analysis.md`](reference-projects/shared-living-memory-analysis.md)
+- The approved visual direction:
+  [`visual-references/generated-samples/`](visual-references/generated-samples/)
+- The interactive project map:
+  [`docs/diagrams/beyond-chat-project-map.html`](docs/diagrams/beyond-chat-project-map.html)
 
 ## Start Here
 
@@ -199,6 +208,8 @@ Creator and technical references live under
 Visual direction lives under [`visual-references/`](visual-references/). The
 approved generated samples use a white-page, spacious, hand-drawn explainer
 style with short labels and colored outline accents.
+
+README assets live under [`assets/readme/`](assets/readme/).
 
 ## Bookwright
 

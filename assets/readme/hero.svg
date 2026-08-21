@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Beyond Chat</title>
+  <desc id="desc">A project-driven ebook that moves readers from cloud chat to a local agent workflow and the ATLAS shared second-brain project.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#e2e8f0" stroke-width="1" opacity=".45"/>
+    </pattern>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto">
+      <path d="M2 2L9 6L2 10" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="418" rx="32" fill="url(#paper)" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="22" y="22" width="1156" height="376" rx="24" fill="url(#grid)" opacity=".8"/>
+
+  <g transform="translate(64 58)">
+    <text x="0" y="0" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="700" fill="#2563eb" letter-spacing="3">PROJECT-DRIVEN EBOOK</text>
+    <text x="0" y="78" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="76" font-weight="850" fill="#0f172a">Beyond Chat</text>
+    <text x="0" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="30" font-weight="650" fill="#334155">Build AI systems from prompts</text>
+    <text x="0" y="162" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="30" font-weight="650" fill="#334155">to autonomous agents.</text>
+    <text x="0" y="207" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" fill="#475569">A practical guide for ChatGPT users who are ready to stop watching</text>
+    <text x="0" y="237" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" fill="#475569">and start building one real system: ATLAS.</text>
+
+    <g transform="translate(0 286)">
+      <rect x="0" y="0" width="176" height="42" rx="21" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+      <text x="88" y="27" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" font-weight="700" fill="#1d4ed8">FREE PDF</text>
+      <rect x="194" y="0" width="220" height="42" rx="21" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+      <text x="304" y="27" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" font-weight="700" fill="#15803d">LOCAL AGENT</text>
+      <rect x="432" y="0" width="190" height="42" rx="21" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+      <text x="527" y="27" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" font-weight="700" fill="#c2410c">BUILD ATLAS</text>
+    </g>
+  </g>
+
+  <g transform="translate(748 68)">
+    <rect x="0" y="0" width="360" height="320" rx="28" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="30" y="42" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="18" font-weight="800" fill="#64748b">reader path</text>
+
+    <g transform="translate(38 70)">
+      <rect x="0" y="0" width="284" height="54" rx="18" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+      <circle cx="28" cy="27" r="11" fill="#2563eb"/>
+      <text x="54" y="33" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="750" fill="#0f172a">Cloud chat</text>
+    </g>
+    <path d="M180 132V162" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+    <g transform="translate(38 166)">
+      <rect x="0" y="0" width="284" height="54" rx="18" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+      <rect x="20" y="15" width="24" height="20" rx="4" fill="none" stroke="#16a34a" stroke-width="3"/>
+      <path d="M24 15l5-8h19l6 8" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="54" y="33" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="750" fill="#0f172a">Local agent</text>
+    </g>
+    <path d="M180 228V258" fill="none" stroke="#0f172a" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+    <g transform="translate(38 262)">
+      <rect x="0" y="0" width="284" height="54" rx="18" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
+      <path d="M22 35h34l8-20H32l-4-8H16v28z" fill="none" stroke="#f97316" stroke-width="3" stroke-linejoin="round"/>
+      <text x="76" y="33" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" font-weight="800" fill="#0f172a">ATLAS</text>
+    </g>
+  </g>
+
+</svg>
