@@ -200,11 +200,11 @@ Do not invent these. The Bookwright interview should settle them with me:
 
 - final title/subtitle
 - final scope and exclusions
-- target length
+- final target length after the Chapter 1 sample
 - optional distribution variants beyond the main free PDF and dedicated website page
 - PDF page size
 - language variant
-- register and voice
+- register and voice details
 - style authority
 - citation system
 - code-example language/default stack
@@ -247,6 +247,11 @@ Confirmed:
 - Reader progression experience: preserve a light gamified feeling through ATLAS checkpoints and "what's next" moments. Each checkpoint should show the capability unlocked, what ATLAS can now do, what still breaks or remains missing, and what the next chapter/part will unlock.
 - Distribution access: free ebook.
 - Distribution format: PDF is confirmed as the first/main format. The PDF will live behind or alongside a dedicated page on the author's website containing the book explanation, setup instructions, links, and related resources. Page size is not decided yet.
+- Target length: provisional first-edition target is 80-120 pages, to be recalibrated after Chapter 1 shows the actual content/visual/project density.
+- Research posture: research-backed technical guide. The author's existing expertise and experience building autonomous systems should drive the structure and judgment, while important claims are supported by papers, official docs, technical articles, repositories, and hands-on experiments.
+- Resource style: include curated references and articles so readers can continue learning. Explain why each source matters; do not create giant link dumps.
+- First-edition build target: the reader should finish with a working local ATLAS system. The book may explain production/team-scale implications, but the core deliverable should be something the reader can run, inspect, and extend locally.
+- Voice baseline: direct and simple. Explanations should stay clear and low-noise. Quotes and openings should feel energetic and exciting, while the technical voice remains grounded.
 - ATLAS reference project: `https://github.com/Ntrakiyski/shared-living-memory` is the closest existing embodiment of ATLAS. It was analyzed on 2026-08-21 at commit `b9dffaf`; read `reference-projects/shared-living-memory-analysis.md`.
 - Reader-facing reference decision: the book may say ATLAS is inspired by Shared Living Memory, link to its GitHub repository, and use it as a navigation/reference point. Readers who build along should reach the same kind of product, or at least roughly 80% of its core capability.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when available. It was checked on 2026-08-21 and was not found on PATH in the current workspace.
@@ -260,10 +265,10 @@ Confirmed:
 Still open:
 
 - Exact ATLAS feature sequence inside the solo-to-small-team AI second-brain knowledgebase progression.
-- Voice-level teaching choices beyond the already recorded Dan/Matt teacher references.
-- Research division.
+- Voice-level teaching choices beyond the already recorded Dan/Matt teacher references and direct/simple baseline.
+- Research division details beyond the settled research-backed guide posture.
 - Distribution details beyond free PDF and dedicated website page: lead magnet mechanics, optional ePub/web-book variant, and publication location remain open.
-- Target length / first-edition size.
+- Final target length/page density after the Chapter 1 sample.
 - Voice interview items.
 
 ## Working behavior

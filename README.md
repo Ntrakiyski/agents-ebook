@@ -36,9 +36,12 @@ Settled direction:
 |---|---|
 | Format | Free PDF |
 | Distribution | Dedicated website page with PDF, setup instructions, links, and resources |
+| Target size | 80-120 pages as a provisional first-edition target |
 | Reader level | Basic ChatGPT use only |
+| Research posture | Research-backed technical guide with curated sources |
 | Teaching split | Roughly 70% content/visual explanation, 30% project work |
 | Project | ATLAS, a solo-to-team AI second brain |
+| Build target | A working local ATLAS system |
 | Default action path | Move from cloud chat into a local/free agent workflow |
 | Free model path | DeepSeek Harness Desktop + OpenRouter free models, with caveats |
 | Alternatives | Pi and Hermes for CLI use; Codex app for ChatGPT users |

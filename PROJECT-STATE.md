@@ -329,7 +329,12 @@ Confirmed on 2026-08-21:
 - Distribution access: free ebook.
 - Distribution format: PDF is confirmed as the first/main format. The PDF will live behind or alongside a dedicated page on the author's website containing the book explanation, setup instructions, links, and related resources.
 - Page size: not decided yet.
+- Target length: provisional first-edition target is **80-120 pages**. This should be recalibrated after seeing the real density of Chapter 1, because the author cannot judge final length accurately until the content/visual/project ratio is demonstrated in an actual chapter.
+- Research posture: the book should be a **research-backed technical guide**, not an academic monograph and not a casual opinion guide. The author's existing expertise and experience building autonomous systems should drive the structure and judgment, while important claims are backed by papers, official docs, technical articles, repositories, and hands-on experiments.
+- Resource style: include curated references and articles so readers can continue learning after each chapter. Do not turn resources into giant link dumps; explain why each source matters and which claim or continuation path it supports.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when it is available in the environment. On 2026-08-21, `feynman` was checked and was not found on PATH in the current workspace.
+- First-edition build target: the reader should finish with a **working local ATLAS system**. The book can explain production and team-scale implications, but the core deliverable should be something the reader can actually run, inspect, and extend locally.
+- Voice direction: direct and simple. Explanations should stay clear and low-noise. Quotes and opening lines should feel energetic and exciting, but the main technical voice should remain practical and grounded.
 - ATLAS reference project: the author identified `https://github.com/Ntrakiyski/shared-living-memory` as the closest existing embodiment of ATLAS. It was cloned and analyzed on 2026-08-21 at commit `b9dffaf`. See `reference-projects/shared-living-memory-analysis.md`.
 - Reader-facing reference decision: the book may explicitly say ATLAS is inspired by Shared Living Memory, link to the GitHub repository, and use it as a navigation/reference point so readers can inspect or use the real project if they want.
 - Final build target: by the end of the book, a reader who builds along should have achieved the same kind of product as Shared Living Memory, or at least roughly 80% of its core capability in the teaching implementation.
@@ -378,10 +383,9 @@ README/project-map material added on 2026-08-21:
 Still open in the manifesto interview:
 
 - Exact ATLAS feature sequence within the solo-to-small-team AI second-brain knowledgebase progression.
-- Voice-level teaching choices beyond the already recorded teacher/reference split.
-- Research division: public-source synthesis, `feynman`-assisted papers, hands-on experiments, interviews, fieldwork, or some mix.
+- Voice-level teaching choices beyond the already recorded teacher/reference split and the direct/simple baseline.
+- Research division details: public-source synthesis, `feynman`-assisted papers when available, hands-on experiments, interviews, fieldwork, or some mix. The broad research posture is now settled as a research-backed technical guide.
 - Distribution details beyond free PDF and dedicated website page: lead-magnet mechanics, optional ePub/web-book variant, and publication location remain open.
-- Target length or first-edition size remains open.
 - Scope details should be stated plainly in the manifesto, using `BOOK-BLUEPRINT.md` as the authoritative broad scope. The author has clarified that the book should avoid deep model-training theory, heavy math, and deep infrastructure setup unless necessary to understand a system layer.
 
 The next session should resume the manifesto interview at the exact ATLAS
@@ -395,11 +399,11 @@ distribution-details block.
 These should be settled through the Bookwright manifesto/voice interview rather than guessed:
 
 - final title and subtitle (`Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is current working language, not necessarily final)
-- target length
+- target length finalization after the Chapter 1 sample, with 80-120 pages as the current provisional first-edition target
 - optional distribution variants beyond the main free PDF and dedicated website page
 - PDF page size
 - writing language variant
-- register / voice
+- register / voice details beyond the direct/simple baseline and energetic quote style
 - style authority
 - citation system
 - formatting conventions
