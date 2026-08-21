@@ -1,1 +1,52 @@
-# agents-ebook
+# Building With AI — Agents Ebook
+
+A project-driven book about moving from prompts and model calls to complete production AI systems: context, agents, harnesses, runtime, evals, security, observability, orchestration, governance, economics, and AI-native organizations.
+
+## Start Here
+
+1. [`CORE-PRINCIPLES.md`](CORE-PRINCIPLES.md) — the 10 principles through which the entire book should be read.
+2. [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md) — the current 15-dimension, 66-chapter architecture of the book.
+3. [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md) — how we research, outline, build, write, evaluate, and edit the manuscript.
+4. [`research/SOURCE-STANDARDS.md`](research/SOURCE-STANDARDS.md) — evidence and resource requirements for every chapter.
+
+## Bookwright
+
+The editorial workflow is based on Adrian Mastronardi's [Bookwright](https://github.com/AdrianMastronardi/bookwright) seven-phase long-form writing system.
+
+The upstream skill is included under [`skills/bookwright/SKILL.md`](skills/bookwright/SKILL.md) with its MIT license preserved.
+
+Bookwright gives the project a disciplined progression through manifesto, voice, structure, bibliography, evidence-rich outline, writing/editorial passes, and final whole-manuscript assessment. This project extends that model with three requirements:
+
+- **Core principles first** — the book begins with the mindset used to reason about every later technology.
+- **One concept → one real build** — projects are the teaching mechanism, not optional exercises at the end.
+- **Evidence with every chapter** — documentation, papers, repositories, articles, books, talks, people, channels, case studies, experiments, and evaluations support what the book says.
+
+## Current Direction
+
+The reader builds one evolving system throughout the book, currently named **ATLAS**.
+
+```text
+Model
+  ↓
+Prompt
+  ↓
+Context
+  ↓
+Tools
+  ↓
+Agent
+  ↓
+Harness
+  ↓
+Workflow
+  ↓
+Evaluation
+  ↓
+Autonomy
+  ↓
+Multi-Agent System
+  ↓
+Self-Improving AI System
+```
+
+The goal is not to teach a temporary collection of AI products. The goal is to teach the durable primitives, mental models, engineering practices, and operating principles needed to build complete AI systems.
