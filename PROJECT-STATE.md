@@ -304,6 +304,7 @@ Confirmed on 2026-08-21:
 - Running project name: **ATLAS** remains acceptable.
 - Running project domain: ATLAS should become an AI second-brain knowledgebase suitable for one person and for multiple people. The system should be "multiplayer-like": useful for a solo user, but designed so a team of roughly 10 people can also share knowledge, collaborate, preserve provenance, and work with agents over the same knowledge system.
 - ATLAS progression: the entire book/guide should teach how to achieve this outcome step by step, starting with a second brain that works for one person and ending with a shared AI knowledgebase that can scale to a small team of around 10 people.
+- Reader progression experience: the book should feel lightly gamified through clear ATLAS checkpoints and "what's next" moments. Checkpoints should show what capability was unlocked, what ATLAS can now do, what limitation remains, and what the next chapter/part will unlock. The goal is orientation and excitement, not gimmicks.
 - Distribution access: free ebook.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when it is available in the environment. On 2026-08-21, `feynman` was checked and was not found on PATH in the current workspace.
 

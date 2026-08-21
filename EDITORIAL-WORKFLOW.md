@@ -320,6 +320,19 @@ Measure success rather than declaring it.
 ## 9. ATLAS Upgrade
 Show exactly what capability the evolving system gained.
 
+This section should also act as a light checkpoint in the reader's journey:
+
+```text
+Capability unlocked
+What ATLAS can now do
+What still breaks or remains missing
+What's next
+```
+
+The goal is to give the book a game-like sense of progression without turning
+the prose into a gimmick. Each chapter should leave the reader knowing both
+where they are in the system and why the next capability matters.
+
 ## 10. Evidence & Resources
 Give the reader the source trail and continuation path.
 

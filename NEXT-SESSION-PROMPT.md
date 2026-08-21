@@ -225,6 +225,7 @@ Confirmed:
 - Human + agent reading model: readers should be advised to share the book with their AI assistant and move page by page or chapter by chapter so both the human and the agent absorb the system principles.
 - Running project domain: ATLAS becomes an AI second-brain knowledgebase that works for one person and can scale to a small team, roughly 10 people, in a multiplayer-like shared knowledge environment.
 - ATLAS progression: the book starts with a solo second brain for one person and ends with a shared AI knowledgebase for a small team of around 10 people.
+- Reader progression experience: preserve a light gamified feeling through ATLAS checkpoints and "what's next" moments. Each checkpoint should show the capability unlocked, what ATLAS can now do, what still breaks or remains missing, and what the next chapter/part will unlock.
 - Distribution access: free ebook.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when available. It was checked on 2026-08-21 and was not found on PATH in the current workspace.
 - Teaching-style reference: `dan-koe-content/` has been added. Use it as inspiration for structure and reader energy, not prose to copy. Initial observations: promise-first openings, short sections, named protocols, identity/agency framing, simple-to-technical mapping, project-based learning, direct imperatives, and emphasis on using AI to learn and build rather than outsource thinking.
