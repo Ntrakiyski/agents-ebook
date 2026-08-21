@@ -338,8 +338,8 @@ been self-reviewed for consistency with project law. The author confirmed it on
 
 Confirmed on 2026-08-21:
 
-- Working title: **Beyond Chat**
-- Working subtitle: **A practical guide to building AI systems from prompts to autonomous agents**
+- Title: **Beyond Chat**
+- Subtitle: **A practical guide to building AI systems from prompts to autonomous agents**
 - Format: ebook.
 - Desired reading experience: easy to read, spacious, uncluttered pages, clear headings, bullets, short text, clear instructions, and distinct text elements that help readers grasp layers quickly.
 - Chapter balance: each chapter should be roughly **70% content and visual explanation** and **30% project work**. The reading/visual side should carry the mental model and big-picture understanding; the project side should turn that chapter's idea into a concrete increment for either ATLAS or the shared memory system.
@@ -439,7 +439,6 @@ Still open before scaffold/TOC work:
 These should be settled through the Bookwright voice interview, TOC conversion,
 or the Chapter 1 sample rather than guessed:
 
-- final title and subtitle (`Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is current working language, not necessarily final)
 - target length finalization after the Chapter 1 sample, with 80-120 pages as the current provisional first-edition target
 - optional distribution variants beyond the main free PDF and dedicated website page
 - PDF page size

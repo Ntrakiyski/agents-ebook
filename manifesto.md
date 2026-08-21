@@ -207,8 +207,8 @@ frameworks as examples requiring re-verification before publication.
 
 ## 10. Decisions taken and recorded
 
-- Working title: *Beyond Chat*.
-- Working subtitle: *A practical guide to building AI systems from prompts to autonomous agents*.
+- Title: *Beyond Chat*.
+- Subtitle: *A practical guide to building AI systems from prompts to autonomous agents*.
 - Main format: free PDF ebook.
 - Provisional target length: 80-120 pages, to be recalibrated after Chapter 1.
 - Primary audience: AI-curious ChatGPT users who have watched advanced content but have not built real systems.

@@ -223,7 +223,6 @@ Do not randomly add chapters. Integrate these deliberately into the existing arc
 Do not invent these. The Bookwright voice interview, TOC conversion, or the
 Chapter 1 sample should settle them:
 
-- final title/subtitle
 - final target length after the Chapter 1 sample
 - optional distribution variants beyond the main free PDF and dedicated website page
 - PDF page size
@@ -235,7 +234,7 @@ Chapter 1 sample should settle them:
 - implementation-depth expectations
 - chapter-level conversion of the approved roadmap checkpoints into the formal TOC
 
-`Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is the current working title/subtitle. `ATLAS` is now the accepted running name for the book-aware companion agent. The product should be called the shared memory system or shared second-brain knowledgebase for the first edition unless the author explicitly changes it later.
+`Beyond Chat — A practical guide to building AI systems from prompts to autonomous agents` is the confirmed first-edition title/subtitle unless the author deliberately revises it later. `ATLAS` is now the accepted running name for the book-aware companion agent. The product should be called the shared memory system or shared second-brain knowledgebase for the first edition unless the author explicitly changes it later.
 
 ## Current Bookwright manifesto progress
 

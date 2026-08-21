@@ -4,7 +4,7 @@
   <img src="./assets/readme/hero.svg" width="100%" alt="Beyond Chat: a project-driven ebook that moves readers from cloud chat to the ATLAS agent companion and a shared second-brain project">
 </p>
 
-**Working subtitle:** A practical guide to building AI systems from prompts to
+**Subtitle:** A practical guide to building AI systems from prompts to
 autonomous agents.
 
 **Beyond Chat** is an in-progress, project-driven ebook for people who know how
