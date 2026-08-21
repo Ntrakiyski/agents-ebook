@@ -17,15 +17,16 @@ Read these files in this order:
 1. `README.md`
 2. `PROJECT-STATE.md`
 3. `soul.md`
-4. `roadmap.md`
-5. `CORE-PRINCIPLES.md`
-6. `CONCEPTUAL-FRAMEWORKS.md`
-7. `BOOK-BLUEPRINT.md`
-8. `EDITORIAL-WORKFLOW.md`
-9. `research/SOURCE-STANDARDS.md`
-10. `skills/bookwright/SKILL.md`
-11. `skills/bookwright/bootstrap.md`
-12. `skills/bookwright/workflow.md`
+4. `manifesto.md`
+5. `roadmap.md`
+6. `CORE-PRINCIPLES.md`
+7. `CONCEPTUAL-FRAMEWORKS.md`
+8. `BOOK-BLUEPRINT.md`
+9. `EDITORIAL-WORKFLOW.md`
+10. `research/SOURCE-STANDARDS.md`
+11. `skills/bookwright/SKILL.md`
+12. `skills/bookwright/bootstrap.md`
+13. `skills/bookwright/workflow.md`
 
 Treat the repo as authoritative. If something in this prompt conflicts with a newer committed decision in the repo, surface the conflict rather than silently choosing one.
 
@@ -204,7 +205,7 @@ Ask the manifesto questions in grouped blocks, summarize my answers, and wait fo
 
 Only after manifesto and voice are confirmed should we lock the formal TOC, research corpus, evidence-rich outline, and chapters.
 
-The upstream Bookwright templates have not all been vendored locally yet. Before the scaffold-generation phase, either copy the required templates from `https://github.com/AdrianMastronardi/bookwright/tree/main/templates` into `skills/bookwright/templates/` while preserving the upstream license, or read them from upstream when generating the project artifacts.
+The upstream Bookwright templates have not all been vendored locally yet. `templates/manifesto.md` has been vendored. Before the scaffold-generation phase, copy the remaining required templates from `https://github.com/AdrianMastronardi/bookwright/tree/main/templates` into `skills/bookwright/templates/` while preserving the upstream license, or read them from upstream when generating the project artifacts.
 
 ## Known blueprint audit items
 
@@ -236,7 +237,7 @@ Do not invent these. The Bookwright interview should settle them with me:
 
 ## Current Bookwright manifesto progress
 
-The manifesto interview has started but is incomplete. Do not create `manifesto.md` yet.
+The manifesto interview produced `manifesto.md`, generated on 2026-08-21. It is pending final author confirmation. Do not start the voice interview until the author approves or corrects `manifesto.md`.
 
 Confirmed:
 
@@ -291,6 +292,7 @@ Confirmed:
 
 Still open:
 
+- Final author confirmation or correction of `manifesto.md`.
 - Voice-level teaching choices beyond the already recorded Dan/Matt teacher references and direct/simple baseline.
 - Research division details beyond the settled research-backed guide posture.
 - Distribution details beyond free PDF and dedicated website page: lead magnet mechanics, optional ePub/web-book variant, and publication location remain open.
@@ -319,4 +321,4 @@ First, read the repository files listed above and give me a **short recovery rep
 - what remains open
 - the correct next step
 
-Then summarize the completed Bookwright manifesto inputs and ask for explicit confirmation to generate `manifesto.md`. Do not redesign the book or start Chapter 1 before completing the Bookwright gates.
+Then ask the author to confirm or correct `manifesto.md`. Do not redesign the book or start Chapter 1 before completing the Bookwright gates.

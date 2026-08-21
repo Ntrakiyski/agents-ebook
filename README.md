@@ -26,10 +26,11 @@ of around 10 people.
 
 The project is still in the **Bookwright bootstrap** phase.
 
-Do **not** start drafting chapters yet. The next editorial gate is to finish the
-Bookwright manifesto interview, create `manifesto.md`, run the voice interview,
-and create `voice.md`. Only after those are confirmed should the formal TOC,
-research corpus, evidence-rich outline, and chapters be locked.
+Do **not** start drafting chapters yet. `manifesto.md` has been generated and is
+pending author confirmation. The next editorial gate is to confirm or correct
+`manifesto.md`, run the voice interview, and create `voice.md`. Only after those
+are confirmed should the formal TOC, research corpus, evidence-rich outline, and
+chapters be locked.
 
 Settled direction:
 
@@ -58,6 +59,7 @@ This repository already contains the decisions and source material needed to
 recover the book without chat history:
 
 - The source-of-truth handoff: [`PROJECT-STATE.md`](PROJECT-STATE.md)
+- The generated manifesto draft: [`manifesto.md`](manifesto.md)
 - The editorial method: [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md)
 - The broad curriculum map: [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md)
 - The approved checkpoint path: [`roadmap.md`](roadmap.md)
@@ -76,18 +78,20 @@ Read these files in order when recovering the project:
 1. [`PROJECT-STATE.md`](PROJECT-STATE.md) - durable handoff, settled decisions,
    open questions, audit findings, and next sequence.
 2. [`soul.md`](soul.md) - ATLAS, the book-aware companion agent persona.
-3. [`roadmap.md`](roadmap.md) - approved ATLAS/shared-memory checkpoint path.
-4. [`CORE-PRINCIPLES.md`](CORE-PRINCIPLES.md) - the 10 principles through which
+3. [`manifesto.md`](manifesto.md) - generated manifesto draft pending author
+   confirmation.
+4. [`roadmap.md`](roadmap.md) - approved ATLAS/shared-memory checkpoint path.
+5. [`CORE-PRINCIPLES.md`](CORE-PRINCIPLES.md) - the 10 principles through which
    the entire book should be read.
-5. [`CONCEPTUAL-FRAMEWORKS.md`](CONCEPTUAL-FRAMEWORKS.md) - capability ladder,
+6. [`CONCEPTUAL-FRAMEWORKS.md`](CONCEPTUAL-FRAMEWORKS.md) - capability ladder,
    seven planes, AI-system iceberg, autonomy ladder, and recurring models.
-6. [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md) - broad pre-manifesto curriculum
+7. [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md) - broad pre-manifesto curriculum
    architecture, not the final TOC.
-7. [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md) - research, outline, build,
+8. [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md) - research, outline, build,
    writing, evaluation, and editing workflow.
-8. [`research/SOURCE-STANDARDS.md`](research/SOURCE-STANDARDS.md) - evidence and
+9. [`research/SOURCE-STANDARDS.md`](research/SOURCE-STANDARDS.md) - evidence and
    resource requirements.
-9. [`NEXT-SESSION-PROMPT.md`](NEXT-SESSION-PROMPT.md) - copy/paste handoff for a
+10. [`NEXT-SESSION-PROMPT.md`](NEXT-SESSION-PROMPT.md) - copy/paste handoff for a
    fresh AI session.
 
 ## What The Book Teaches
@@ -261,18 +265,18 @@ Local Bookwright material:
 - [`skills/bookwright/workflow.md`](skills/bookwright/workflow.md)
 - [`skills/bookwright/LICENSE`](skills/bookwright/LICENSE)
 
-The upstream `templates/` directory has not yet been vendored. Fetch or copy it
-before running Bookwright's scaffold-generation phase verbatim.
+Only `templates/manifesto.md` has been vendored so far. Fetch or copy the
+remaining upstream templates before running Bookwright's scaffold-generation
+phase verbatim.
 
 ## Next Editorial Steps
 
-1. Finish the Bookwright manifesto interview.
-2. Create `manifesto.md` and get author confirmation.
-3. Run the voice interview.
-4. Create `voice.md` and get author confirmation.
-5. Lock the first-edition scope and ATLAS/shared-memory feature sequence.
-6. Convert `BOOK-BLUEPRINT.md` into `toc.md`.
-7. Build the initial research corpus and `references.bib`.
-8. Create `outline.md` chapter cards.
-9. Mark Chapter 1 `DRAFT-READY`.
-10. Only then draft Chapter 1.
+1. Confirm or correct `manifesto.md`.
+2. Run the voice interview.
+3. Create `voice.md` and get author confirmation.
+4. Lock the first-edition scope and ATLAS/shared-memory feature sequence.
+5. Convert `BOOK-BLUEPRINT.md` into `toc.md`.
+6. Build the initial research corpus and `references.bib`.
+7. Create `outline.md` chapter cards.
+8. Mark Chapter 1 `DRAFT-READY`.
+9. Only then draft Chapter 1.

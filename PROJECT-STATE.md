@@ -312,9 +312,17 @@ skills/bookwright/
 └── LICENSE
 ```
 
-Important: the upstream Bookwright `templates/` directory is **not yet vendored locally**. Before running its scaffold-generation phase verbatim, either copy the upstream templates into `skills/bookwright/templates/` or read them directly from the upstream repository.
+Important: only the upstream Bookwright `templates/manifesto.md` file has been
+vendored locally so far. Before running the scaffold-generation phase verbatim,
+copy the remaining upstream templates into `skills/bookwright/templates/` or
+read them directly from the upstream repository.
 
-Do not fabricate `manifesto.md` or `voice.md` from assumptions. Bookwright explicitly requires an interview and confirmation gates.
+`manifesto.md` was generated on 2026-08-21 from approved interview answers and
+is pending final author confirmation. Do not move to `voice.md` until the author
+confirms or corrects the generated manifesto.
+
+Do not fabricate `voice.md` from assumptions. Bookwright explicitly requires an
+interview and confirmation gate.
 
 The approved ATLAS/shared-memory checkpoint path now lives in `roadmap.md`. It
 is a manifesto input, not the final TOC.
@@ -323,8 +331,9 @@ is a manifesto input, not the final TOC.
 
 # Bookwright Manifesto Interview Progress
 
-The Bookwright manifesto interview has started but is not complete. Do not create
-`manifesto.md` yet.
+The Bookwright manifesto interview has produced `manifesto.md`, but the
+generated file is still pending final author confirmation. Do not start the
+voice interview until the author approves or corrects `manifesto.md`.
 
 Confirmed on 2026-08-21:
 
@@ -416,16 +425,12 @@ README/project-map material added on 2026-08-21:
 - The Archify map now remains a supporting project artifact linked from README proof, not the primary visual identity.
 - `beautify-github-readme` audit passed for `README.md`; Chrome preview of `assets/readme/hero.svg` passed at desktop width and width-scaled narrow preview.
 
-Still open in the manifesto interview:
+Still open before the voice interview:
 
-- Voice-level teaching choices beyond the already recorded teacher/reference split and the direct/simple baseline.
-- Research division details: public-source synthesis, `feynman`-assisted papers when available, hands-on experiments, interviews, fieldwork, or some mix. The broad research posture is now settled as a research-backed technical guide.
-- Distribution details beyond free PDF and dedicated website page: lead-magnet mechanics, optional ePub/web-book variant, and publication location remain open.
-- Scope details should be stated plainly in the manifesto, using `BOOK-BLUEPRINT.md` as the authoritative broad scope. The author has clarified that the book should avoid deep model-training theory, heavy math, and deep infrastructure setup unless necessary to understand a system layer.
+- Final author confirmation or correction of `manifesto.md`.
 
-The next session should resume the manifesto interview at the exact ATLAS and
-shared-memory-system feature sequence, voice-level teaching choices,
-research-division, and distribution-details block.
+After manifesto confirmation, the next session should begin the Bookwright
+voice interview.
 
 ---
 
@@ -515,10 +520,9 @@ Recommended order:
 
 1. Read `README.md`, `PROJECT-STATE.md`, `soul.md`, `roadmap.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
 2. Read `skills/bookwright/SKILL.md`, `bootstrap.md`, and `workflow.md`.
-3. Summarize the completed Bookwright manifesto inputs and ask for explicit confirmation to generate `manifesto.md`.
-4. After confirmation, create `manifesto.md`.
-5. Run the Bookwright **voice interview**.
-6. After confirmation, create `voice.md`.
+3. Ask the author to confirm or correct the generated `manifesto.md`.
+4. After manifesto confirmation, run the Bookwright **voice interview**.
+5. After confirmation, create `voice.md`.
 7. Vendor or fetch the required Bookwright templates before generating its remaining artifacts.
 8. Review the blueprint gaps above (browser/computer use and multimodal agents) before locking the formal TOC.
 9. Convert `BOOK-BLUEPRINT.md` into `toc.md` with one-sentence functions and build outcomes.
