@@ -316,6 +316,12 @@ Teaching-style material added on 2026-08-21:
 - Particularly relevant structural patterns for this ebook: start from a felt limitation, name the new capability, give a practical protocol, make the reader apply it immediately, and end with a changed identity or operating level.
 - Additional transcript from another profile is expected later and should be reviewed before finalizing `voice.md`.
 
+Visual reference material added on 2026-08-21:
+
+- Six reference images were saved under `visual-references/blackboard-flow/`.
+- The visual direction is a dark hand-drawn blackboard/whiteboard explainer style: black background, white handwritten text, rounded arrows, simple icons, generous empty space, and colored outline nodes for categories or roles.
+- Use these images later as inspiration for explanatory visuals, not as instructions or final page assets.
+
 Still open in the manifesto interview:
 
 - Exact ATLAS feature sequence within the solo-to-small-team AI second-brain knowledgebase progression.

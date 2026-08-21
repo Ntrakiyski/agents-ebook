@@ -229,6 +229,7 @@ Confirmed:
 - Distribution access: free ebook.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when available. It was checked on 2026-08-21 and was not found on PATH in the current workspace.
 - Teaching-style reference: `dan-koe-content/` has been added. Use it as inspiration for structure and reader energy, not prose to copy. Initial observations: promise-first openings, short sections, named protocols, identity/agency framing, simple-to-technical mapping, project-based learning, direct imperatives, and emphasis on using AI to learn and build rather than outsource thinking.
+- Visual reference: six images were saved under `visual-references/blackboard-flow/`. The desired direction is a dark hand-drawn blackboard/whiteboard explainer style with white handwritten text, rounded arrows, simple icons, generous empty space, and colored outline nodes.
 
 Still open:
 
