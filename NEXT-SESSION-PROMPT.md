@@ -266,7 +266,7 @@ Confirmed:
 - Agent name: ATLAS is the book-aware companion agent that represents the ebook when uploaded into a chat or local agent.
 - Running project domain: the shared memory system becomes an AI second-brain knowledgebase that works for one person and can scale to a small team, roughly 10 people, in a multiplayer-like shared knowledge environment.
 - Shared-memory progression: the book starts with a solo second brain for one person and ends with a shared AI knowledgebase for a small team of around 10 people.
-- Proposed checkpoint roadmap: `roadmap.md` defines a 12-step first-edition path from leaving cloud chat, becoming ATLAS, creating a workspace, capturing first knowledge, grounding answers, choosing context, structuring memory, adding lifecycle, evaluating recall, giving ATLAS tools, adding team boundaries, and governing the system. This needs author approval before it becomes manifesto law.
+- Approved checkpoint roadmap: `roadmap.md` defines a 12-step first-edition path from leaving cloud chat, becoming ATLAS, creating a workspace, capturing first knowledge, grounding answers, choosing context, structuring memory, adding lifecycle, evaluating recall, giving ATLAS tools, adding team boundaries, and governing the system. The author approved this roadmap on 2026-08-21 as manifesto input.
 - Reader progression experience: preserve a light gamified feeling through checkpoints and "what's next" moments. Each checkpoint should show the capability unlocked, what ATLAS now understands or can help with, what the shared memory system can now do, what still breaks or remains missing, and what the next chapter/part will unlock.
 - Distribution access: free ebook.
 - Distribution format: PDF is confirmed as the first/main format. The PDF will live behind or alongside a dedicated page on the author's website containing the book explanation, setup instructions, links, and related resources. Page size is not decided yet.
@@ -291,7 +291,6 @@ Confirmed:
 
 Still open:
 
-- Author approval or correction of the proposed feature sequence in `roadmap.md`.
 - Voice-level teaching choices beyond the already recorded Dan/Matt teacher references and direct/simple baseline.
 - Research division details beyond the settled research-backed guide posture.
 - Distribution details beyond free PDF and dedicated website page: lead magnet mechanics, optional ePub/web-book variant, and publication location remain open.
@@ -320,4 +319,4 @@ First, read the repository files listed above and give me a **short recovery rep
 - what remains open
 - the correct next step
 
-Then ask the author to approve or correct `roadmap.md`, and resume the **Bookwright manifesto interview** at the remaining teaching-style influences, research-division, and distribution-details block. Do not redesign the book or start Chapter 1 before completing the Bookwright gates.
+Then summarize the completed Bookwright manifesto inputs and ask for explicit confirmation to generate `manifesto.md`. Do not redesign the book or start Chapter 1 before completing the Bookwright gates.

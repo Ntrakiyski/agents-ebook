@@ -1,11 +1,12 @@
 # ATLAS + Shared Memory Roadmap
 
-Status: proposed checkpoint roadmap for Bookwright manifesto approval.  
+Status: approved checkpoint roadmap for Bookwright manifesto input.
 Created: 2026-08-21
+Approved: 2026-08-21
 
-This is not the final table of contents. It is the first practical capability
-path for the book: the reader first creates **ATLAS**, the book-aware companion
-agent, then uses ATLAS to build the **shared memory system**.
+This is not the final table of contents. It is the approved first practical
+capability path for the book: the reader first creates **ATLAS**, the book-aware
+companion agent, then uses ATLAS to build the **shared memory system**.
 
 The roadmap keeps the book honest:
 
