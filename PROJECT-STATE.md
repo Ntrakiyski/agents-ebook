@@ -317,9 +317,10 @@ vendored locally so far. Before running the scaffold-generation phase verbatim,
 copy the remaining upstream templates into `skills/bookwright/templates/` or
 read them directly from the upstream repository.
 
-`manifesto.md` was generated on 2026-08-21 from approved interview answers and
-is pending final author confirmation. Do not move to `voice.md` until the author
-confirms or corrects the generated manifesto.
+`manifesto.md` was generated on 2026-08-21 from approved interview answers,
+then self-reviewed and tightened for scope coverage. It is pending final author
+confirmation. Do not move to `voice.md` until the author confirms or corrects
+the generated manifesto.
 
 Do not fabricate `voice.md` from assumptions. Bookwright explicitly requires an
 interview and confirmation gate.
@@ -331,9 +332,10 @@ is a manifesto input, not the final TOC.
 
 # Bookwright Manifesto Interview Progress
 
-The Bookwright manifesto interview has produced `manifesto.md`, but the
-generated file is still pending final author confirmation. Do not start the
-voice interview until the author approves or corrects `manifesto.md`.
+The Bookwright manifesto interview has produced `manifesto.md`, and the file has
+been self-reviewed for consistency with project law. It is still pending final
+author confirmation. Do not start the voice interview until the author approves
+or corrects `manifesto.md`.
 
 Confirmed on 2026-08-21:
 

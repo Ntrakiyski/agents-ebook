@@ -1,6 +1,6 @@
 # Manifesto
 
-Status: generated draft pending author confirmation.
+Status: self-reviewed draft pending author confirmation.
 Generated: 2026-08-21
 
 Beyond Chat: A practical guide to building AI systems from prompts to autonomous agents
@@ -11,7 +11,8 @@ Beyond Chat: A practical guide to building AI systems from prompts to autonomous
 to use ChatGPT and want to understand what comes next. It is not a dictionary of
 AI terms and not a vendor tour. It is a practical guide to the durable layers of
 AI systems: models, prompts, context, tools, agents, harnesses, workflows,
-evaluation, autonomy, multi-agent systems, and governance.
+evaluation, autonomy, multi-agent systems, operations, economics, governance,
+versioning, and portability.
 
 The first edition is a PDF ebook, provisionally targeted at 80-120 pages. The
 reading experience should be spacious and low-noise: clear headings, short
@@ -71,7 +72,8 @@ The scope is practical AI-system building for the current agent era, written so
 the principles survive changes in vendors and tools. The book begins with the
 smallest useful unit - the model call - and builds upward through prompts,
 context, tools, agents, harnesses, workflows, evals, autonomy, multi-agent
-systems, self-improving systems, and AI-native organizations.
+systems, self-improving systems, and the organizational conditions around
+AI-native work.
 
 The concrete first-edition build path is approved in `roadmap.md`. The reader
 leaves cloud chat, creates ATLAS, creates a workspace, captures first
@@ -79,12 +81,22 @@ knowledge, grounds answers in evidence, chooses context, structures memory,
 adds memory lifecycle rules, evaluates recall, gives ATLAS scoped tools, adds
 team boundaries, and introduces governance.
 
+The formal TOC must explicitly place two capability areas that are easy to
+underrepresent. First, browser and computer use should be taught through the
+capability hierarchy of structured API, CLI/SDK, browser automation, and then
+vision or general computer use. Second, multimodal agent systems should appear
+where relevant: agents consuming and producing screenshots, PDFs, images,
+audio, video, and other artifacts. These areas should be integrated deliberately
+instead of mechanically added as extra chapters.
+
 The book excludes deep model-training theory, heavy math, and deep
 infrastructure setup unless a limited explanation is necessary to understand a
 system layer. It may discuss production, deployment, security, identity,
 permissions, observability, and governance, but the first-edition deliverable is
 a working local ATLAS companion and shared memory system, not an enterprise
-platform.
+platform. Later layers such as self-improving systems and AI-native
+organizations should be taught as architectural destinations and production
+lenses unless the first-edition roadmap explicitly gives them build depth.
 
 ## 5. Methodological model
 
@@ -207,5 +219,7 @@ frameworks as examples requiring re-verification before publication.
 - Research posture: research-backed technical guide.
 - Voice baseline: direct and simple, with energetic openings and grounded technical prose.
 - Tooling path: local/free agent workflow first; DeepSeek Harness Desktop, Pi, Hermes, Codex app, OpenRouter, Eve, GitHub, Vercel, and Docker are current implementation examples, not permanent curriculum anchors.
+- Browser/computer use must be placed deliberately through the API to CLI/SDK to browser automation to general computer-use hierarchy.
+- Multimodal artifacts such as screenshots, PDFs, images, audio, and video must be integrated where they clarify models, tools, context, runtime, and evaluation.
 - Scope exclusions: deep model-training theory, heavy math, and deep infrastructure setup unless needed to understand a system layer.
 - Citation system, page size, exact language variant, and detailed style authority remain for the voice gate.

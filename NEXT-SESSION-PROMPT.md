@@ -237,7 +237,10 @@ Do not invent these. The Bookwright interview should settle them with me:
 
 ## Current Bookwright manifesto progress
 
-The manifesto interview produced `manifesto.md`, generated on 2026-08-21. It is pending final author confirmation. Do not start the voice interview until the author approves or corrects `manifesto.md`.
+The manifesto interview produced `manifesto.md`, generated on 2026-08-21 and
+self-reviewed for scope coverage. It is pending final author confirmation. Do
+not start the voice interview until the author approves or corrects
+`manifesto.md`.
 
 Confirmed:
 

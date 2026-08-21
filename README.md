@@ -26,11 +26,11 @@ of around 10 people.
 
 The project is still in the **Bookwright bootstrap** phase.
 
-Do **not** start drafting chapters yet. `manifesto.md` has been generated and is
-pending author confirmation. The next editorial gate is to confirm or correct
-`manifesto.md`, run the voice interview, and create `voice.md`. Only after those
-are confirmed should the formal TOC, research corpus, evidence-rich outline, and
-chapters be locked.
+Do **not** start drafting chapters yet. `manifesto.md` has been generated,
+self-reviewed, and is pending author confirmation. The next editorial gate is
+to confirm or correct `manifesto.md`, run the voice interview, and create
+`voice.md`. Only after those are confirmed should the formal TOC, research
+corpus, evidence-rich outline, and chapters be locked.
 
 Settled direction:
 
@@ -78,8 +78,8 @@ Read these files in order when recovering the project:
 1. [`PROJECT-STATE.md`](PROJECT-STATE.md) - durable handoff, settled decisions,
    open questions, audit findings, and next sequence.
 2. [`soul.md`](soul.md) - ATLAS, the book-aware companion agent persona.
-3. [`manifesto.md`](manifesto.md) - generated manifesto draft pending author
-   confirmation.
+3. [`manifesto.md`](manifesto.md) - generated and self-reviewed manifesto draft
+   pending author confirmation.
 4. [`roadmap.md`](roadmap.md) - approved ATLAS/shared-memory checkpoint path.
 5. [`CORE-PRINCIPLES.md`](CORE-PRINCIPLES.md) - the 10 principles through which
    the entire book should be read.
