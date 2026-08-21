@@ -3,19 +3,30 @@
 
 **Core promise:** By the end, the reader understands not only how to use models, but how to design, build, evaluate, secure, operate, evolve, and economically justify complete AI systems.
 
-The reader builds one evolving system throughout the book — working name **ATLAS**.
+The reader builds with one evolving companion agent throughout the book —
+working name **ATLAS**.
 
 Status note, updated 2026-08-21: this file is the broad pre-manifesto
 curriculum architecture, not the final TOC. Later author decisions narrowed the
-running project: ATLAS should become an AI second-brain knowledgebase that works
-for one person and can scale to a small team of around 10 people. It is inspired
-by `https://github.com/Ntrakiyski/shared-living-memory`. When this blueprint is
-converted into `toc.md`, adapt chapter builds so they incrementally produce that
-solo-to-team shared knowledge system rather than a generic AI engineering demo.
+running project and naming: **ATLAS is the book-aware companion agent**, defined
+in `soul.md`. The product ATLAS helps the reader build is a shared AI
+second-brain knowledgebase that works for one person and can scale to a small
+team of around 10 people. It is inspired by
+`https://github.com/Ntrakiyski/shared-living-memory`.
+
+When this blueprint is converted into `toc.md`, interpret older chapter-level
+phrasing like "ATLAS does X" as either:
+
+- ATLAS, the companion agent, gaining a new capability; or
+- the shared memory system gaining a new product capability.
+
+Resolve the distinction explicitly in the formal TOC instead of preserving the
+ambiguous wording.
 
 The first practical chapter sequence should also account for the settled
 onboarding decision: move the reader from cloud chat into a local/free agent
-workflow, then build ATLAS with the agent and the PDF side by side.
+workflow, turn that assistant into ATLAS with the book/PDF, then use ATLAS to
+build the shared memory system.
 
 ---
 
@@ -58,7 +69,8 @@ should follow the full contract defined in `EDITORIAL-WORKFLOW.md`:
 6. **Under the Hood** — inspect prompts, context, tools, state, tokens, cost, routing, traces, etc.
 7. **Production Lens** — security, reliability, data, human oversight, governance, economics, and integration implications.
 8. **Evaluate** — prove whether the change improved the system.
-9. **ATLAS Upgrade** — permanently add the capability to the growing system.
+9. **System Upgrade** — permanently add the capability to ATLAS or the shared
+   memory system.
 10. **Evidence & Resources** — provide the source trail and continuation path.
 
 The reader never reads 25 pages about RAG and then gets an exercise. **The RAG system itself is the chapter.**

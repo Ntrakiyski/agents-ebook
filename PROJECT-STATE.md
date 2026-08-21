@@ -115,26 +115,39 @@ The reader should learn by building, breaking, inspecting, and evaluating the co
 
 ## 3. One evolving system connects the entire book
 
-Working project name: **ATLAS**.
+Authoritative naming decision added on 2026-08-21: **ATLAS is the agent persona
+that represents the book**. When the reader uploads the PDF into ChatGPT, a
+local agent, or another AI assistant, the book should instruct that assistant to
+become ATLAS.
+
+ATLAS is not the final memory product. ATLAS is the book-aware companion agent
+that helps the human read, understand, and build.
+
+The durable persona file is `soul.md`.
 
 Earlier architecture described ATLAS generically as a production-grade,
 multi-agent, observable, governed, eval-driven, progressively self-improving AI
-engineering system. The current author-approved project domain is more specific:
-ATLAS is an AI second-brain knowledgebase that starts useful for one person and
-scales toward a shared, multiplayer-like knowledge system for a small team of
-around 10 people. It should still teach the complete system layers from model to
-governance, but the builds should serve that knowledgebase product.
+engineering system, and later as the AI second-brain product itself. That naming
+is now superseded. The product should be referred to as the **shared memory
+system** or **shared second-brain knowledgebase** until the author chooses a
+separate product name.
+
+The current author-approved project domain remains: build a shared AI
+second-brain knowledgebase that starts useful for one person and scales toward a
+multiplayer-like knowledge system for a small team of around 10 people. It
+should still teach the complete system layers from model to governance, but the
+builds should serve that knowledgebase product.
 
 Refinement added on 2026-08-21: the book has two connected build layers:
 
 1. **Project 1: the local AI agent companion** — the reader installs and learns
-   an existing local agent environment, then expands it with instructions,
-   project files, skills, tools, MCP servers, and operating rules. This teaches
-   what an agent can do beyond cloud chat without forcing the reader to code an
-   agent loop from scratch on page one.
-2. **Project 2: ATLAS** — the reader uses that companion to build the shared
-   second-brain knowledgebase. ATLAS remains the main product running through the
-   book.
+   an existing local agent environment, gives it the ATLAS persona, then expands
+   it with instructions, project files, skills, tools, MCP servers, and
+   operating rules. This teaches what an agent can do beyond cloud chat without
+   forcing the reader to code an agent loop from scratch on page one.
+2. **Project 2: the shared memory system** — the reader uses ATLAS to build the
+   shared second-brain knowledgebase. This product is the main build running
+   through the book, even though ATLAS is the name of the companion agent.
 
 This is not a move to disconnected projects. Project 1 is the reader's working
 environment and agent harness. Project 2 is the product the reader builds with
@@ -278,7 +291,7 @@ Unless there is a strong editorial reason to deviate, technical chapters follow 
 6. **Under the Hood** — inspect prompts, context, tokens, tool calls, state, traces, routing, etc.
 7. **Production Lens** — examine data, security, reliability, oversight, governance, economics, and integration implications.
 8. **Evaluate** — prove what improved and what did not.
-9. **ATLAS Upgrade** — record the permanent capability now added.
+9. **System Upgrade** — record the permanent capability now added to ATLAS or the shared memory system.
 10. **Evidence & Resources** — primary sources, implementations, watch/read material, people, and channels.
 
 This method is defined more fully in `EDITORIAL-WORKFLOW.md`.
@@ -316,8 +329,8 @@ Confirmed on 2026-08-21:
 - Working subtitle: **A practical guide to building AI systems from prompts to autonomous agents**
 - Format: ebook.
 - Desired reading experience: easy to read, spacious, uncluttered pages, clear headings, bullets, short text, clear instructions, and distinct text elements that help readers grasp layers quickly.
-- Chapter balance: each chapter should be roughly **70% content and visual explanation** and **30% project work**. The reading/visual side should carry the mental model and big-picture understanding; the project side should turn that chapter's idea into a concrete ATLAS increment.
-- Chapter continuity: every chapter should upgrade either the local agent companion or ATLAS, with both serving the same solo-to-team second-brain journey. ATLAS should still grow incrementally rather than appearing as unrelated exercises.
+- Chapter balance: each chapter should be roughly **70% content and visual explanation** and **30% project work**. The reading/visual side should carry the mental model and big-picture understanding; the project side should turn that chapter's idea into a concrete increment for either ATLAS or the shared memory system.
+- Chapter continuity: every chapter should upgrade either ATLAS, the local book-aware companion agent, or the shared memory system it helps build. The builds should serve the same solo-to-team second-brain journey rather than appearing as unrelated exercises.
 - Primary audience: people who have seen advanced AI videos or explanations and know terms such as prompts, memory, agents, and tools, but have mostly consumed information rather than built systems.
 - Secondary audience: busy people inside companies, such as operators, managers, founders, team leads, and knowledge workers, who have heard about AI systems but do not have time to explore the landscape from scratch.
 - Prerequisite level: basic ChatGPT use only. Everything else should be explained from zero, first with a simple mental model and then mapped to the technical version.
@@ -325,22 +338,22 @@ Confirmed on 2026-08-21:
 - Reader contract: **doing is learning, not reading**. The book should push readers toward action because the audience already has enough passive AI content. The purpose of the free tooling path is to remove excuses and help them start building immediately.
 - Gap statement: existing AI material often teaches either prompting tips or advanced engineering details. This book connects the middle: it helps everyday AI users understand the full system architecture behind serious AI work, then guides them layer by layer from chat to agents and governed autonomous systems.
 - Delivery model: the book should not be straight information. It should be a guided build of one project from start to finish. Each chapter should give direction, vision, outcome, and deliverable without clutter.
-- Opening before Chapter 1: the author approved a short pre-Chapter-1 section covering promise, reader contract, cloud fallback, local agent setup, free tooling path, agent system prompt, ATLAS mission, chapter method, core principles, full system map, and safety/free-model caveats.
+- Opening before Chapter 1: the author approved a short pre-Chapter-1 section covering promise, reader contract, cloud fallback, local agent setup, free tooling path, ATLAS system prompt, ATLAS mission, chapter method, core principles, full system map, and safety/free-model caveats.
 - Value-promise page before Chapter 1: the book should start with **one quote** and **one spacious high-level overview page** explaining how the reader will change and what they will become after going through the book. This page should make the promised transformation explicit: from someone who consumes AI content or uses cloud chat into someone who can direct, build, evaluate, and govern an AI system with an agent.
-- Chapter 1 approved candidate: working title **The New Computing Model**. Core topics: cloud chat vs local agent, model vs assistant vs agent vs workflow, the model call, probabilistic software, AI-system iceberg, first ATLAS baseline, break-it scenario, under-the-hood inspection, evaluation, and the first ATLAS upgrade.
+- Chapter 1 approved candidate: working title **The New Computing Model**. Core topics: cloud chat vs local agent, model vs assistant vs agent vs workflow, the model call, probabilistic software, AI-system iceberg, first ATLAS companion baseline, first shared-memory workspace baseline, break-it scenario, under-the-hood inspection, evaluation, and the first system upgrade.
 - Human + agent reading model: readers should be advised near the beginning to share the book with their agent, ChatGPT, or other AI tool and move page by page or chapter by chapter so both the human and the agent absorb the project principles and execution model.
-- Agent reading system prompt: the book should include a short copy/paste system prompt or operating instruction for the reader's local agent. Its purpose is to tell the agent how to use the uploaded PDF, how to follow the chapters, how to help the human build ATLAS, and how to distinguish reading guidance from build instructions.
+- Agent reading system prompt: the book should include a short copy/paste system prompt or operating instruction for the reader's local agent. Its purpose is to turn the uploaded-book assistant into ATLAS, tell it how to use the PDF, how to follow the chapters, how to help the human build the shared memory system, and how to distinguish reading guidance from build instructions.
 - Reader onboarding: the first practical step should move the reader from cloud ChatGPT/chat into a local agent environment on their own computer. The point is educational as much as practical: the reader should feel the difference between cloud chat and a local agent that can see files, work with a project folder, run tools, and participate in building software.
 - Cloud-only fallback: readers who cannot or will not install a local agent can upload the PDF to cloud ChatGPT and use it as a reading companion, but this should be framed as the lowest-friction fallback, not the recommended path.
 - Free-first tooling: recommended tools should prioritize free or open-source ways to start doing. Paid or hosted tools may appear as alternatives, but they should not be required for the core learning path unless a chapter explicitly explains the tradeoff.
 - Proposed local-agent starting point: DeepSeek Harness Desktop: `https://github.com/anywhere-labs/deepseek-harness-desktop/tree/master`. Verified on 2026-08-21 from the GitHub README as an open-source Windows/macOS desktop client built around DeepSeek Harness, local UI/host services, and a plugin ecosystem. Treat this as a current implementation example requiring re-verification before publication.
 - Default free model-provider path: when using DeepSeek Harness Desktop, recommend OpenRouter as the provider because OpenRouter currently offers free inference through `openrouter/free` and `:free` model variants. Verified on 2026-08-21 from OpenRouter docs. Be precise: this means a no-paid-model path for learning, usually requiring an OpenRouter account/API key and subject to free-model rate limits, availability changes, and non-production caveats.
 - Proposed alternatives: Pi and Hermes for CLI use, and Codex app for ChatGPT users. Pi provider docs and Hermes provider docs both show OpenRouter support as of 2026-08-21. Re-verify exact installation and OpenRouter configuration before publication.
-- Reader workflow: after installing the local agent environment, the reader should upload/use the PDF in one chat for guidance and build ATLAS in another chat, or do both in one chat if their chosen agent environment supports that workflow cleanly.
-- Running project name: **ATLAS** remains acceptable.
-- Running project domain: ATLAS should become an AI second-brain knowledgebase suitable for one person and for multiple people. The system should be "multiplayer-like": useful for a solo user, but designed so a team of roughly 10 people can also share knowledge, collaborate, preserve provenance, and work with agents over the same knowledge system.
-- ATLAS progression: the entire book/guide should teach how to achieve this outcome step by step, starting with a second brain that works for one person and ending with a shared AI knowledgebase that can scale to a small team of around 10 people.
-- Reader progression experience: the book should feel lightly gamified through clear ATLAS checkpoints and "what's next" moments. Checkpoints should show what capability was unlocked, what ATLAS can now do, what limitation remains, and what the next chapter/part will unlock. The goal is orientation and excitement, not gimmicks.
+- Reader workflow: after installing the local agent environment, the reader should upload/use the PDF in one chat for ATLAS guidance and build the shared memory system in another chat, or do both in one chat if their chosen agent environment supports that workflow cleanly.
+- Agent name: **ATLAS** is the book-aware companion agent that represents the ebook when uploaded into a chat or local agent.
+- Running project domain: the shared memory system should become an AI second-brain knowledgebase suitable for one person and for multiple people. The system should be "multiplayer-like": useful for a solo user, but designed so a team of roughly 10 people can also share knowledge, collaborate, preserve provenance, and work with agents over the same knowledge system.
+- Shared-memory progression: the entire book/guide should teach how to achieve this outcome step by step, starting with a second brain that works for one person and ending with a shared AI knowledgebase that can scale to a small team of around 10 people.
+- Reader progression experience: the book should feel lightly gamified through clear checkpoints and "what's next" moments. Checkpoints should show what capability was unlocked, what ATLAS now understands or can help with, what the shared memory system can now do, what limitation remains, and what the next chapter/part will unlock. The goal is orientation and excitement, not gimmicks.
 - Distribution access: free ebook.
 - Distribution format: PDF is confirmed as the first/main format. The PDF will live behind or alongside a dedicated page on the author's website containing the book explanation, setup instructions, links, and related resources.
 - Page size: not decided yet.
@@ -348,14 +361,14 @@ Confirmed on 2026-08-21:
 - Research posture: the book should be a **research-backed technical guide**, not an academic monograph and not a casual opinion guide. The author's existing expertise and experience building autonomous systems should drive the structure and judgment, while important claims are backed by papers, official docs, technical articles, repositories, and hands-on experiments.
 - Resource style: include curated references and articles so readers can continue learning after each chapter. Do not turn resources into giant link dumps; explain why each source matters and which claim or continuation path it supports.
 - Research workflow preference: use the `feynman` CLI for research papers and research-question answering when it is available in the environment. On 2026-08-21, `feynman` was checked and was not found on PATH in the current workspace.
-- First-edition build target: the reader should finish with a **working local ATLAS system**. The book can explain production and team-scale implications, but the core deliverable should be something the reader can actually run, inspect, and extend locally.
+- First-edition build target: the reader should finish with **ATLAS configured as a useful local companion** and a **working local shared memory system**. The book can explain production and team-scale implications, but the core deliverable should be something the reader can actually run, inspect, and extend locally.
 - Voice direction: direct and simple. Explanations should stay clear and low-noise. Quotes and opening lines should feel energetic and exciting, but the main technical voice should remain practical and grounded.
 - Build philosophy update: do not require readers to build an agent from zero at the beginning. Start with an existing agent environment so they can immediately feel the difference between cloud chat and a local tool-using agent. They should learn and extend the agent through readable artifacts first: instructions, folders, skills, MCP configuration, tools, permissions, project memory, and operating rules. Lower-level agent code should appear when it becomes educationally necessary.
 - Default deploy/source path candidate: use GitHub as the source-code home and Vercel as the first deployment path where free-tier usage is sufficient for learning. Verified on 2026-08-21 from Vercel pricing that Hobby is listed at $0/month and includes repo import/deploy, automatic CI/CD, CDN, compute allowances, and sandbox/workflow allowances. This is a current implementation example and must be re-verified before publication.
 - Default agent-framework candidate for code artifacts: use **eve** (`https://eve.dev/`) where the book needs a readable, deployable agent-code structure. Verified on 2026-08-21 from Vercel/eve official pages: eve is presented as an open-source, filesystem-first TypeScript framework where an agent is a directory containing files such as `instructions.md`, `agent.ts`, `tools/`, `skills/`, `subagents/`, `channels/`, and `schedules/`; Vercel states it can be deployed with `vercel deploy`. Treat eve as a current implementation example, not a permanent architectural law.
 - Docker stance: Docker may be used when it removes setup friction or isolates dependencies, but it should not become a required complexity unless a chapter actually needs it.
-- ATLAS reference project: the author identified `https://github.com/Ntrakiyski/shared-living-memory` as the closest existing embodiment of ATLAS. It was cloned and analyzed on 2026-08-21 at commit `b9dffaf`. See `reference-projects/shared-living-memory-analysis.md`.
-- Reader-facing reference decision: the book may explicitly say ATLAS is inspired by Shared Living Memory, link to the GitHub repository, and use it as a navigation/reference point so readers can inspect or use the real project if they want.
+- Shared-memory reference project: the author identified `https://github.com/Ntrakiyski/shared-living-memory` as the closest existing embodiment of the shared memory system. It was cloned and analyzed on 2026-08-21 at commit `b9dffaf`. See `reference-projects/shared-living-memory-analysis.md`.
+- Reader-facing reference decision: the book may explicitly say the shared memory system is inspired by Shared Living Memory, link to the GitHub repository, and use it as a navigation/reference point so readers can inspect or use the real project if they want.
 - Final build target: by the end of the book, a reader who builds along should have achieved the same kind of product as Shared Living Memory, or at least roughly 80% of its core capability in the teaching implementation.
 
 Creator/reference material consolidated on 2026-08-21:
@@ -389,7 +402,7 @@ Visual reference material added on 2026-08-21:
 
 README/project-map material added on 2026-08-21:
 
-- The README was reworked into a project landing page with current status, ATLAS framing, pre-Chapter-1 setup plan, Chapter 1 candidate topics, chapter contract, reference material, Bookwright status, and next editorial steps.
+- The README was reworked into a project landing page with current status, ATLAS/shared-memory framing, pre-Chapter-1 setup plan, Chapter 1 candidate topics, chapter contract, reference material, Bookwright status, and next editorial steps.
 - The README visual layer was corrected with `https://github.com/oil-oil/beautify-github-readme` after an initial accidental use of Archify as the primary README presentation. Current README presentation uses a GitHub-safe pure SVG hero at `assets/readme/hero.svg`.
 - An Archify project map was created under `docs/diagrams/`:
   - `docs/diagrams/beyond-chat-project-map.architecture.json`
@@ -401,15 +414,15 @@ README/project-map material added on 2026-08-21:
 
 Still open in the manifesto interview:
 
-- Exact feature sequence across the local agent companion and ATLAS within the solo-to-small-team AI second-brain knowledgebase progression.
+- Exact feature sequence across ATLAS as the local book-aware companion and the shared memory system within the solo-to-small-team AI second-brain knowledgebase progression.
 - Voice-level teaching choices beyond the already recorded teacher/reference split and the direct/simple baseline.
 - Research division details: public-source synthesis, `feynman`-assisted papers when available, hands-on experiments, interviews, fieldwork, or some mix. The broad research posture is now settled as a research-backed technical guide.
 - Distribution details beyond free PDF and dedicated website page: lead-magnet mechanics, optional ePub/web-book variant, and publication location remain open.
 - Scope details should be stated plainly in the manifesto, using `BOOK-BLUEPRINT.md` as the authoritative broad scope. The author has clarified that the book should avoid deep model-training theory, heavy math, and deep infrastructure setup unless necessary to understand a system layer.
 
-The next session should resume the manifesto interview at the exact ATLAS
-feature sequence, voice-level teaching choices, research-division, and
-distribution-details block.
+The next session should resume the manifesto interview at the exact ATLAS and
+shared-memory-system feature sequence, voice-level teaching choices,
+research-division, and distribution-details block.
 
 ---
 
@@ -429,7 +442,7 @@ These should be settled through the Bookwright manifesto/voice interview rather 
 - code-example language and default stack
 - how much implementation code vs architecture explanation each chapter should contain
 - whether all chapters are mandatory in the first edition or some become advanced/optional tracks
-- exact local-agent-companion and ATLAS feature sequence/milestones inside the approved second-brain project domain
+- exact ATLAS-companion and shared-memory-system feature sequence/milestones inside the approved second-brain project domain
 - voice-level teaching choices beyond the approved Dan/Matt teacher references
 - research division
 
@@ -497,9 +510,9 @@ The next session should not immediately draft Chapter 1.
 
 Recommended order:
 
-1. Read `README.md`, `PROJECT-STATE.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
+1. Read `README.md`, `PROJECT-STATE.md`, `soul.md`, `CORE-PRINCIPLES.md`, `CONCEPTUAL-FRAMEWORKS.md`, `BOOK-BLUEPRINT.md`, `EDITORIAL-WORKFLOW.md`, and `research/SOURCE-STANDARDS.md`.
 2. Read `skills/bookwright/SKILL.md`, `bootstrap.md`, and `workflow.md`.
-3. Resume the Bookwright **manifesto interview** with the author from the ATLAS feature-sequence, voice-level teaching choices, research-division, and distribution block.
+3. Resume the Bookwright **manifesto interview** with the author from the ATLAS/shared-memory feature sequence, voice-level teaching choices, research-division, and distribution block.
 4. After confirmation, create `manifesto.md`.
 5. Run the Bookwright **voice interview**.
 6. After confirmation, create `voice.md`.
@@ -517,7 +530,7 @@ Recommended order:
 - Do not reduce the book to prompting or model APIs.
 - Do not organize the curriculum around current vendors.
 - Do not remove the 15-dimension systems view merely to make the TOC shorter.
-- Do not turn chapter builds into unrelated toy exercises; they should upgrade ATLAS whenever possible.
+- Do not turn chapter builds into unrelated toy exercises; they should upgrade ATLAS or the shared memory system whenever possible.
 - Do not claim improvement without evaluation.
 - Do not use popularity as evidence.
 - Prefer first-party/primary sources for current technical facts.

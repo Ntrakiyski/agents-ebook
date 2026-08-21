@@ -10,7 +10,7 @@ For this book we keep that model and add three project-specific layers:
 
 1. **Core Principles** — the reader receives the book's worldview before the technical journey begins.
 2. **Evidence Layer** — important claims are supported by primary sources, research, practitioners, books, repositories, talks, experiments, and evaluations.
-3. **Build Layer** — every technical chapter is organized around a real project that upgrades the evolving ATLAS system.
+3. **Build Layer** — every technical chapter is organized around a real project that upgrades ATLAS, the book-aware companion agent, or the shared memory system ATLAS helps the reader build.
 
 Current chapter balance target:
 
@@ -21,9 +21,9 @@ Current chapter balance target:
 
 The project work is still mandatory. The 70% portion gives the reader the
 mental model, system map, visual explanation, production lens, and evidence. The
-30% portion turns that chapter's idea into a concrete ATLAS increment. The
-project is not optional homework; it is how the reader stops passively consuming
-AI content and starts building.
+30% portion turns that chapter's idea into a concrete increment for ATLAS or the
+shared memory system. The project is not optional homework; it is how the reader
+stops passively consuming AI content and starts building.
 
 ---
 
@@ -222,8 +222,8 @@ Data, integrations, reliability, security, observability, human oversight, gover
 Evaluate
 How we prove whether the chapter's change improved the system.
 
-ATLAS Upgrade
-The permanent capability added to the book's evolving system.
+System Upgrade
+The permanent capability added to ATLAS or the shared memory system.
 
 Resources
 Primary sources, implementations, videos, books, people, and channels worth keeping.
@@ -330,14 +330,15 @@ Ask what changes once the capability is placed inside a real system.
 ## 8. Evaluate
 Measure success rather than declaring it.
 
-## 9. ATLAS Upgrade
+## 9. System Upgrade
 Show exactly what capability the evolving system gained.
 
 This section should also act as a light checkpoint in the reader's journey:
 
 ```text
 Capability unlocked
-What ATLAS can now do
+What ATLAS now understands or can help with
+What the shared memory system can now do
 What still breaks or remains missing
 What's next
 ```

@@ -1,7 +1,7 @@
 # Beyond Chat
 
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="Beyond Chat: a project-driven ebook that moves readers from cloud chat to a local agent workflow and the ATLAS shared second-brain project">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Beyond Chat: a project-driven ebook that moves readers from cloud chat to the ATLAS agent companion and a shared second-brain project">
 </p>
 
 **Working subtitle:** A practical guide to building AI systems from prompts to
@@ -11,15 +11,16 @@ autonomous agents.
 to use ChatGPT, have watched advanced AI content, and now need a guided path
 from passive understanding to real building.
 
-The reader builds one evolving project throughout the book: **ATLAS**, an AI
-second-brain knowledgebase that starts useful for one person and grows toward a
-shared, multiplayer-like knowledge system for a small team of around 10 people.
+The reader builds with **ATLAS**, the book-aware agent companion. ATLAS helps
+the reader move from cloud chat into a local agent workflow, then helps build a
+shared AI second-brain knowledgebase for one person scaling toward a small team
+of around 10 people.
 
 > **Doing is learning, not reading.**
 >
 > A reader can upload the PDF to cloud ChatGPT and read along, but the
-> recommended path moves them into a local/free agent workflow so they can build
-> ATLAS chapter by chapter.
+> recommended path moves them into a local/free agent workflow so ATLAS can help
+> them build chapter by chapter.
 
 ## Current Status
 
@@ -40,8 +41,9 @@ Settled direction:
 | Reader level | Basic ChatGPT use only |
 | Research posture | Research-backed technical guide with curated sources |
 | Teaching split | Roughly 70% content/visual explanation, 30% project work |
-| Project | Local agent companion first, then ATLAS |
-| Build target | A working local ATLAS system |
+| Agent persona | ATLAS, the book-aware companion agent |
+| Project | Local agent companion first, then shared memory system |
+| Build target | A working local shared memory system |
 | Default action path | Move from cloud chat into a local/free agent workflow |
 | Free model path | DeepSeek Harness Desktop + OpenRouter free models, with caveats |
 | Alternatives | Pi and Hermes for CLI use; Codex app for ChatGPT users |
@@ -60,6 +62,7 @@ recover the book without chat history:
 - The broad curriculum map: [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md)
 - The ATLAS reference analysis:
   [`reference-projects/shared-living-memory-analysis.md`](reference-projects/shared-living-memory-analysis.md)
+- The ATLAS agent persona: [`soul.md`](soul.md)
 - The approved visual direction:
   [`visual-references/generated-samples/`](visual-references/generated-samples/)
 - The interactive project map:
@@ -71,17 +74,18 @@ Read these files in order when recovering the project:
 
 1. [`PROJECT-STATE.md`](PROJECT-STATE.md) - durable handoff, settled decisions,
    open questions, audit findings, and next sequence.
-2. [`CORE-PRINCIPLES.md`](CORE-PRINCIPLES.md) - the 10 principles through which
+2. [`soul.md`](soul.md) - ATLAS, the book-aware companion agent persona.
+3. [`CORE-PRINCIPLES.md`](CORE-PRINCIPLES.md) - the 10 principles through which
    the entire book should be read.
-3. [`CONCEPTUAL-FRAMEWORKS.md`](CONCEPTUAL-FRAMEWORKS.md) - capability ladder,
+4. [`CONCEPTUAL-FRAMEWORKS.md`](CONCEPTUAL-FRAMEWORKS.md) - capability ladder,
    seven planes, AI-system iceberg, autonomy ladder, and recurring models.
-4. [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md) - broad pre-manifesto curriculum
+5. [`BOOK-BLUEPRINT.md`](BOOK-BLUEPRINT.md) - broad pre-manifesto curriculum
    architecture, not the final TOC.
-5. [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md) - research, outline, build,
+6. [`EDITORIAL-WORKFLOW.md`](EDITORIAL-WORKFLOW.md) - research, outline, build,
    writing, evaluation, and editing workflow.
-6. [`research/SOURCE-STANDARDS.md`](research/SOURCE-STANDARDS.md) - evidence and
+7. [`research/SOURCE-STANDARDS.md`](research/SOURCE-STANDARDS.md) - evidence and
    resource requirements.
-7. [`NEXT-SESSION-PROMPT.md`](NEXT-SESSION-PROMPT.md) - copy/paste handoff for a
+8. [`NEXT-SESSION-PROMPT.md`](NEXT-SESSION-PROMPT.md) - copy/paste handoff for a
    fresh AI session.
 
 ## What The Book Teaches
@@ -120,21 +124,25 @@ agents, and workflow engines are examples. The curriculum is the underlying
 system: context, memory, tools, runtime, trust, operations, humans, and business
 value.
 
-## ATLAS
+## ATLAS And The Project
 
-ATLAS is inspired by
+**ATLAS** is the agent persona that represents the book when the PDF is uploaded
+into ChatGPT, a local agent, or another AI assistant. Its durable persona lives
+in [`soul.md`](soul.md).
+
+The shared memory system that ATLAS helps the reader build is inspired by
 [`shared-living-memory`](https://github.com/Ntrakiyski/shared-living-memory).
 
 The book now has two connected build layers:
 
 | Layer | Purpose |
 |---|---|
-| Project 1: local agent companion | Install an existing agent environment, learn its capabilities, and expand it with instructions, folders, skills, MCP, tools, permissions, and operating rules |
-| Project 2: ATLAS | Use that companion to build the solo-to-team AI second-brain knowledgebase |
+| Project 1: ATLAS companion | Install an existing agent environment, give it the ATLAS persona, learn its capabilities, and expand it with instructions, folders, skills, MCP, tools, permissions, and operating rules |
+| Project 2: shared memory system | Use ATLAS to build the solo-to-team AI second-brain knowledgebase |
 
 This avoids forcing readers to build an agent loop from zero before they
 understand what agents are for. They first learn by using and extending a real
-agent, then use that agent to build the memory system.
+agent, then use ATLAS to build the memory system.
 
 The teaching implementation does not need to copy that repository, but a reader
 who builds along should reach the same kind of product, or roughly 80% of its
@@ -167,9 +175,9 @@ The book needs a short opening section before the first technical chapter.
 | Cloud fallback | Upload the PDF to cloud ChatGPT if needed, but treat that as reading mode |
 | Local agent setup | Move to a local/free agent environment on the reader's computer |
 | Free tooling path | DeepSeek Harness Desktop with OpenRouter free models; Pi/Hermes/Codex app as alternatives |
-| Agent system prompt | A short copy/paste instruction telling the agent how to use the PDF and help build ATLAS |
-| ATLAS mission | Build a second brain for one person that can grow to a small team |
-| How chapters work | Problem, build, break, inspect, evaluate, ATLAS upgrade, what's next |
+| Agent system prompt | A short copy/paste instruction that turns the uploaded-book assistant into ATLAS |
+| ATLAS mission | Help the reader understand the book and build a second brain for one person that can grow to a small team |
+| How chapters work | Problem, build, break, inspect, evaluate, system upgrade, what's next |
 | Core principles | The 10 durable principles that guide every later chapter |
 | System map | The full journey from model to AI-native organization |
 | Safety note | Local files, API keys, permissions, free-model limits, and non-production caveats |
@@ -184,17 +192,17 @@ and building with AI.
 | Topic | What It Contains |
 |---|---|
 | The problem | Cloud chat is useful, but it is disconnected from files, tools, project state, and repeatable systems |
-| What we are building | The first ATLAS workspace and first local-agent interaction |
+| What we are building | The first local agent workspace, the ATLAS persona, and the first project interaction |
 | Cloud chat vs local agent | What changes when an agent can see files, run tools, and work inside a project folder |
 | Model vs assistant vs agent vs workflow | Simple definitions based on what each system can actually do |
 | The model call | Prompt, context, model, response, output shape, and why this is the smallest unit of the system |
 | Probabilistic software | Why AI output varies, why confidence can be misleading, and why inspection/evals matter |
 | The AI-system iceberg | The visible chat is only the surface; underneath are data, runtime, state, trust, operations, humans, and value |
-| First ATLAS baseline | Create the project folder, add the first note/source, ask the agent to produce a grounded summary or project brief |
+| First system baseline | Create the project folder, add the first note/source, ask ATLAS to produce a grounded summary or project brief |
 | Break it | Give ATLAS a vague request or missing source and show how it guesses, drifts, or overclaims |
 | Under the hood | Inspect prompt, context, files used, tool access, model choice, tokens/cost where available |
 | Evaluate | Compare cloud-only reading mode vs local-agent building mode on concrete criteria |
-| ATLAS upgrade | ATLAS now has a workspace, a first knowledge artifact, and a baseline way to ask for help |
+| System upgrade | ATLAS now has a workspace, a first knowledge artifact, and a baseline way to help |
 | What is next | The limitation is context: ATLAS still does not know how to choose the right information reliably |
 
 ## Chapter Contract
@@ -210,7 +218,7 @@ editorial reason to deviate:
 6. Under the Hood
 7. Production Lens
 8. Evaluate
-9. ATLAS Upgrade
+9. System Upgrade
 10. Evidence & Resources
 
 The project is not end-of-chapter homework. The project is the teaching
@@ -257,7 +265,7 @@ before running Bookwright's scaffold-generation phase verbatim.
 2. Create `manifesto.md` and get author confirmation.
 3. Run the voice interview.
 4. Create `voice.md` and get author confirmation.
-5. Lock the first-edition scope and ATLAS feature sequence.
+5. Lock the first-edition scope and ATLAS/shared-memory feature sequence.
 6. Convert `BOOK-BLUEPRINT.md` into `toc.md`.
 7. Build the initial research corpus and `references.bib`.
 8. Create `outline.md` chapter cards.

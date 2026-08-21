@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">Beyond Chat</title>
-  <desc id="desc">A project-driven ebook that moves readers from cloud chat to a local agent workflow and the ATLAS shared second-brain project.</desc>
+  <desc id="desc">A project-driven ebook that moves readers from cloud chat to a local agent workflow with the ATLAS companion.</desc>
   <defs>
     <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#ffffff"/>
@@ -23,7 +23,7 @@
     <text x="0" y="126" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="30" font-weight="650" fill="#334155">Build AI systems from prompts</text>
     <text x="0" y="162" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="30" font-weight="650" fill="#334155">to autonomous agents.</text>
     <text x="0" y="207" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" fill="#475569">A practical guide for ChatGPT users who are ready to stop watching</text>
-    <text x="0" y="237" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" fill="#475569">and start building one real system: ATLAS.</text>
+    <text x="0" y="237" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="22" fill="#475569">and start building with one companion: ATLAS.</text>
 
     <g transform="translate(0 286)">
       <rect x="0" y="0" width="176" height="42" rx="21" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
@@ -31,7 +31,7 @@
       <rect x="194" y="0" width="220" height="42" rx="21" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
       <text x="304" y="27" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" font-weight="700" fill="#15803d">LOCAL AGENT</text>
       <rect x="432" y="0" width="190" height="42" rx="21" fill="#fff7ed" stroke="#f97316" stroke-width="2"/>
-      <text x="527" y="27" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" font-weight="700" fill="#c2410c">BUILD ATLAS</text>
+      <text x="527" y="27" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="17" font-weight="700" fill="#c2410c">USE ATLAS</text>
     </g>
   </g>
 
